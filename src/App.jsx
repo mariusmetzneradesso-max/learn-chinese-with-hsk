@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { BookOpen, Image as ImageIcon, Languages, Download, Sparkles, RefreshCw, Search, Volume2, GraduationCap } from 'lucide-react';
-import { hsk1Vocab, hsk2Vocab, hsk3Vocab, hsk4Vocab } from './vocabulary';
+import { hsk1Vocab, hsk2Vocab, hsk3Vocab, hsk4Vocab, hsk5Vocab } from './vocabulary';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('vocabulary');
@@ -17,16 +17,17 @@ const App = () => {
     if (hskLevel === 1) return hsk1Vocab;
     if (hskLevel === 2) return hsk2Vocab;
     if (hskLevel === 3) return hsk3Vocab;
-    return hsk4Vocab;
+    if (hskLevel === 4) return hsk4Vocab;
+    return hsk5Vocab;
   }, [hskLevel]);
 
-  const targetCount = hskLevel === 4 ? 600 : (hskLevel === 3 ? 300 : 150);
+  const targetCount = hskLevel === 5 ? 1300 : (hskLevel === 4 ? 600 : (hskLevel === 3 ? 300 : 150));
 
   const categorizedVocab = useMemo(() => {
     const groups = {};
-    const filtered = currentVocab.filter(item => 
-      item.char.includes(searchTerm) || 
-      item.pinyin.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    const filtered = currentVocab.filter(item =>
+      item.char.includes(searchTerm) ||
+      item.pinyin.toLowerCase().includes(searchTerm.toLowerCase()) ||
       (item[targetLang] && item[targetLang].toLowerCase().includes(searchTerm.toLowerCase()))
     );
     filtered.forEach(item => {
@@ -35,6 +36,11 @@ const App = () => {
     });
     return groups;
   }, [currentVocab, searchTerm, targetLang]);
+
+  // Zähle die aktuell angezeigten Wörter
+  const displayedWordCount = useMemo(() => {
+    return Object.values(categorizedVocab).reduce((sum, arr) => sum + arr.length, 0);
+  }, [categorizedVocab]);
 
   const speak = (text) => {
     const utterance = new SpeechSynthesisUtterance(text);
@@ -62,7 +68,7 @@ const App = () => {
             <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-0.5">Vocabulary Visual Hub</p>
           </div>
         </div>
-        
+
         <div className="flex items-center gap-4">
           <div className="flex bg-slate-100 p-1 rounded-xl shadow-inner border border-slate-200">
             {['de', 'en', 'es'].map(lang => (
@@ -92,20 +98,23 @@ const App = () => {
             <div className="flex flex-col lg:flex-row gap-6 items-center justify-between bg-white p-6 rounded-[32px] border border-slate-200 shadow-sm">
               <div className="flex items-center gap-4">
                 <div className="flex bg-slate-100 p-1.5 rounded-2xl border border-slate-100">
-                  {[1, 2, 3, 4].map(lvl => (
+                  {[1, 2, 3, 4, 5].map(lvl => (
                     <button key={lvl} onClick={() => { setHskLevel(lvl); setSearchTerm(""); }}
                       className={`px-8 py-3 rounded-xl font-black text-sm transition-all ${hskLevel === lvl ? 'bg-red-600 text-white shadow-xl scale-105' : 'text-slate-400'}`}>
                       HSK {lvl}
                     </button>
                   ))}
                 </div>
-                <div className="hidden sm:flex flex-col">
-                  <span className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">Vollständigkeit</span>
+                <div className="flex flex-col">
+                  <span className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">Fortschritt</span>
                   <div className="flex items-center gap-2">
-                    <span className="text-sm font-black text-slate-800">{currentVocab.length} Einträge</span>
+                    <span className="text-sm font-black text-slate-800">
+                      {searchTerm ? `${displayedWordCount} gefunden` : `${currentVocab.length} von ${targetCount}`}
+                    </span>
                     <div style={{ width: '6rem', height: '0.375rem', backgroundColor: '#f1f5f9', borderRadius: '9999px', overflow: 'hidden' }}>
-                      <div style={{ height: '100%', backgroundColor: '#22c55e', width: `${Math.min((currentVocab.length / targetCount) * 100, 100)}%` }}></div>
+                      <div style={{ height: '100%', backgroundColor: currentVocab.length >= targetCount ? '#22c55e' : '#f59e0b', width: `${Math.min((currentVocab.length / targetCount) * 100, 100)}%` }}></div>
                     </div>
+                    <span className="text-xs font-bold text-slate-400">Wörter</span>
                   </div>
                 </div>
               </div>
@@ -114,7 +123,7 @@ const App = () => {
                 <input type="text" placeholder={`Suche (Zeichen, Pinyin, ${targetLang.toUpperCase()})...`}
                   value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}
                   className="w-full pl-12 pr-6 py-4 bg-slate-100 border border-slate-100 rounded-2xl outline-none transition-all text-sm font-medium"
-                  style={{ backgroundColor: '#f8fafc' }}/>
+                  style={{ backgroundColor: '#f8fafc' }} />
               </div>
             </div>
 
@@ -159,7 +168,7 @@ const App = () => {
                   <div className="flex flex-col sm:flex-row gap-3">
                     <input type="text" value={prompt} onChange={(e) => setPrompt(e.target.value)}
                       className="flex-1 px-6 py-5 rounded-[24px] bg-slate-100 border border-slate-100 outline-none transition-all font-medium"
-                      placeholder="Z.B. Wetter in China, Büroarbeit, etc." style={{ backgroundColor: '#f8fafc' }}/>
+                      placeholder="Z.B. Wetter in China, Büroarbeit, etc." style={{ backgroundColor: '#f8fafc' }} />
                     <button onClick={generateNewGraphic} disabled={isGenerating || !prompt}
                       className="bg-red-600 text-white px-10 py-5 rounded-[24px] font-black flex items-center justify-center gap-3 shadow-xl transition-all"
                       style={{ opacity: (isGenerating || !prompt) ? 0.5 : 1 }}>
