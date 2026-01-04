@@ -1,6 +1,7 @@
-import React, { useState, useMemo } from 'react';
-import { BookOpen, Image as ImageIcon, Languages, Download, Sparkles, RefreshCw, Search, Volume2, GraduationCap } from 'lucide-react';
-import { hsk1Vocab, hsk2Vocab, hsk3Vocab, hsk4Vocab, hsk5Vocab } from './vocabulary';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
+import { BookOpen, Image as ImageIcon, Languages, Download, Sparkles, RefreshCw, Search, Volume2, GraduationCap, ChevronDown, Play, BrainCircuit } from 'lucide-react';
+import { hsk1Vocab, hsk2Vocab, hsk3Vocab, hsk4Vocab, hsk5Vocab, hsk6Vocab } from './vocabulary';
+import Quiz from './Quiz';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('vocabulary');
@@ -10,18 +11,182 @@ const App = () => {
   const [generatedImageUrl, setGeneratedImageUrl] = useState(null);
   const [prompt, setPrompt] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
+  const [voices, setVoices] = useState([]);
+  const [selectedVoiceIndex, setSelectedVoiceIndex] = useState(0);
+  const [voiceDropdownOpen, setVoiceDropdownOpen] = useState(false);
+  const voiceDropdownRef = useRef(null);
 
-  const languages = { de: "Deutsch", en: "English", es: "Español" };
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (voiceDropdownRef.current && !voiceDropdownRef.current.contains(event.target)) {
+        setVoiceDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Load available Chinese voices (including dialects)
+  useEffect(() => {
+    const loadVoices = () => {
+      const allVoices = window.speechSynthesis.getVoices();
+      // Include all Chinese dialects: Mandarin (zh-CN), Taiwan (zh-TW), 
+      // Cantonese (yue, zh-HK), Wu/Shanghainese (wuu), and more
+      const chineseVoices = allVoices.filter(voice => {
+        const lang = voice.lang.toLowerCase();
+        return lang.startsWith('zh') ||
+          lang.startsWith('yue') ||    // Cantonese
+          lang.startsWith('wuu') ||    // Wu/Shanghainese
+          lang.includes('chinese') ||
+          lang.includes('cantonese') ||
+          lang.includes('mandarin');
+      });
+      if (chineseVoices.length > 0) {
+        // Sort by dialect type for better organization
+        const sorted = chineseVoices.sort((a, b) => {
+          const getPriority = (v) => {
+            const lang = v.lang.toLowerCase();
+            if (lang.includes('cn') || lang === 'zh') return 1;  // Mandarin first
+            if (lang.includes('tw')) return 2;                   // Taiwan
+            if (lang.includes('hk') || lang.startsWith('yue')) return 3; // Cantonese
+            if (lang.startsWith('wuu')) return 4;                // Wu/Shanghainese
+            return 5;
+          };
+          return getPriority(a) - getPriority(b);
+        });
+        setVoices(sorted);
+      }
+    };
+
+    loadVoices();
+    // Some browsers load voices asynchronously
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+
+    return () => {
+      window.speechSynthesis.onvoiceschanged = null;
+    };
+  }, []);
+
+  const languages = { de: "Deutsch", en: "English", es: "Español", ar: "العربية", hi: "हिन्दी" };
+
+  const appTranslations = {
+    de: {
+      progress: "Fortschritt",
+      found: "gefunden",
+      of: "von",
+      words: "Wörter",
+      voice: "Stimme",
+      selectVoice: "Stimme auswählen",
+      searchPlaceholder: "Suche (Zeichen, Pinyin, ...)",
+      testVoice: "Stimme testen",
+      enterTopic: "Thema eingeben",
+      generate: "Generieren",
+      preview: "Vorschau",
+      save: "SPEICHERN",
+      learningPoster: "LERNPOSTER",
+      level: "Level",
+      language: "Sprache",
+      creatingPoster: "KI entwirft Lernposter...",
+      hskFocusTitle: "HSK 4 FOKUS",
+      hskFocusText: "HSK 4 verdoppelt den Wortschatz erneut. Wir haben Hunderte neue Begriffe aus Bereichen wie Wirtschaft und Wissenschaft hinzugefügt."
+
+    },
+    en: {
+      progress: "Progress",
+      found: "found",
+      of: "of",
+      words: "Words",
+      voice: "Voice",
+      selectVoice: "Select Voice",
+      searchPlaceholder: "Search (Char, Pinyin, ...)",
+      testVoice: "Test voice",
+      enterTopic: "Enter Topic",
+      generate: "Generate",
+      preview: "Preview",
+      save: "SAVE",
+      learningPoster: "LEARNING POSTER",
+      level: "Level",
+      language: "Language",
+      creatingPoster: "AI creating poster...",
+      hskFocusTitle: "HSK 4 FOCUS",
+      hskFocusText: "HSK 4 doubles the vocabulary again. We added hundreds of new terms from fields like business and science."
+    },
+    es: {
+      progress: "Progreso",
+      found: "encontrado",
+      of: "de",
+      words: "Palabras",
+      voice: "Voz",
+      selectVoice: "Seleccionar voz",
+      searchPlaceholder: "Buscar (Carácter, Pinyin, ...)",
+      testVoice: "Probar voz",
+      enterTopic: "Introducir tema",
+      generate: "Generar",
+      preview: "Vista previa",
+      save: "GUARDAR",
+      learningPoster: "PÓSTER DE APRENDIZAJE",
+      level: "Nivel",
+      language: "Idioma",
+      creatingPoster: "IA creando póster...",
+      hskFocusTitle: "ENFOQUE HSK 4",
+      hskFocusText: "HSK 4 duplica el vocabulario de nuevo. Hemos añadido cientos de términos nuevos de campos como negocios y ciencia."
+    },
+    ar: {
+      progress: "تقدم",
+      found: "وجد",
+      of: "من",
+      words: "كلمات",
+      voice: "صوت",
+      selectVoice: "اختر الصوت",
+      searchPlaceholder: "بحث (رمز، بينيين، ...)",
+      testVoice: "اختبار الصوت",
+      enterTopic: "أدخل الموضوع",
+      generate: "توليد",
+      preview: "معاينة",
+      save: "حفظ",
+      learningPoster: "ملصق تعليمي",
+      level: "مستوى",
+      language: "لغة",
+      creatingPoster: "الذكاء الاصطناعي ينشئ ملصقًا...",
+      hskFocusTitle: "تركيز HSK 4",
+      hskFocusText: "HSK 4 يضاعف المفردات مرة أخرى. أضفنا مئات المصطلحات الجديدة من مجالات مثل الأعمال والعلوم."
+    },
+    hi: {
+      progress: "प्रगति",
+      found: "मिला",
+      of: "का",
+      words: "शब्द",
+      voice: "आवाज़",
+      selectVoice: "आवाज़ चुनें",
+      searchPlaceholder: "खोजें (वर्ण, पिनयिन, ...)",
+      testVoice: "आवाज़ का परीक्षण करें",
+      enterTopic: "विषय दर्ज करें",
+      generate: "उत्पन्न करें",
+      preview: "पूर्वावलोकन",
+      save: "सहेजें",
+      learningPoster: "सीखने का पोस्टर",
+      level: "स्तर",
+      language: "भाषा",
+      creatingPoster: "AI पोस्टर बना रहा है...",
+      hskFocusTitle: "HSK 4 फोकस",
+      hskFocusText: "HSK 4 फिर से शब्दावली को दोगुना करता है। हमने व्यापार और विज्ञान जैसे क्षेत्रों से सैकड़ों नए शब्द जोड़े हैं।"
+    }
+  };
+
+  const appT = appTranslations[targetLang] || appTranslations.de;
+
 
   const currentVocab = useMemo(() => {
     if (hskLevel === 1) return hsk1Vocab;
     if (hskLevel === 2) return hsk2Vocab;
     if (hskLevel === 3) return hsk3Vocab;
     if (hskLevel === 4) return hsk4Vocab;
-    return hsk5Vocab;
+    if (hskLevel === 5) return hsk5Vocab;
+    return hsk6Vocab;
   }, [hskLevel]);
 
-  const targetCount = hskLevel === 5 ? 1300 : (hskLevel === 4 ? 600 : (hskLevel === 3 ? 300 : 150));
+  const targetCount = hskLevel === 6 ? 2500 : (hskLevel === 5 ? 1300 : (hskLevel === 4 ? 600 : (hskLevel === 3 ? 300 : 150)));
 
   const categorizedVocab = useMemo(() => {
     const groups = {};
@@ -43,9 +208,70 @@ const App = () => {
   }, [categorizedVocab]);
 
   const speak = (text) => {
+    // Cancel any ongoing speech
+    window.speechSynthesis.cancel();
+
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'zh-CN';
+
+    // Use selected voice if available
+    if (voices.length > 0 && voices[selectedVoiceIndex]) {
+      utterance.voice = voices[selectedVoiceIndex];
+    }
+
     window.speechSynthesis.speak(utterance);
+  };
+
+  // Helper to get a friendly voice name with dialect info
+  const getVoiceInfo = (voice) => {
+    const lang = voice.lang.toLowerCase();
+    const name = voice.name.toLowerCase();
+
+    // Determine dialect
+    let dialect = '普通话';
+    let dialectEmoji = '🇨🇳';
+    if (lang.includes('hk') || lang.startsWith('yue') || name.includes('cantonese')) {
+      dialect = '粤语 (Kantonesisch)';
+      dialectEmoji = '🇭🇰';
+    } else if (lang.includes('tw')) {
+      dialect = '台湾 (Taiwan)';
+      dialectEmoji = '🇹🇼';
+    } else if (lang.startsWith('wuu') || name.includes('shanghai') || name.includes('wu')) {
+      dialect = '吴语 (Shanghai)';
+      dialectEmoji = '🏙️';
+    }
+
+    // Determine gender/type
+    let genderEmoji = '🗣️';
+    if (name.includes('female') || name.includes('woman') || name.includes('tingting') ||
+      name.includes('lili') || name.includes('yaoyao') || name.includes('huihui') ||
+      name.includes('sinji') || name.includes('meijia')) {
+      genderEmoji = '👩';
+    } else if (name.includes('male') || name.includes('man') || name.includes('kangkang') ||
+      name.includes('yafang') || name.includes('zhiwei')) {
+      genderEmoji = '👨';
+    } else if (name.includes('child') || name.includes('kid') || name.includes('xiaoxiao')) {
+      genderEmoji = '👧';
+    }
+
+    // Extract short name
+    let shortName = voice.name;
+    // Remove common prefixes for cleaner display
+    shortName = shortName.replace(/Microsoft /gi, '')
+      .replace(/Google /gi, '')
+      .replace(/Apple /gi, '')
+      .replace(/ \(.*\)$/gi, '')
+      .trim();
+
+    return {
+      fullName: voice.name,
+      shortName,
+      dialect,
+      dialectEmoji,
+      genderEmoji,
+      displayName: `${genderEmoji} ${shortName}`,
+      groupLabel: `${dialectEmoji} ${dialect}`
+    };
   };
 
   const generateNewGraphic = async () => {
@@ -71,7 +297,7 @@ const App = () => {
 
         <div className="flex items-center gap-4">
           <div className="flex bg-slate-100 p-1 rounded-xl shadow-inner border border-slate-200">
-            {['de', 'en', 'es'].map(lang => (
+            {['de', 'en', 'es', 'ar', 'hi'].map(lang => (
               <button key={lang} onClick={() => setTargetLang(lang)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-black transition-all ${targetLang === lang ? 'bg-slate-100 text-slate-900 shadow-md' : 'text-slate-400'}`}
                 style={targetLang === lang ? { backgroundColor: '#0f172a', color: 'white' } : {}}>
@@ -88,17 +314,21 @@ const App = () => {
               className={`p-2.5 rounded-xl transition-all ${activeTab === 'graphics' ? 'bg-red-50 text-red-600 shadow-sm' : 'text-slate-400'}`}>
               <ImageIcon size={20} />
             </button>
+            <button onClick={() => setActiveTab('quiz')}
+              className={`p-2.5 rounded-xl transition-all ${activeTab === 'quiz' ? 'bg-red-50 text-red-600 shadow-sm' : 'text-slate-400'}`}>
+              <BrainCircuit size={20} />
+            </button>
           </div>
         </div>
       </nav>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-8 pt-8">
-        {activeTab === 'vocabulary' ? (
+        <div className={activeTab === 'vocabulary' ? 'block' : 'hidden'}>
           <section className="space-y-10 animate-in">
             <div className="flex flex-col lg:flex-row gap-6 items-center justify-between bg-white p-6 rounded-[32px] border border-slate-200 shadow-sm">
               <div className="flex items-center gap-4">
                 <div className="flex bg-slate-100 p-1.5 rounded-2xl border border-slate-100">
-                  {[1, 2, 3, 4, 5].map(lvl => (
+                  {[1, 2, 3, 4, 5, 6].map(lvl => (
                     <button key={lvl} onClick={() => { setHskLevel(lvl); setSearchTerm(""); }}
                       className={`px-8 py-3 rounded-xl font-black text-sm transition-all ${hskLevel === lvl ? 'bg-red-600 text-white shadow-xl scale-105' : 'text-slate-400'}`}>
                       HSK {lvl}
@@ -106,24 +336,110 @@ const App = () => {
                   ))}
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">Fortschritt</span>
+                  <span className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">{appT.progress}</span>
                   <div className="flex items-center gap-2">
                     <span className="text-sm font-black text-slate-800">
-                      {searchTerm ? `${displayedWordCount} gefunden` : `${currentVocab.length} von ${targetCount}`}
+                      {searchTerm ? `${displayedWordCount} ${appT.found}` : `${currentVocab.length} ${appT.of} ${targetCount}`}
                     </span>
                     <div style={{ width: '6rem', height: '0.375rem', backgroundColor: '#f1f5f9', borderRadius: '9999px', overflow: 'hidden' }}>
                       <div style={{ height: '100%', backgroundColor: currentVocab.length >= targetCount ? '#22c55e' : '#f59e0b', width: `${Math.min((currentVocab.length / targetCount) * 100, 100)}%` }}></div>
                     </div>
-                    <span className="text-xs font-bold text-slate-400">Wörter</span>
+                    <span className="text-xs font-bold text-slate-400">{appT.words}</span>
                   </div>
                 </div>
               </div>
-              <div className="relative w-full max-w-md">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
-                <input type="text" placeholder={`Suche (Zeichen, Pinyin, ${targetLang.toUpperCase()})...`}
-                  value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-12 pr-6 py-4 bg-slate-100 border border-slate-100 rounded-2xl outline-none transition-all text-sm font-medium"
-                  style={{ backgroundColor: '#f8fafc' }} />
+              <div className="flex items-center gap-4 w-full lg:w-auto">
+                <div className="relative flex-1 lg:w-64">
+                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
+                  <input type="text" placeholder={`${appT.searchPlaceholder}`}
+                    value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}
+                    className="w-full pl-12 pr-6 py-4 bg-slate-100 border border-slate-100 rounded-2xl outline-none transition-all text-sm font-medium"
+                    style={{ backgroundColor: '#f8fafc' }} />
+                </div>
+                {voices.length > 0 && (
+                  <div className="relative" ref={voiceDropdownRef}>
+                    {/* Dropdown Trigger */}
+                    <button
+                      onClick={() => setVoiceDropdownOpen(!voiceDropdownOpen)}
+                      className="flex items-center gap-3 bg-white px-4 py-3 rounded-2xl border-2 transition-all hover:border-red-200"
+                      style={{
+                        borderColor: voiceDropdownOpen ? '#fca5a5' : '#e2e8f0',
+                        boxShadow: voiceDropdownOpen ? '0 4px 12px rgba(239, 68, 68, 0.15)' : '0 1px 3px rgba(0,0,0,0.05)'
+                      }}
+                    >
+                      <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center shadow-sm">
+                        <Volume2 size={16} className="text-white" />
+                      </div>
+                      <div className="text-left">
+                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">{appT.voice}</p>
+                        <p className="text-sm font-bold text-slate-700">
+                          {voices[selectedVoiceIndex] && getVoiceInfo(voices[selectedVoiceIndex]).shortName}
+                        </p>
+                      </div>
+                      <ChevronDown
+                        size={18}
+                        className={`text-slate-400 transition-transform ${voiceDropdownOpen ? 'rotate-180' : ''}`}
+                      />
+                    </button>
+
+                    {/* Dropdown Menu */}
+                    {voiceDropdownOpen && (
+                      <div
+                        className="absolute top-full right-0 mt-2 bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden"
+                        style={{ minWidth: '280px', zIndex: 9999 }}
+                      >
+                        <div className="p-3 border-b border-slate-100 bg-slate-50">
+                          <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">{appT.selectVoice}</p>
+                        </div>
+                        <div className="max-h-64 overflow-y-auto p-2">
+                          {voices.map((voice, idx) => {
+                            const info = getVoiceInfo(voice);
+                            const isSelected = selectedVoiceIndex === idx;
+                            return (
+                              <div
+                                key={idx}
+                                className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all ${isSelected
+                                  ? 'bg-red-50 border-2 border-red-200'
+                                  : 'hover:bg-slate-50 border-2 border-transparent'
+                                  }`}
+                                onClick={() => {
+                                  setSelectedVoiceIndex(idx);
+                                  setVoiceDropdownOpen(false);
+                                }}
+                              >
+                                <span className="text-2xl">{info.dialectEmoji}</span>
+                                <div className="flex-1 min-w-0">
+                                  <p className="text-sm font-bold text-slate-700 truncate">
+                                    {info.genderEmoji} {info.shortName}
+                                  </p>
+                                  <p className="text-xs text-slate-400">{info.dialect}</p>
+                                </div>
+                                {isSelected && (
+                                  <div className="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                                  </div>
+                                )}
+                                <button
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    const utterance = new SpeechSynthesisUtterance('你好');
+                                    utterance.voice = voice;
+                                    window.speechSynthesis.cancel();
+                                    window.speechSynthesis.speak(utterance);
+                                  }}
+                                  className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-red-100 flex items-center justify-center transition-colors"
+                                  title={appT.testVoice}
+                                >
+                                  <Play size={14} className="text-slate-500" />
+                                </button>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
 
@@ -155,16 +471,18 @@ const App = () => {
               </div>
             ))}
           </section>
-        ) : (
+        </div>
+
+        <div className={activeTab === 'graphics' ? 'block' : 'hidden'}>
           <section className="max-w-4xl mx-auto space-y-8 animate-in slide-in-from-bottom-6">
             <div className="bg-white p-10 rounded-[48px] border border-slate-200 shadow-sm relative overflow-hidden">
               <header className="mb-10 text-center sm:text-left">
                 <h2 className="text-4xl font-black tracking-tight mb-2 italic">LERN<span className="text-red-600">POSTER</span></h2>
-                <p className="text-slate-500 font-medium italic">Level: HSK {hskLevel} | Sprache: {languages[targetLang]}</p>
+                <p className="text-slate-500 font-medium italic">{appT.level}: HSK {hskLevel} | {appT.language}: {languages[targetLang]}</p>
               </header>
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">Thema eingeben</label>
+                  <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">{appT.enterTopic}</label>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <input type="text" value={prompt} onChange={(e) => setPrompt(e.target.value)}
                       className="flex-1 px-6 py-5 rounded-[24px] bg-slate-100 border border-slate-100 outline-none transition-all font-medium"
@@ -173,7 +491,7 @@ const App = () => {
                       className="bg-red-600 text-white px-10 py-5 rounded-[24px] font-black flex items-center justify-center gap-3 shadow-xl transition-all"
                       style={{ opacity: (isGenerating || !prompt) ? 0.5 : 1 }}>
                       {isGenerating ? <RefreshCw className="animate-spin" size={20} /> : <Sparkles size={20} />}
-                      Generieren
+                      {appT.generate}
                     </button>
                   </div>
                 </div>
@@ -181,16 +499,16 @@ const App = () => {
               {isGenerating && (
                 <div className="mt-12 flex flex-col items-center justify-center p-16 bg-slate-100 rounded-[40px] border border-slate-100 animate-pulse">
                   <RefreshCw className="text-red-600 animate-spin mb-4" size={48} />
-                  <p className="text-slate-400 font-black text-sm uppercase tracking-widest">KI entwirft Lernposter...</p>
+                  <p className="text-slate-400 font-black text-sm uppercase tracking-widest">{appT.creatingPoster}</p>
                 </div>
               )}
               {generatedImageUrl && !isGenerating && (
                 <div className="mt-12 space-y-6 zoom-in-95">
                   <div className="flex justify-between items-center px-2">
-                    <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Vorschau</span>
+                    <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">{appT.preview}</span>
                     <button onClick={() => { const link = document.createElement('a'); link.href = generatedImageUrl; link.download = `HSK${hskLevel}_Graphic.png`; link.click(); }}
                       className="text-red-600 font-black text-xs flex items-center gap-1">
-                      <Download size={14} /> SPEICHERN
+                      <Download size={14} /> {appT.save}
                     </button>
                   </div>
                   <img src={generatedImageUrl} className="w-full rounded-[40px] shadow-2xl border border-slate-200" alt="Generated Poster" />
@@ -200,12 +518,16 @@ const App = () => {
             <div className="p-8 bg-red-600 rounded-[32px] text-white shadow-xl flex items-center gap-6">
               <GraduationCap size={48} className="opacity-50" />
               <div>
-                <h4 className="font-black text-lg">HSK 4 FOKUS</h4>
-                <p className="text-red-100 text-sm font-medium">HSK 4 verdoppelt den Wortschatz erneut. Wir haben Hunderte neue Begriffe aus Bereichen wie Wirtschaft und Wissenschaft hinzugefügt.</p>
+                <h4 className="font-black text-lg">{appT.hskFocusTitle}</h4>
+                <p className="text-red-100 text-sm font-medium">{appT.hskFocusText}</p>
               </div>
             </div>
           </section>
-        )}
+        </div>
+
+        <div className={activeTab === 'quiz' ? 'block' : 'hidden'}>
+          <Quiz vocabData={currentVocab} hskLevel={hskLevel} setHskLevel={setHskLevel} targetLang={targetLang} speak={speak} isActive={activeTab === 'quiz'} />
+        </div>
       </main>
     </div>
   );
