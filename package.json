@@ -2,7 +2,7 @@
   "name": "learn-chinese-with-hsk",
   "description": "HSK Vocabulary Learning App - Learn Chinese with HSK 1-4 vocabulary cards",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
