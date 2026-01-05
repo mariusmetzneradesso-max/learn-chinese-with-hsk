@@ -2,8 +2,10 @@ import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { useAuth } from './contexts/AuthContext';
 import { useUserProgress } from './hooks/useUserProgress';
 import { BookOpen, Image as ImageIcon, Languages, Download, Sparkles, RefreshCw, Search, Volume2, GraduationCap, ChevronDown, Play, BrainCircuit, LogIn, LogOut, Lock } from 'lucide-react';
-import { hsk1Vocab, hsk2Vocab, hsk3Vocab, hsk4Vocab, hsk5Vocab, hsk6Vocab } from './vocabulary';
-import { hsk1New, hsk2New, hsk3New, hsk4New, hsk5New, hsk6New, hsk7New, hsk8New, hsk9New } from './vocabularyNew';
+import {
+  hsk1Vocab, hsk2Vocab, hsk3Vocab, hsk4Vocab, hsk5Vocab, hsk6Vocab,
+  hsk1New, hsk2New, hsk3New, hsk4New, hsk5New, hsk6New, hsk7New, hsk8New, hsk9New
+} from './vocabulary';
 
 import Quiz from './Quiz';
 import LoginModal from './components/LoginModal';

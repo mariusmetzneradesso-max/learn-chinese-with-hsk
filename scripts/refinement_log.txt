@@ -1,0 +1,70 @@
+Refinement Log - 2026-01-05T18:10:05.877Z
+
+[别] (old_vocab)
+  OLD: don
+  NEW: don't
+
+[点] (old_vocab)
+  OLD: o
+  NEW: o'clock
+
+[没关系] (old_vocab)
+  OLD: it
+  NEW: it's okay
+
+[没有] (old_vocab)
+  OLD: don
+  NEW: don't have
+
+[受不了] (old_vocab)
+  OLD: can
+  NEW: can't stand
+
+[不敢当] (old_vocab)
+  OLD: I don
+  NEW: I don't deserve this
+
+[除夕] (old_vocab)
+  OLD: New Year
+  NEW: New Year's Eve (lunar)
+
+[忍不住] (old_vocab)
+  OLD: can
+  NEW: can't help
+
+[硕士] (old_vocab)
+  OLD: master
+  NEW: master's
+
+[不禁] (old_vocab)
+  OLD: can
+  NEW: can't help
+
+[不由得] (old_vocab)
+  OLD: can
+  NEW: can't help
+
+[而已] (old_vocab)
+  OLD: and that
+  NEW: and that's all
+
+[竭尽全力] (old_vocab)
+  OLD: do one
+  NEW: do one's best
+
+[力所能及] (old_vocab)
+  OLD: in one
+  NEW: in one's power
+
+[没辙] (old_vocab)
+  OLD: be at wit
+  NEW: be at wit's end
+
+[全力以赴] (old_vocab)
+  OLD: do one
+  NEW: do one's best
+
+[随身] (old_vocab)
+  OLD: carry on one
+  NEW: carry on one's person
+
