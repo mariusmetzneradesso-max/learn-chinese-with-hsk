@@ -17,7 +17,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Tracht Prügel einstecken / verprügelt werden",
     "es": "recibir una paliza / recibir una paliza",
-    "hi": "मार खाना/पीटना"
+    "hi": "मार खाना/पीटना",
+    "ar": "ليتعرض للضرب / ليتعرض للسحق"
   },
   {
     "char": "挨着",
@@ -26,7 +27,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "in der Nähe",
     "es": "cerca",
-    "hi": "निकट"
+    "hi": "निकट",
+    "ar": "قريب"
   },
   {
     "char": "安检",
@@ -35,7 +37,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Sicherheitskontrolle (Abk. für 安全检查)",
     "es": "control de seguridad (abreviatura de 安全检查)",
-    "hi": "सुरक्षा जाँच (संक्षेप में 安全检查 के लिए)"
+    "hi": "सुरक्षा जाँच (संक्षेप में 安全检查 के लिए)",
+    "ar": "فحص الأمان (اختصار لـ 安全检查)"
   },
   {
     "char": "罢工",
@@ -55,7 +58,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Modalpartikel, das anzeigt (das ist alles, nur nicht viel)",
     "es": "una partícula modal que indica (eso es todo, sólo que no mucho)",
-    "hi": "एक मोडल कण इंगित करता है (बस इतना ही, ज्यादा कुछ नहीं)"
+    "hi": "एक मोडल कण इंगित करता है (बस इतना ही, ज्यादा कुछ नहीं)",
+    "ar": "جسيم مشروط يشير إلى (هذا كل شيء، فقط، لا شيء كثيرًا)"
   },
   {
     "char": "白领",
@@ -64,7 +68,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Angestellter",
     "es": "cuello blanco",
-    "hi": "सफेदपोश"
+    "hi": "सफेदपोश",
+    "ar": "ذوي الياقات البيضاء"
   },
   {
     "char": "百分点",
@@ -73,7 +78,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Prozentpunkt",
     "es": "punto porcentual",
-    "hi": "प्रतिशत अंक"
+    "hi": "प्रतिशत अंक",
+    "ar": "نقطة مئوية"
   },
   {
     "char": "办公",
@@ -82,7 +88,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "um offizielle Geschäfte zu erledigen / zu arbeiten (insbesondere in einem Büro)",
     "es": "manejar asuntos oficiales / trabajar (especialmente en una oficina)",
-    "hi": "आधिकारिक व्यवसाय को संभालने के लिए / काम करने के लिए (विशेषकर किसी कार्यालय में)"
+    "hi": "आधिकारिक व्यवसाय को संभालने के लिए / काम करने के लिए (विशेषकर किसी कार्यालय में)",
+    "ar": "للتعامل مع الأعمال الرسمية / للعمل (خاصة في المكتب)"
   },
   {
     "char": "办事处",
@@ -91,7 +98,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Büro / Agentur",
     "es": "oficina / agencia",
-    "hi": "कार्��ालय/एजेंसी"
+    "hi": "कार्��ालय/एजेंसी",
+    "ar": "مكتب / وكالة"
   },
   {
     "char": "办学",
@@ -100,7 +108,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Schule leiten",
     "es": "para dirigir una escuela",
-    "hi": "स्कूल चलाने के लिए"
+    "hi": "स्कूल चलाने के लिए",
+    "ar": "لتشغيل مدرسة"
   },
   {
     "char": "半决赛",
@@ -109,7 +118,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Halbfinale",
     "es": "semifinales",
-    "hi": "सेमीफ़ाइनल"
+    "hi": "सेमीफ़ाइनल",
+    "ar": "الدور نصف النهائي"
   },
   {
     "char": "傍晚",
@@ -118,7 +128,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "am Abend / wenn die Nacht hereinbricht",
     "es": "al atardecer / cuando cae la noche",
-    "hi": "शाम को / जब रात हो जाती है"
+    "hi": "शाम को / जब रात हो जाती है",
+    "ar": "في المساء/عند حلول الليل"
   },
   {
     "char": "保健",
@@ -127,7 +138,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gesundheitsschutz",
     "es": "protección de la salud",
-    "hi": "स्वास्थ्य सुरक्षा"
+    "hi": "स्वास्थ्य सुरक्षा",
+    "ar": "حماية الصحة"
   },
   {
     "char": "报刊",
@@ -136,7 +148,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Zeitungen und Zeitschriften / Presse",
     "es": "periódicos y publicaciones periódicas / la prensa",
-    "hi": "समाचार पत्र और पत्रिकाएँ / प्रेस"
+    "hi": "समाचार पत्र और पत्रिकाएँ / प्रेस",
+    "ar": "الصحف والدوريات / الصحافة"
   },
   {
     "char": "报考",
@@ -145,7 +158,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich zu einer Prüfung anmelden",
     "es": "entrar para un examen",
-    "hi": "परीक्षा के लिए स्वयं में प्रवेश करना"
+    "hi": "परीक्षा के लिए स्वयं में प्रवेश करना",
+    "ar": "ليدخل نفسه للامتحان"
   },
   {
     "char": "抱歉",
@@ -165,7 +179,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Regensturm / Sturm",
     "es": "tormenta / tormenta",
-    "hi": "आंधी/तूफ़ान"
+    "hi": "आंधी/तूफ़ान",
+    "ar": "عاصفة ممطرة / عاصفة"
   },
   {
     "char": "暴力",
@@ -196,7 +211,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sintflutartiger Regen/Gewitter",
     "es": "lluvia torrencial / tormenta de lluvia",
-    "hi": "मूसलाधार बारिश / आंधी तूफान"
+    "hi": "मूसलाधार बारिश / आंधी तूफान",
+    "ar": "أمطار غزيرة / عاصفة ممطرة"
   },
   {
     "char": "爆",
@@ -205,7 +221,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "explodieren oder platzen / schnell braten oder schnell kochen",
     "es": "explotar o reventar / freír o hervir rápidamente",
-    "hi": "फूटना या फूटना / जल्दी भूनना या जल्दी उबल जाना"
+    "hi": "फूटना या फूटना / जल्दी भूनना या जल्दी उबल जाना",
+    "ar": "لينفجر أو ينفجر / للقلي السريع أو الغليان السريع"
   },
   {
     "char": "爆发",
@@ -247,7 +264,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ärmelloses Kleidungsstück (Weste, Weste, Unterhemd, Tanktop usw.)",
     "es": "prenda sin mangas (chaleco, chaleco, camiseta sin mangas, etc.)",
-    "hi": "बिना आस्तीन का परिधान (बनियान, वास्कट, सिंगलेट, टैंक टॉप आदि)"
+    "hi": "बिना आस्तीन का परिधान (बनियान, वास्कट, सिंगलेट, टैंक टॉप आदि)",
+    "ar": "ملابس بلا أكمام (سترة�� صدرية، قميص داخلي، قميص بدون أكمام، إلخ)"
   },
   {
     "char": "背着",
@@ -256,7 +274,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auf dem Rücken tragen",
     "es": "llevar a la espalda",
-    "hi": "अपनी पीठ पर ढोना"
+    "hi": "अपनी पीठ पर ढोना",
+    "ar": "يحمل على ظهره"
   },
   {
     "char": "被告",
@@ -276,7 +295,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "laufen",
     "es": "correr",
-    "hi": "चलाने के लिए"
+    "hi": "चलाने के लिए",
+    "ar": "للتشغيل"
   },
   {
     "char": "本地",
@@ -285,7 +305,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lokal / dieser Ort",
     "es": "local / esta localidad",
-    "hi": "स्थानीय/यह इलाका"
+    "hi": "स्थानीय/यह इलाका",
+    "ar": "المحلية / هذه المنطقة"
   },
   {
     "char": "本期",
@@ -294,7 +315,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "die aktuelle Periode / dieser Begriff (normalerweise im Finanzbereich)",
     "es": "el período actual / este período (generalmente en finanzas)",
-    "hi": "वर्तमान अवधि/यह अवधि (आमतौर पर वित्त में)"
+    "hi": "वर्तमान अवधि/यह अवधि (आमतौर पर वित्त में)",
+    "ar": "الفترة الحالية / هذا المصطلح (عادة في التمويل)"
   },
   {
     "char": "本身",
@@ -314,7 +336,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "das eigene Heimatland",
     "es": "el país natal de uno",
-    "hi": "किसी का मूल देश"
+    "hi": "किसी का मूल देश",
+    "ar": "الوطن الأصلي للمرء"
   },
   {
     "char": "本质",
@@ -323,7 +346,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Essenz / Natur",
     "es": "esencia / naturaleza",
-    "hi": "सार/स्वभाव"
+    "hi": "सार/स्वभाव",
+    "ar": "الجوهر / الطبيعة"
   },
   {
     "char": "逼",
@@ -332,7 +356,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Variante von 逼 / zwingen",
     "es": "variante de 逼 / obligar",
-    "hi": "逼 का प्रकार / मजबूर करना"
+    "hi": "逼 का प्रकार / मजबूर करना",
+    "ar": "البديل 逼 / لإجبار"
   },
   {
     "char": "笔试",
@@ -341,7 +366,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schriftliche Prüfung / Papiertest (für einen Bewerber)",
     "es": "examen escrito / prueba en papel (para un solicitante)",
-    "hi": "लिखित परीक्षा/पेपर टेस्ट (आवेदक के लिए)"
+    "hi": "लिखित परीक्षा/पेपर टेस्ट (आवेदक के लिए)",
+    "ar": "الاختبار الكتابي / الاختبار الورقي (لمقدم الطلب)"
   },
   {
     "char": "必将",
@@ -350,7 +376,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zwangsläufig",
     "es": "inevitablemente",
-    "hi": "अनिवार्य रूप से"
+    "hi": "अनिवार्य रूप से",
+    "ar": "حتما"
   },
   {
     "char": "必修",
@@ -359,7 +386,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(eines akademischen Studiengangs) erforderlich/obligatorisch",
     "es": "(de un curso académico) requerido / obligatorio",
-    "hi": "(शैक्षणिक पाठ्यक्रम के लिए) आवश्यक/अनिवार्य"
+    "hi": "(शैक्षणिक पाठ्यक्रम के लिए) आवश्यक/अनिवार्य",
+    "ar": "(من دورة أكاديمية) مطلوب / إلزامي"
   },
   {
     "char": "闭",
@@ -368,7 +396,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schließen / anhalten",
     "es": "cerrar / detener",
-    "hi": "बंद करना/बंद करना"
+    "hi": "बंद करना/बंद करना",
+    "ar": "لإغلاق / للتوقف"
   },
   {
     "char": "边缘",
@@ -388,7 +417,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(eine Einheit oder Abteilung) / Personalstruktur einrichten (ausgenommen Zeit- und Gelegenheitspersonal)",
     "es": "establecer (una unidad o departamento) / estructura de personal (excluido el personal temporal y ocasional)",
-    "hi": "(एक इकाई या विभाग) / स्टाफिंग संरचना स्थापित करना (अस्थायी और आकस्मिक कर्मचारियों को छोड��कर)"
+    "hi": "(एक इकाई या विभाग) / स्टाफिंग संरचना स्थापित करना (अस्थायी और आकस्मिक कर्मचारियों को छोड��कर)",
+    "ar": "إنشاء (وحدة أو إدارة) / الهيكل الوظيفي (باستثناء الموظفين المؤقتين والعرضيين)"
   },
   {
     "char": "扁",
@@ -408,7 +438,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ändern / ändern",
     "es": "cambiar / alterar",
-    "hi": "बदलना/परिवर्तन करना"
+    "hi": "बदलना/परिवर्तन करना",
+    "ar": "لتغيير / لتغيير"
   },
   {
     "char": "变换",
@@ -417,7 +448,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "umwandeln / umwandeln",
     "es": "transformar / convertir",
-    "hi": "रूपांतरित करना/रूपांतरित करना"
+    "hi": "रूपांतरित करना/रूपांतरित करना",
+    "ar": "لتحويل / لتحويل"
   },
   {
     "char": "变形",
@@ -426,7 +458,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich verformen / die Form ändern",
     "es": "deformarse / cambiar de forma",
-    "hi": "विकृत होना/आकार बदलना"
+    "hi": "विकृत होना/आकार बदलना",
+    "ar": "لتصبح مشوهة / لتغيير الشكل"
   },
   {
     "char": "便",
@@ -435,7 +468,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schlicht / informell",
     "es": "sencillo / informal",
-    "hi": "सादा/अनौपचारिक"
+    "hi": "सादा/अनौपचारिक",
+    "ar": "عادي / غير رسمي"
   },
   {
     "char": "便是",
@@ -444,7 +478,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(betont, dass etw genau oder genau so ist, wie angegeben)",
     "es": "(enfatiza que algo es precisamente o exactamente como se indica)",
-    "hi": "(इस बात पर ज़ोर देता है कि sth बिल्कुल वैसा ही है जैसा बताया गया है)"
+    "hi": "(इस बात पर ज़ोर देता है कि sth बिल्कुल वैसा ही है जैसा बताया गया है)",
+    "ar": "(يؤكد أن sth هو بالضبط أو بالضبط كما هو مذكور)"
   },
   {
     "char": "遍地",
@@ -453,7 +488,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "überall / überall",
     "es": "en todas partes / por todas partes",
-    "hi": "सर्वत्र / सर्वत्र"
+    "hi": "सर्वत्र / सर्वत्र",
+    "ar": "في كل مكان / في كل مكان"
   },
   {
     "char": "表面上",
@@ -462,7 +498,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "äußerlich / oberflächlich",
     "es": "exteriormente / superficialmente",
-    "hi": "बाहरी तौर पर/सतही तौर पर"
+    "hi": "बाहरी तौर पर/सतही तौर पर",
+    "ar": "ظاهريا / سطحيا"
   },
   {
     "char": "病房",
@@ -471,7 +508,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Station (eines Krankenhauses) / Krankenzimmer",
     "es": "sala (de un hospital) / cuarto de enfermo",
-    "hi": "वार्ड (अस्पताल का)/रोग कक्ष"
+    "hi": "वार्ड (अस्पताल का)/रोग कक्ष",
+    "ar": "جناح (المستشفى) / غرفة المرضى"
   },
   {
     "char": "病情",
@@ -480,7 +518,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Zustand einer Krankheit / Zustand des Patienten",
     "es": "estado de una enfermedad / condición del paciente",
-    "hi": "किसी बीमारी की स्थिति / रोगी की स्थिति"
+    "hi": "किसी बीमारी की स्थिति / रोगी की स्थिति",
+    "ar": "حالة المرض / حالة المريض"
   },
   {
     "char": "拨打",
@@ -500,7 +539,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wellenförmig / schwankend sein",
     "es": "ondular / fluctuar",
-    "hi": "तरंगित करना/उतार-चढ़ाव करना"
+    "hi": "तरंगित करना/उतार-चढ़ाव करना",
+    "ar": "لتموج / لتتقلب"
   },
   {
     "char": "波浪",
@@ -520,7 +560,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "säen / zerstreuen",
     "es": "sembrar / esparcir",
-    "hi": "बोना/बिखेरना"
+    "hi": "बोना/बिखेरना",
+    "ar": "يزرع / ينثر"
   },
   {
     "char": "补考",
@@ -529,7 +570,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "an einer Make-up-Prüfung teilnehmen",
     "es": "presentarse a un examen de recuperación",
-    "hi": "मेकअप परीक्षा में बैठने के लिए"
+    "hi": "मेकअप परीक्षा में बैठने के लिए",
+    "ar": "للجلوس لامتحان ماكياج"
   },
   {
     "char": "补课",
@@ -538,7 +580,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "versäumte Unterrichtsstunde nachholen / einen Unterrichtstermin verschieben",
     "es": "recuperar una lección perdida / reprogramar una clase",
-    "hi": "छूटे हुए पाठ को पूरा करने/कक्षा को पुनर्निर्धारित करने के लिए"
+    "hi": "छूटे हुए पाठ को पूरा करने/कक्षा को पुनर्निर्धारित करने के लिए",
+    "ar": "لتعويض الدرس المفقود / لإعادة جدولة الفصل"
   },
   {
     "char": "补习",
@@ -547,7 +590,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zusätzlichen Unterricht in einer Nachhilfeschule oder bei einem Privatlehrer zu nehmen",
     "es": "tomar lecciones adicionales en una escuela intensiva o con un tutor privado",
-    "hi": "किसी रटना स्कूल में या किसी निजी शिक्षक के साथ अतिरिक्त पाठ लेना"
+    "hi": "किसी रटना स्कूल में या किसी निजी शिक्षक के साथ अतिरिक्त पाठ लेना",
+    "ar": "لتلقي دروس إضافية في مدرسة مكثفة أو مع مدرس خاص"
   },
   {
     "char": "补助",
@@ -556,7 +600,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "subventionieren / subventionieren",
     "es": "subsidiar / subvencionar",
-    "hi": "सब्सिडी/सब्सिडी देना"
+    "hi": "सब्सिडी/सब्सिडी देना",
+    "ar": "لدعم / الدعم"
   },
   {
     "char": "捕",
@@ -565,7 +610,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "fangen / ergreifen",
     "es": "atrapar / apoderarse",
-    "hi": "पकड़ना/पकड़ना"
+    "hi": "पकड़ना/पकड़ना",
+    "ar": "للقبض / للاستيلاء على"
   },
   {
     "char": "不便",
@@ -574,7 +620,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unbequem / unangemessen",
     "es": "inconveniente / inapropiado",
-    "hi": "असुविधाजनक/अनुपयुक्त"
+    "hi": "असुविधाजनक/अनुपयुक्त",
+    "ar": "غير مريح / غير مناسب"
   },
   {
     "char": "不成",
@@ -583,7 +630,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "geht nicht / kann nicht",
     "es": "no lo haré / no puedo",
-    "hi": "नहीं करूंगा/करने में असमर्थ हूं"
+    "hi": "नहीं करूंगा/करने में असमर्थ हूं",
+    "ar": "لن تفعل / غير قادر على"
   },
   {
     "char": "不见",
@@ -592,7 +640,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nicht zu sehen",
     "es": "no ver",
-    "hi": "देखने के लिए नहीं"
+    "hi": "देखने के लिए नहीं",
+    "ar": "لا ترى"
   },
   {
     "char": "不仅仅",
@@ -601,7 +650,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nicht nur",
     "es": "no solo",
-    "hi": "न केवल"
+    "hi": "न केवल",
+    "ar": "ليس فقط"
   },
   {
     "char": "不禁",
@@ -632,7 +682,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "blockiert sein / blockiert sein",
     "es": "estar obstruido / estar bloqueado",
-    "hi": "बाधित किया जाना / अवरुद्ध किया जाना"
+    "hi": "बाधित किया जाना / अवरुद्ध किया जाना",
+    "ar": "أن يتم عرقلته / أن يتم حظره"
   },
   {
     "char": "不再",
@@ -641,7 +692,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nicht mehr / nicht mehr",
     "es": "no más / ya no",
-    "hi": "अब और नहीं/नहीं"
+    "hi": "अब और नहीं/नहीं",
+    "ar": "لا أكثر / لم يعد"
   },
   {
     "char": "不怎么",
@@ -650,7 +702,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nicht sehr",
     "es": "no muy",
-    "hi": "बहुत नहीं"
+    "hi": "बहुत नहीं",
+    "ar": "ليس جدا"
   },
   {
     "char": "不怎么样",
@@ -659,7 +712,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nicht viel vor / sehr gleichgültig",
     "es": "no mucho / muy indiferente",
-    "hi": "बहुत अधिक नहीं / बहुत उदासीन"
+    "hi": "बहुत अधिक नहीं / बहुत उदासीन",
+    "ar": "لا يصل إلى حد كبير / غير مبال للغاية"
   },
   {
     "char": "不值",
@@ -668,7 +722,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nicht wert",
     "es": "no vale la pena",
-    "hi": "लायक नहीं"
+    "hi": "लायक नहीं",
+    "ar": "لا يستحق"
   },
   {
     "char": "不至于",
@@ -677,7 +732,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Es ist unwahrscheinlich, dass es so weit kommt / nicht so schlimm",
     "es": "Es poco probable que llegue tan lejos como / no sea tan malo como",
-    "hi": "इतनी दूर तक जाने की संभावना नहीं है/इतना बुरा भी नहीं"
+    "hi": "इतनी दूर तक जाने की संभावना नहीं है/इतना बुरा भी नहीं",
+    "ar": "من غير المرجح أن تذهب إلى حد / ليس سيئا كما"
   },
   {
     "char": "布满",
@@ -686,7 +742,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "abgedeckt werden",
     "es": "estar cubierto con",
-    "hi": "से ढका जाना"
+    "hi": "से ढका जाना",
+    "ar": "ليتم تغطيتها"
   },
   {
     "char": "部队",
@@ -695,7 +752,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Armee / Streitkräfte",
     "es": "ejercito/fuerzas armadas",
-    "hi": "सेना/सशस्त्र बल"
+    "hi": "सेना/सशस्त्र बल",
+    "ar": "الجيش / القوات المسلحة"
   },
   {
     "char": "采纳",
@@ -726,7 +784,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "an einem Wettbewerb teilnehmen / teilnehmen",
     "es": "competir / participar en una competición",
-    "hi": "प्रतिस्पर्धा करना/प्रतियोगिता में भाग लेना"
+    "hi": "प्रतिस्पर्धा करना/प्रतियोगिता में भाग लेना",
+    "ar": "للمنافسة / للمشاركة في المنافسة"
   },
   {
     "char": "参展",
@@ -735,7 +794,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auf einer Messe ausstellen oder daran teilnehmen usw",
     "es": "exponer o participar en una feria comercial, etc.",
-    "hi": "किसी व्यापार शो आदि में प्रदर्शन करना या उसमें भाग लेना"
+    "hi": "किसी व्यापार शो आदि में प्रदर्शन करना या उसमें भाग लेना",
+    "ar": "للعرض في معرض تجاري أو المشاركة فيه وما إلى ذلك"
   },
   {
     "char": "餐",
@@ -744,7 +804,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mahlzeit / essen",
     "es": "comida / comer",
-    "hi": "भोजन/खाने के लिए"
+    "hi": "भोजन/खाने के लिए",
+    "ar": "وجبة / لتناول الطعام"
   },
   {
     "char": "残疾",
@@ -764,7 +825,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "behinderter Mensch",
     "es": "persona discapacitada",
-    "hi": "विकलांग व्यक्ति"
+    "hi": "विकलांग व्यक्ति",
+    "ar": "شخص معاق"
   },
   {
     "char": "残酷",
@@ -784,7 +846,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "elend / elend",
     "es": "miserable / miserable",
-    "hi": "दुखी/मनहूस"
+    "hi": "दुखी/मनहूस",
+    "ar": "بائسة / بائسة"
   },
   {
     "char": "仓库",
@@ -804,7 +867,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Tibet",
     "es": "Tíbet",
-    "hi": "तिब्बत"
+    "hi": "तिब्बत",
+    "ar": "التبت"
   },
   {
     "char": "操纵",
@@ -824,7 +888,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zur Seite / zur Seite neigen",
     "es": "el lado / inclinarse hacia",
-    "hi": "ओर/की ओर झुकना"
+    "hi": "ओर/की ओर झुकना",
+    "ar": "الجانب / للميل نحو"
   },
   {
     "char": "厕所",
@@ -844,7 +909,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bestimmen (durch Messen oder Vermessen)",
     "es": "determinar (midiendo o examinando)",
-    "hi": "निर्धारित करने के लिए (माप या सर्वेक्षण द्वारा)"
+    "hi": "निर्धारित करने के लिए (माप या सर्वेक्षण द्वारा)",
+    "ar": "لتحديد (عن طريق القياس أو المسح)"
   },
   {
     "char": "策略",
@@ -875,7 +941,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Aspekt / Facette",
     "es": "aspecto/faceta",
-    "hi": "पहलू/पहलू"
+    "hi": "पहलू/पहलू",
+    "ar": "الجانب / الوجه"
   },
   {
     "char": "查出",
@@ -884,7 +951,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "herausfinden / entdecken",
     "es": "descubrir/descubrir",
-    "hi": "पता लगाना/पता लगाना"
+    "hi": "पता लगाना/पता लगाना",
+    "ar": "لمعرفة / لاكتشاف"
   },
   {
     "char": "查看",
@@ -893,7 +961,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hinüberschauen / untersuchen",
     "es": "mirar por encima / examinar",
-    "hi": "देखना/परखना"
+    "hi": "देखना/परखना",
+    "ar": "للنظر في / لفحص"
   },
   {
     "char": "差异",
@@ -902,7 +971,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Unterschied / Diskrepanz",
     "es": "diferencia / discrepancia",
-    "hi": "अंतर/विसंगति"
+    "hi": "अंतर/विसंगति",
+    "ar": "الفرق / التناقض"
   },
   {
     "char": "拆迁",
@@ -911,7 +981,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Gebäude abreißen und die Bewohner umsiedeln",
     "es": "derribar un edificio y reubicar a sus habitantes",
-    "hi": "एक इमारत को ध्वस्त करना और निवासियों को स्थानांतरित करना"
+    "hi": "एक इमारत को ध्वस्त करना और निवासियों को स्थानांतरित करना",
+    "ar": "هدم مبنى ونقل السكان"
   },
   {
     "char": "产量",
@@ -920,7 +991,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Ausgabe",
     "es": "salida",
-    "hi": "आउटपुट"
+    "hi": "आउटपुट",
+    "ar": "الإخراج"
   },
   {
     "char": "昌盛",
@@ -940,7 +1012,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Verhaltenskodex / Konventionen",
     "es": "código de conducta / convenciones",
-    "hi": "आचार संहिता/सम्मेलन"
+    "hi": "आचार संहिता/सम्मेलन",
+    "ar": "قواعد السلوك / الاتفاقيات"
   },
   {
     "char": "常年",
@@ -949,7 +1022,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "das ganze Jahr über / jahrelang",
     "es": "todo el año / durante años",
-    "hi": "पूरे वर्ष भर / वर्षों तक"
+    "hi": "पूरे वर्ष भर / वर्षों तक",
+    "ar": "على مدار السنة / لسنوات متتالية"
   },
   {
     "char": "厂商",
@@ -958,7 +1032,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hersteller / Produzent",
     "es": "fabricante / productor",
-    "hi": "निर्माता/निर्माता"
+    "hi": "निर्माता/निर्माता",
+    "ar": "الشركة المصنعة / المنتجة"
   },
   {
     "char": "场地",
@@ -967,7 +1042,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Raum / Ort",
     "es": "espacio / sitio",
-    "hi": "स्थान/स्थल"
+    "hi": "स्थान/स्थल",
+    "ar": "المساحة / الموقع"
   },
   {
     "char": "场馆",
@@ -976,7 +1052,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Sportstätte / Arena",
     "es": "recinto deportivo / estadio",
-    "hi": "खेल स्थल/अखाड़ा"
+    "hi": "खेल स्थल/अखाड़ा",
+    "ar": "مكان / ساحة رياضية"
   },
   {
     "char": "场景",
@@ -985,7 +1062,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Szene / Szenario",
     "es": "escena/escenario",
-    "hi": "दृश्य/परिदृश्य"
+    "hi": "दृश्य/परिदृश्य",
+    "ar": "المشهد / السيناريو"
   },
   {
     "char": "畅通",
@@ -1005,7 +1083,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "übertreffen / überholen",
     "es": "exceder / adelantar",
-    "hi": "आगे निकल जाना / आगे निकल जाना"
+    "hi": "आगे निकल जाना / आगे निकल जाना",
+    "ar": "يتجاوز / يتفوق"
   },
   {
     "char": "超出",
@@ -1014,7 +1093,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "überschreiten / überschreiten",
     "es": "exceder / sobrepasar",
-    "hi": "हद से आगे निकल जाना / आगे निकल जाना"
+    "hi": "हद से आगे निकल जाना / आगे निकल जाना",
+    "ar": "يتجاوز / يتجاو��"
   },
   {
     "char": "炒",
@@ -1023,7 +1103,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "anbraten / braten",
     "es": "saltear / sofreír",
-    "hi": "भूनना/हलचल-तलना"
+    "hi": "भूनना/हलचल-तलना",
+    "ar": "للقلي / للقلي"
   },
   {
     "char": "炒股",
@@ -1032,7 +1113,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(umg.) mit Aktien spekulieren",
     "es": "(col.) especular con acciones",
-    "hi": "(सं.) स्टॉक में सट्टा लगाना"
+    "hi": "(सं.) स्टॉक में सट्टा लगाना",
+    "ar": "(مجموع) للمضاربة في الأسهم"
   },
   {
     "char": "炒作",
@@ -1041,7 +1123,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "einen Hype machen / Werbung machen (in den Medien)",
     "es": "exagerar / promover (en los medios)",
-    "hi": "प्रचार करना/प्रचार करना (मीडिया में)"
+    "hi": "प्रचार करना/प्रचार करना (मीडिया में)",
+    "ar": "للضجيج / للترويج (في وسائل الإعلام)"
   },
   {
     "char": "车号",
@@ -1050,7 +1133,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Fahrzeugnummer (Kennzeichen, Taxinummer, Busnummer, Zugwagennummer)",
     "es": "número de vehículo (número de matrícula, número de taxi, número de autobús, número de vagón de tren)",
-    "hi": "वाहन नंबर (लाइसेंस प्लेट नंबर, टैक्सी नंबर, बस नंबर, ट्रेन कार नंबर)"
+    "hi": "वाहन नंबर (लाइसेंस प्लेट नंबर, टैक्सी नंबर, बस नंबर, ट्रेन कार नंबर)",
+    "ar": "رقم المركبة (رقم لوحة الترخيص، رقم التاكسي، رقم الحافلة، رقم سيارة القطار)"
   },
   {
     "char": "车牌",
@@ -1059,7 +1143,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nummernschild",
     "es": "matrícula",
-    "hi": "लाइसें��� प्लेट"
+    "hi": "लाइसें��� प्लेट",
+    "ar": "لوحة الترخيص"
   },
   {
     "char": "车展",
@@ -1068,7 +1153,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Automobilausstellung",
     "es": "salón del automóvil",
-    "hi": "मोटर शो"
+    "hi": "मोटर शो",
+    "ar": "عرض السيارات"
   },
   {
     "char": "撤离",
@@ -1077,7 +1163,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich zurückziehen / evakuieren",
     "es": "retirarse de / evacuar",
-    "hi": "से हटना / खाली करना"
+    "hi": "से हटना / खाली करना",
+    "ar": "للانسحاب من / للإخلاء"
   },
   {
     "char": "撤销",
@@ -1097,7 +1184,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unterstützen / stützen",
     "es": "apoyar / apuntalar",
-    "hi": "समर्थन देना / सहारा देना"
+    "hi": "समर्थन देना / सहारा देना",
+    "ar": "لدعم / لدعم"
   },
   {
     "char": "成分",
@@ -1106,7 +1194,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Zusammensetzung / Zutat",
     "es": "composición / ingrediente",
-    "hi": "रचना/घटक"
+    "hi": "रचना/घटक",
+    "ar": "تكوين / المكون"
   },
   {
     "char": "成品",
@@ -1115,7 +1204,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "fertige Ware",
     "es": "productos terminados",
-    "hi": "तैयार माल"
+    "hi": "तैयार माल",
+    "ar": "البضائع تامة الصنع"
   },
   {
     "char": "承诺",
@@ -1135,7 +1225,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stadtteil / Stadtgebiet",
     "es": "distrito de la ciudad / área urbana",
-    "hi": "शहर जिला/शहरी क्षेत्र"
+    "hi": "शहर जिला/शहरी क्षेत्र",
+    "ar": "منطقة المدينة / المنطقة الحضرية"
   },
   {
     "char": "城乡",
@@ -1144,7 +1235,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stadt und Land",
     "es": "ciudad y campo",
-    "hi": "शहर और देहात"
+    "hi": "शहर और देहात",
+    "ar": "المدينة والريف"
   },
   {
     "char": "城镇",
@@ -1153,7 +1245,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stadt / Städte und Gemeinden",
     "es": "pueblo / ciudades y pueblos",
-    "hi": "कस्बे/शहर और कस्बे"
+    "hi": "कस्बे/शहर और कस्बे",
+    "ar": "بلدة / المدن والبلدات"
   },
   {
     "char": "持有",
@@ -1162,7 +1255,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "besitzen (Reisepass, Ansichten usw.)",
     "es": "tener (pasaporte, vistas, etc.)",
-    "hi": "धारण करना (पासपोर्ट, विचार आदि)"
+    "hi": "धारण करना (पासपोर्ट, विचार आदि)",
+    "ar": "لعقد (جواز السفر، وجهات النظر الخ)"
   },
   {
     "char": "冲击",
@@ -1204,7 +1298,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(eines Künstlers), auf die Bühne zu kommen, um aufzutreten",
     "es": "(de un artista) subir al escenario para actuar",
-    "hi": "(किसी कलाकार का) प्रदर्शन करने के लिए मंच पर आना"
+    "hi": "(किसी कलाकार का) प्रदर्शन करने के लिए मंच पर आना",
+    "ar": "(من المؤدي) ليصعد إلى المسرح ليؤدي"
   },
   {
     "char": "出动",
@@ -1213,7 +1308,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Reise antreten / Truppen entsenden",
     "es": "emprender un viaje/despachar tropas",
-    "hi": "यात्रा शुरू करना/सैनिकों को भेजना"
+    "hi": "यात्रा शुरू करना/सैनिकों को भेजना",
+    "ar": "للبدء في رحلة / لإرسال القوات"
   },
   {
     "char": "出访",
@@ -1222,7 +1318,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "in offizieller Funktion oder zur Untersuchung einen Besuch abstatten",
     "es": "ir a visitar a título oficial o para realizar una investigación",
-    "hi": "आधिकारिक हैसियत से या जांच के लिए जाना और जाना"
+    "hi": "आधिकारिक हैसियत से या जांच के लिए जाना और जाना",
+    "ar": "للذهاب والزيارة بصفة رسمية أو للتحقيق"
   },
   {
     "char": "出路",
@@ -1242,7 +1339,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "persönlich erscheinen / einspringen",
     "es": "aparecer personalmente / intervenir",
-    "hi": "व्यक्तिगत रूप से उपस्थित होना/हस्तक्षेप करना"
+    "hi": "व्यक्तिगत रूप से उपस्थित होना/हस्तक्षेप करना",
+    "ar": "للظهور شخصيا / للتدخل"
   },
   {
     "char": "出名",
@@ -1251,7 +1349,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bekannt dafür, dass etw bekannt wird",
     "es": "conocido por algo / llegar a ser conocido",
-    "hi": "sth के लिए सुप्रसिद्ध / सुविख्यात होना"
+    "hi": "sth के लिए सुप्रसिद्ध / सुविख्यात होना",
+    "ar": "معروف بـ sth / ليصبح معروفًا"
   },
   {
     "char": "出入",
@@ -1260,7 +1359,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "rausgehen und reinkommen",
     "es": "salir y entrar",
-    "hi": "बाहर जाना और अंदर आना"
+    "hi": "बाहर जाना और अंदर आना",
+    "ar": "للخروج والدخول"
   },
   {
     "char": "出事",
@@ -1269,7 +1369,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "einen Unfall haben / ein Missgeschick erleben",
     "es": "tener un accidente / encontrarse con un percance",
-    "hi": "दुर्घटना होना/दुर्घटना होना"
+    "hi": "दुर्घटना होना/दुर्घटना होना",
+    "ar": "أن تتعرض لحادث / أن تواجه حادثًا مؤسفًا"
   },
   {
     "char": "出台",
@@ -1278,7 +1379,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "offiziell starten (eine Richtlinie, ein Programm usw.) / auf der Bühne erscheinen",
     "es": "lanzar oficialmente (una política, programa, etc.) / aparecer en el escenario",
-    "hi": "आधिकारिक तौर पर लॉन्च करना (किसी नीति, कार्यक्रम आदि)/मंच पर उपस्थित होना"
+    "hi": "आधिकारिक तौर पर लॉन्च करना (किसी नीति, कार्यक्रम आदि)/मंच पर उपस्थित होना",
+    "ar": "للإطلاق رسميًا (سياسة، برنامج، إلخ) / للظهور على المسرح"
   },
   {
     "char": "出行",
@@ -1287,7 +1389,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "irgendwohin gehen (relativ kurze Reise)",
     "es": "salir a algún lugar (viaje relativamente corto)",
-    "hi": "कहीं बाहर जाना (अपेक्षाकृत छोटी यात्रा)"
+    "hi": "कहीं बाहर जाना (अपेक्षाकृत छोटी यात्रा)",
+    "ar": "للخروج إلى مكان ما (رحلة قصيرة نسبيا)"
   },
   {
     "char": "初等",
@@ -1296,7 +1399,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "elementar (d. h. einfach)",
     "es": "elemental (es decir, fácil)",
-    "hi": "प्राथमिक (अर्थात् आसान)"
+    "hi": "प्राथमिक (अर्थात् आसान)",
+    "ar": "ابتدائي (أي سهل)"
   },
   {
     "char": "除",
@@ -1316,7 +1420,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Koch / Koch",
     "es": "cocinero/cocinero",
-    "hi": "रसोइया/रसोइया"
+    "hi": "रसोइया/रसोइया",
+    "ar": "كوك / الشيف"
   },
   {
     "char": "储存",
@@ -1336,7 +1441,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "überall / in jeder Hinsicht",
     "es": "en todas partes / en todos los aspectos",
-    "hi": "हर जगह/सभी प्रकार से"
+    "hi": "हर जगह/सभी प्रकार से",
+    "ar": "في كل مكان / من جميع النواحي"
   },
   {
     "char": "处长",
@@ -1345,7 +1451,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Abteilungsleiter/Sektionsleiter",
     "es": "jefe de departamento/jefe de sección",
-    "hi": "विभाग प्रमुख/अनुभाग प्रमुख"
+    "hi": "विभाग प्रमुख/अनुभाग प्रमुख",
+    "ar": "رئيس القسم / رئيس القسم"
   },
   {
     "char": "传出",
@@ -1354,7 +1461,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nach außen übermitteln / verbreiten",
     "es": "transmitir hacia afuera / difundir",
-    "hi": "बाहर की ओर संचारित करना/फैलाना"
+    "hi": "बाहर की ओर संचारित करना/फैलाना",
+    "ar": "ينقل إلى الخارج / ينشر"
   },
   {
     "char": "传媒",
@@ -1363,7 +1471,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Medien",
     "es": "medios de comunicación",
-    "hi": "मीडिया"
+    "hi": "मीडिया",
+    "ar": "وسائل الإعلام"
   },
   {
     "char": "传输",
@@ -1372,7 +1481,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "übertragen / übertragen",
     "es": "transmitir / transmitir",
-    "hi": "प्रेषण/प्रेषण करना"
+    "hi": "प्रेषण/प्रेषण करना",
+    "ar": "لنقل / الإرسال"
   },
   {
     "char": "传言",
@@ -1381,7 +1491,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gerücht / Hörensagen",
     "es": "rumor / rumor",
-    "hi": "अफ़वाह / अफ़वाह"
+    "hi": "अफ़वाह / अफ़वाह",
+    "ar": "شائعة / إشاعات"
   },
   {
     "char": "船员",
@@ -1390,7 +1501,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Seemann / Besatzungsmitglied",
     "es": "marinero / miembro de la tripulación",
-    "hi": "नाविक/चालक दल का सदस्य"
+    "hi": "नाविक/चालक दल का सदस्य",
+    "ar": "بحار / عضو الطاقم"
   },
   {
     "char": "船长",
@@ -1399,7 +1511,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kapitän (eines Bootes) / Kapitän",
     "es": "capitán (de un barco) / patrón",
-    "hi": "कप्तान (नाव का) / कप्तान"
+    "hi": "कप्तान (नाव का) / कप्तान",
+    "ar": "قبطان (قارب) / ربان"
   },
   {
     "char": "船只",
@@ -1408,7 +1521,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schiff / Boot",
     "es": "barco / barco",
-    "hi": "जहाज/नाव"
+    "hi": "जहाज/नाव",
+    "ar": "سفينة / قارب"
   },
   {
     "char": "串",
@@ -1428,7 +1542,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Fenster/Öffnung mit eingeschränktem Zugang (z. B. Kundendienstfenster)",
     "es": "ventana/abertura que proporciona acceso restringido (por ejemplo, ventana de atención al cliente)",
-    "hi": "प्रतिबंधित पहुंच प्रदान करने वाली विंडो/उद्घाटन (जैसे ग्राहक सेवा विंडो)"
+    "hi": "प्रतिबंधित पहुंच प्रदान करने वाली विंडो/उद्घाटन (जैसे ग्राहक सेवा विंडो)",
+    "ar": "نافذة / فتحة توفر وصولاً مقيدًا (على سبيل المثال، نافذة خدمة العملاء)"
   },
   {
     "char": "创办",
@@ -1437,7 +1552,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gründen / gründen",
     "es": "establecer / fundar",
-    "hi": "स्थापित करना/पाना"
+    "hi": "स्थापित करना/पाना",
+    "ar": "لإنشاء / وجدت"
   },
   {
     "char": "创建",
@@ -1446,7 +1562,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gründen / etablieren",
     "es": "fundar / establecer",
-    "hi": "स्थापित करना/स्थापित करना"
+    "hi": "स्थापित करना/स्थापित करना",
+    "ar": "لتأسيس / لتأسيس"
   },
   {
     "char": "创意",
@@ -1455,7 +1572,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kreativ / Kreativität",
     "es": "creativo / creatividad",
-    "hi": "रचनात्मक/रचनात्मकता"
+    "hi": "रचनात्मक/रचनात्मकता",
+    "ar": "الإبداع / الإبداع"
   },
   {
     "char": "此处",
@@ -1464,7 +1582,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "dieser Ort / hier (literarisch)",
     "es": "este lugar / aquí (literario)",
-    "hi": "यह स्थान/यहाँ (साहित्यिक)"
+    "hi": "यह स्थान/यहाँ (साहित्यिक)",
+    "ar": "هذا المكان / هنا (أدبي)"
   },
   {
     "char": "此次",
@@ -1473,7 +1592,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Diesmal",
     "es": "esta vez",
-    "hi": "इस बार"
+    "hi": "इस बार",
+    "ar": "هذه المرة"
   },
   {
     "char": "此前",
@@ -1482,7 +1602,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "davor",
     "es": "antes de esto",
-    "hi": "इससे पहले"
+    "hi": "इससे पहले",
+    "ar": "قبل هذا"
   },
   {
     "char": "此事",
@@ -1491,7 +1612,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "diese Angelegenheit",
     "es": "este asunto",
-    "hi": "यह मामला"
+    "hi": "यह मामला",
+    "ar": "هذه المسألة"
   },
   {
     "char": "此致",
@@ -1500,7 +1622,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(wird am Ende eines Briefes verwendet, um eine höfliche Anrede einzuleiten)",
     "es": "(usado al final de una carta para presentar un saludo cortés)",
-    "hi": "(विनम्र अभिवादन प्रस्तुत करने के लिए पत्र के अंत में प्रयुक्त)"
+    "hi": "(विनम्र अभिवादन प्रस्तुत करने के लिए पत्र के अंत में प्रयुक्त)",
+    "ar": "(تستخدم في نهاية الرسالة لتقديم تحية مهذبة)"
   },
   {
     "char": "次数",
@@ -1509,7 +1632,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Anzahl / Häufigkeit",
     "es": "número de veces / frecuencia",
-    "hi": "समय की संख्या/आवृत्ति"
+    "hi": "समय की संख्या/आवृत्ति",
+    "ar": "عدد المرات / التردد"
   },
   {
     "char": "从不",
@@ -1518,7 +1642,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "niemals",
     "es": "nunca",
-    "hi": "कभी नहीं"
+    "hi": "कभी नहीं",
+    "ar": "أبدا"
   },
   {
     "char": "从没",
@@ -1527,7 +1652,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nie (in der Vergangenheit)",
     "es": "nunca (en el pasado)",
-    "hi": "कभी नहीं (अतीत में)"
+    "hi": "कभी नहीं (अतीत में)",
+    "ar": "أبدا (في الماضي)"
   },
   {
     "char": "醋",
@@ -1536,7 +1662,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Essig / Eifersucht (in Liebesrivalität)",
     "es": "vinagre / celos (rivalidad amorosa)",
-    "hi": "सिरका/ईर्ष्या (प्रेम प्रतिद्वंद्विता में)"
+    "hi": "सिरका/ईर्ष्या (प्रेम प्रतिद्वंद्विता में)",
+    "ar": "الخل / الغيرة (في التنافس في الحب)"
   },
   {
     "char": "村庄",
@@ -1545,7 +1672,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Dorf / Weiler",
     "es": "pueblo / aldea",
-    "hi": "गाँव/टोला"
+    "hi": "गाँव/टोला",
+    "ar": "القرية / القرية"
   },
   {
     "char": "错过",
@@ -1554,7 +1682,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verpassen (Zug, Gelegenheit usw.)",
     "es": "perder (tren, oportunidad, etc.)",
-    "hi": "चूकना (ट्रेन, अवसर आदि)"
+    "hi": "चूकना (ट्रेन, अवसर आदि)",
+    "ar": "لتفويت (القطار، الفرصة، الخ)"
   },
   {
     "char": "搭",
@@ -1596,7 +1725,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bewegen (Mitleid erregen) / erwecken (Mitgefühl)",
     "es": "conmover (lástima) / despertar (simpatía)",
-    "hi": "हिलाना (दया करना) / जगाना (सहानुभूति)"
+    "hi": "हिलाना (दया करना) / जगाना (सहानुभूति)",
+    "ar": "للتحرك (للشفقة) / ��ثارة (التعاطف)"
   },
   {
     "char": "打断",
@@ -1605,7 +1735,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unterbrechen / abbrechen",
     "es": "interrumpir / interrumpir",
-    "hi": "बीच में रोकना / तोड़ देना"
+    "hi": "बीच में रोकना / तोड़ देना",
+    "ar": "لمقاطعة / قطع"
   },
   {
     "char": "打发",
@@ -1614,7 +1745,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "jdn dazu schicken, etw zu tun / jdn gehen lassen",
     "es": "enviar a alguien a hacer algo / hacer que alguien se vaya",
-    "hi": "एसबी को एसटीएच करने के लिए भेजना / एसबी को छुट्टी देना"
+    "hi": "एसबी को एसटीएच करने के लिए भेजना / एसबी को छुट्टी देना",
+    "ar": "لإرسال بينالي الشارقة للقيام بشيء ما / للقيام بإجازة بينالي الشارقة"
   },
   {
     "char": "打官司",
@@ -1623,7 +1755,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Klage einreichen / klagen",
     "es": "presentar una demanda / demandar",
-    "hi": "मुकदमा दायर करना/मुकदमा चलाना"
+    "hi": "मुकदमा दायर करना/मुकदमा चलाना",
+    "ar": "لرفع دعوى قضائية / رفع دعوى قضائية"
   },
   {
     "char": "打牌",
@@ -1632,7 +1765,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "um Mahjong oder Karten zu spielen",
     "es": "jugar mahjong o cartas",
-    "hi": "माहजोंग या कार्ड खेलने के लिए"
+    "hi": "माहजोंग या कार्ड खेलने के लिए",
+    "ar": "للعب جونغ أو البطاقات"
   },
   {
     "char": "打印机",
@@ -1641,7 +1775,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Drucker",
     "es": "impresora",
-    "hi": "मुद्रक"
+    "hi": "मुद्रक",
+    "ar": "طابعة"
   },
   {
     "char": "打造",
@@ -1650,7 +1785,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "erstellen/bauen",
     "es": "crear / construir",
-    "hi": "बनाना/बनाना"
+    "hi": "बनाना/बनाना",
+    "ar": "لإنشاء / لبناء"
   },
   {
     "char": "大道",
@@ -1659,7 +1795,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hauptstraße/Allee",
     "es": "calle principal/avenida",
-    "hi": "मुख्य सड़क/मार्ग"
+    "hi": "मुख्य सड़क/मार्ग",
+    "ar": "الشارع الرئيسي / الجادة"
   },
   {
     "char": "大街",
@@ -1668,7 +1805,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Straße",
     "es": "calle",
-    "hi": "सड़क"
+    "hi": "सड़क",
+    "ar": "شارع"
   },
   {
     "char": "大力",
@@ -1677,7 +1815,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "energisch/energisch",
     "es": "enérgicamente / vigorosamente",
-    "hi": "ऊर्जावान/जोरदार ढंग से"
+    "hi": "ऊर्जावान/जोरदार ढंग से",
+    "ar": "بقوة / بقوة"
   },
   {
     "char": "大米",
@@ -1686,7 +1825,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(geschälter) Reis",
     "es": "arroz (descascarado)",
-    "hi": "(भूसी वाला) चावल"
+    "hi": "(भूसी वाला) चावल",
+    "ar": "(مقشر) الأرز"
   },
   {
     "char": "大批",
@@ -1695,7 +1835,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "große Mengen von",
     "es": "grandes cantidades de",
-    "hi": "बड़ी मात्रा में"
+    "hi": "बड़ी मात्रा में",
+    "ar": "كميات كبيرة من"
   },
   {
     "char": "大赛",
@@ -1704,7 +1845,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "großer Wettbewerb",
     "es": "gran concurso",
-    "hi": "भव्य प्रतियोगिता"
+    "hi": "भव्य प्रतियोगिता",
+    "ar": "المسابقة الكبرى"
   },
   {
     "char": "大师",
@@ -1713,7 +1855,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "großer Meister",
     "es": "gran maestro",
-    "hi": "महान गुरु"
+    "hi": "महान गुरु",
+    "ar": "سيد عظيم"
   },
   {
     "char": "大使",
@@ -1722,7 +1865,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Botschafter / Gesandter",
     "es": "embajador / enviado",
-    "hi": "राजदूत/दूत"
+    "hi": "राजदूत/दूत",
+    "ar": "سفير / مبعوث"
   },
   {
     "char": "待会儿",
@@ -1731,7 +1875,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gleich / später",
     "es": "en un momento / después",
-    "hi": "एक क्षण में/बाद में"
+    "hi": "एक क्षण में/बाद में",
+    "ar": "في لحظة / في وقت لاحق"
   },
   {
     "char": "单打",
@@ -1740,7 +1885,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Singles (im Sport)",
     "es": "solteros (en deportes)",
-    "hi": "एकल (ख���ल में)"
+    "hi": "एकल (ख���ल में)",
+    "ar": "الفردي (في الرياضة)"
   },
   {
     "char": "担忧",
@@ -1749,7 +1895,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich Sorgen machen / besorgt sein",
     "es": "preocuparse / estar preocupado",
-    "hi": "चिंता करना / चिंतित होना"
+    "hi": "चिंता करना / चिंतित होना",
+    "ar": "للقلق / للقلق"
   },
   {
     "char": "诞生",
@@ -1769,7 +1916,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "als / annehmen als sein",
     "es": "considerar como / tomar por ser",
-    "hi": "के रूप में मानना/मानना"
+    "hi": "के रूप में मानना/मानना",
+    "ar": "للنظر في / لاتخاذ ليكون"
   },
   {
     "char": "当天",
@@ -1778,7 +1926,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "an diesem Tag",
     "es": "en ese día",
-    "hi": "उस दिन"
+    "hi": "उस दिन",
+    "ar": "في ذلك اليوم"
   },
   {
     "char": "当作",
@@ -1787,7 +1936,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "behandeln als / betrachten als",
     "es": "tratar como / considerar como",
-    "hi": "के रूप में व्यवहार करना/मानना"
+    "hi": "के रूप में व्यवहार करना/मानना",
+    "ar": "للتعامل كما / لاعتبار"
   },
   {
     "char": "党",
@@ -1807,7 +1957,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Tw) Variante von 挡, Gang",
     "es": "(Tw) variante de 挡, engranaje",
-    "hi": "(Tw) 挡 का प्रकार, गियर"
+    "hi": "(Tw) 挡 का प्रकार, गियर",
+    "ar": "(Tw) البديل من 挡، والعتاد"
   },
   {
     "char": "档案",
@@ -1827,7 +1978,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Variante von 岛",
     "es": "variante de 岛",
-    "hi": "岛 का प्रकार"
+    "hi": "岛 का प्रकार",
+    "ar": "البديل من 岛"
   },
   {
     "char": "到期",
@@ -1836,7 +1988,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "fällig werden (Darlehen usw.)",
     "es": "vencer (préstamo, etc.)",
-    "hi": "देय होना (ऋण आदि)"
+    "hi": "देय होना (ऋण आदि)",
+    "ar": "أن يحين موعد استحقاقه (القرض وما إلى ذلك)"
   },
   {
     "char": "盗版",
@@ -1845,7 +1998,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Raubkopie / illegal",
     "es": "pirateado / ilegal",
-    "hi": "पायरेटेड/अवैध"
+    "hi": "पायरेटेड/अवैध",
+    "ar": "المقرصنة / غير قانونية"
   },
   {
     "char": "道教",
@@ -1854,7 +2008,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Taoismus / Daoismus (chinesisches Glaubenssystem)",
     "es": "Taoísmo / Daoísmo (sistema de creencias chino)",
-    "hi": "ताओवाद / दाओवाद (विश्वासों की चीनी प्रणाली)"
+    "hi": "ताओवाद / दाओवाद (विश्वासों की चीनी प्रणाली)",
+    "ar": "الطاوية / الطاوية (نظام المعتقدات الصيني)"
   },
   {
     "char": "道歉",
@@ -1874,7 +2029,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Boden",
     "es": "piso",
-    "hi": "मंज़िल"
+    "hi": "मंज़िल",
+    "ar": "الكلمة"
   },
   {
     "char": "地名",
@@ -1883,7 +2039,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Ortsname/Toponym",
     "es": "nombre del lugar / topónimo",
-    "hi": "स्थान का नाम / उपनाम"
+    "hi": "स्थान का नाम / उपनाम",
+    "ar": "اسم المكان / الأسماء الجغرافية"
   },
   {
     "char": "地下室",
@@ -1892,7 +2049,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Keller / Keller",
     "es": "sótano / bodega",
-    "hi": "तहख़ाना/तहखाना"
+    "hi": "तहख़ाना/तहखाना",
+    "ar": "الطابق السفلي / قبو"
   },
   {
     "char": "低头",
@@ -1901,7 +2059,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "den Kopf neigen / nachgeben",
     "es": "inclinar la cabeza / ceder",
-    "hi": "सिर झुकाना/झुकना"
+    "hi": "सिर झुकाना/झुकना",
+    "ar": "أن ينحني الرأس / أن يستسلم"
   },
   {
     "char": "低温",
@@ -1910,7 +2069,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "niedrige Temperatur",
     "es": "baja temperatura",
-    "hi": "कम तापमान"
+    "hi": "कम तापमान",
+    "ar": "درجة حرارة منخفضة"
   },
   {
     "char": "滴",
@@ -1919,7 +2079,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Tropfen / tropfen",
     "es": "una gota / gotear",
-    "hi": "एक बूँद / टपकना"
+    "hi": "एक बूँद / टपकना",
+    "ar": "قطرة / بالتنقيط"
   },
   {
     "char": "抵达",
@@ -1950,7 +2111,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Trolleybus",
     "es": "trolebús",
-    "hi": "ट्रॉलीबस"
+    "hi": "ट्रॉलीबस",
+    "ar": "ترولي باص"
   },
   {
     "char": "电动",
@@ -1959,7 +2121,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "elektrisch betriebenes / (Tw) Videospiel",
     "es": "videojuego eléctrico / (Tw)",
-    "hi": "बिजली से चलने वाला / (Tw) वीडियो गेम"
+    "hi": "बिजली से चलने वाला / (Tw) वीडियो गेम",
+    "ar": "لعبة فيديو تعمل بالطاقة الكهربائية / (Tw)."
   },
   {
     "char": "电力",
@@ -1968,7 +2131,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "elektrischer Strom / Elektrizität",
     "es": "energía eléctrica / electricidad",
-    "hi": "विद्युत शक्ति/विद्युत"
+    "hi": "विद्युत शक्ति/विद्युत",
+    "ar": "الطاقة الكهربائية / الكهرباء"
   },
   {
     "char": "电器",
@@ -1977,7 +2141,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(elektrisches) Gerät / Gerät",
     "es": "aparato/dispositivo (eléctrico)",
-    "hi": "(विद्युत) उपकरण/उपकरण"
+    "hi": "(विद्युत) उपकरण/उपकरण",
+    "ar": "جهاز / جهاز (كهربائي)."
   },
   {
     "char": "吊",
@@ -1997,7 +2162,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zu untersuchen und zu erforschen",
     "es": "investigar e investigar",
-    "hi": "जांच और अनुसंधान करना"
+    "hi": "जांच और अनुसंधान करना",
+    "ar": "للتحقيق والبحث"
   },
   {
     "char": "跌",
@@ -2017,7 +2183,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "einen Preis festlegen",
     "es": "para fijar un precio",
-    "hi": "कीमत निर्धारित करने के लिए"
+    "hi": "कीमत निर्धारित करने के लिए",
+    "ar": "لتحديد السعر"
   },
   {
     "char": "定时",
@@ -2026,7 +2193,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Zeit festlegen",
     "es": "para fijar un tiempo",
-    "hi": "एक समय तय करने के लिए"
+    "hi": "एक समय तय करने के लिए",
+    "ar": "لتحديد الوقت"
   },
   {
     "char": "定位",
@@ -2035,7 +2203,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "orientieren / positionieren",
     "es": "orientar / posicionar",
-    "hi": "उन्मुख करना/स्थिति बनाना"
+    "hi": "उन्मुख करना/स्थिति बनाना",
+    "ar": "للتوجيه / للموقف"
   },
   {
     "char": "动画",
@@ -2044,7 +2213,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Animation/Cartoon",
     "es": "animación / dibujos animados",
-    "hi": "एनीमेशन/कार्टून"
+    "hi": "एनीमेशन/कार्टून",
+    "ar": "الرسوم المتحركة / الرسوم المتحركة"
   },
   {
     "char": "都市",
@@ -2053,7 +2223,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stadt / Metropole",
     "es": "ciudad / metrópoli",
-    "hi": "शहर/महानगर"
+    "hi": "शहर/महानगर",
+    "ar": "المدينة / العاصمة"
   },
   {
     "char": "斗争",
@@ -2084,7 +2255,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wetten / spielen",
     "es": "apostar / apostar",
-    "hi": "दाँव लगाना/जुआ खेलना"
+    "hi": "दाँव लगाना/जुआ खेलना",
+    "ar": "للمراهنة / للمقامرة"
   },
   {
     "char": "赌博",
@@ -2104,7 +2276,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "überqueren / durchqueren",
     "es": "cruzar / pasar por",
-    "hi": "पार करना/गुजरना"
+    "hi": "पार करना/गुजरना",
+    "ar": "للعبور / للمرور"
   },
   {
     "char": "端",
@@ -2124,7 +2297,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Drachenbootfest (5. Tag des 5. Mondmonats)",
     "es": "Festival del Bote del Dragón (quinto día del quinto mes lunar)",
-    "hi": "ड्रैगन बोट फेस्टिवल (5वें चंद्र माह का 5वां दिन)"
+    "hi": "ड्रैगन बोट फेस्टिवल (5वें चंद्र माह का 5वां दिन)",
+    "ar": "مهرجان قوارب التنين (اليوم الخامس من الشهر القمري الخامس)"
   },
   {
     "char": "短片",
@@ -2133,7 +2307,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kurzfilm/Videoclip",
     "es": "cortometraje/videoclip",
-    "hi": "लघु फिल्म/वीडियो क्लिप"
+    "hi": "लघु फिल्म/वीडियो क्लिप",
+    "ar": "فيلم قصير/فيديو كليب"
   },
   {
     "char": "队伍",
@@ -2164,7 +2339,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "extern / fremd",
     "es": "externo / extranjero",
-    "hi": "बाहरी/विदेशी"
+    "hi": "बाहरी/विदेशी",
+    "ar": "خارجي / أجنبي"
   },
   {
     "char": "蹲",
@@ -2173,7 +2349,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich ducken / hocken",
     "es": "agacharse / ponerse en cuclillas",
-    "hi": "झुकना/बैठना"
+    "hi": "झुकना/बैठना",
+    "ar": "للانحناء / القرفصاء"
   },
   {
     "char": "多半",
@@ -2182,7 +2359,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "am meisten / meistens",
     "es": "la mayoría / en su mayoría",
-    "hi": "अधिकांश/अधिकतर"
+    "hi": "अधिकांश/अधिकतर",
+    "ar": "معظم / في الغالب"
   },
   {
     "char": "多方面",
@@ -2191,7 +2369,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "vielseitig / in vielen Aspekten",
     "es": "multifacético / en muchos aspectos",
-    "hi": "अनेक-पक्षीय/कई पहलुओं में"
+    "hi": "अनेक-पक्षीय/कई पहलुओं में",
+    "ar": "متعددة الجوانب / في جوانب عديدة"
   },
   {
     "char": "多媒体",
@@ -2200,7 +2379,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Multimedia",
     "es": "multimedia",
-    "hi": "मल्टीमीडिया"
+    "hi": "मल्टीमीडिया",
+    "ar": "الوسائط المتعددة"
   },
   {
     "char": "夺",
@@ -2209,7 +2389,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gewaltsam ergreifen / wegnehmen",
     "es": "apoderarse / quitar por la fuerza",
-    "hi": "ज़ब्त करना/जबरन छीन लेना"
+    "hi": "ज़ब्त करना/जबरन छीन लेना",
+    "ar": "للاستيلاء على / ليأخذ بالقوة"
   },
   {
     "char": "夺取",
@@ -2229,7 +2410,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Wohltäter / eine Person, die jdm anderen maßgeblich geholfen hat",
     "es": "un benefactor / una persona que ha ayudado significativamente a alguien más",
-    "hi": "एक परोपकारी / एक व्यक्ति जिसने एसबी की महत्वपूर्ण मदद की है"
+    "hi": "एक परोपकारी / एक व्यक्ति जिसने एसबी की महत्वपूर्ण मदद की है",
+    "ar": "فاعل خير / شخص ساعد بشكل كبير الآخرين"
   },
   {
     "char": "儿科",
@@ -2238,7 +2420,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pädiatrie",
     "es": "pediatría",
-    "hi": "बाल चिकित्सा"
+    "hi": "बाल चिकित्सा",
+    "ar": "طب الأطفال"
   },
   {
     "char": "发病",
@@ -2247,7 +2430,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(einer Krankheit) auftreten",
     "es": "(de una enfermedad) que ocurra",
-    "hi": "(बीमारी का) घटित होना"
+    "hi": "(बीमारी का) घटित होना",
+    "ar": "(من مرض) أن يحدث"
   },
   {
     "char": "发电",
@@ -2256,7 +2440,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Strom erzeugen / ein Telegramm senden",
     "es": "generar electricidad / enviar un telegrama",
-    "hi": "बिजली पैदा करना/टेलीग्राम भेजना"
+    "hi": "बिजली पैदा करना/टेलीग्राम भेजना",
+    "ar": "لتوليد الكهرباء / لإرسال برقية"
   },
   {
     "char": "发放",
@@ -2265,7 +2450,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bereitstellen / geben",
     "es": "proporcionar / dar",
-    "hi": "प्रदान करना / देना"
+    "hi": "प्रदान करना / देना",
+    "ar": "لتقديم / لإعطاء"
   },
   {
     "char": "发怒",
@@ -2274,7 +2460,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wütend werden",
     "es": "enojarse",
-    "hi": "क्रोधित होना"
+    "hi": "क्रोधित होना",
+    "ar": "لتغضب"
   },
   {
     "char": "发起",
@@ -2283,7 +2470,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "entstehen / initiieren",
     "es": "originar / iniciar",
-    "hi": "उत्पन्न करना / आरंभ करना"
+    "hi": "उत्पन्न करना / आरंभ करना",
+    "ar": "لبدء / لبدء"
   },
   {
     "char": "发言人",
@@ -2292,7 +2480,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Sprecher",
     "es": "portavoz",
-    "hi": "प्रवक्ता"
+    "hi": "प्रवक्ता",
+    "ar": "المتحدث الرسمي"
   },
   {
     "char": "发炎",
@@ -2312,7 +2501,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gericht",
     "es": "tribunal de justicia",
-    "hi": "क़ानून की अदालत"
+    "hi": "क़ानून की अदालत",
+    "ar": "محكمة القانون"
   },
   {
     "char": "法语",
@@ -2321,7 +2511,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Französisch (Sprache)",
     "es": "Francés (idioma)",
-    "hi": "फ़्रेंच (भाषा)"
+    "hi": "फ़्रेंच (भाषा)",
+    "ar": "الفرنسية (اللغة)"
   },
   {
     "char": "番",
@@ -2330,7 +2521,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Pan",
     "es": "apellido Pan",
-    "hi": "उपनाम पैन"
+    "hi": "उपनाम पैन",
+    "ar": "اللقب بان"
   },
   {
     "char": "番茄",
@@ -2394,7 +2586,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Auswirkungen / Reaktion",
     "es": "repercusiones / reacción",
-    "hi": "प्रतिघात/प्रतिक्रिया"
+    "hi": "प्रतिघात/प्रतिक्रिया",
+    "ar": "تداعيات / رد فعل"
   },
   {
     "char": "犯",
@@ -2403,7 +2596,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verletzen / beleidigen",
     "es": "violar / ofender",
-    "hi": "उल्लंघन करना/अपमानित करना"
+    "hi": "उल्लंघन करना/अपमानित करना",
+    "ar": "لانتهاك / الإساءة"
   },
   {
     "char": "犯规",
@@ -2412,7 +2606,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gegen die Regeln / eine Illegalität verstoßen",
     "es": "romper las reglas / una ilegalidad",
-    "hi": "नियम तोड़ना/अवैधता"
+    "hi": "नियम तोड़ना/अवैधता",
+    "ar": "لكسر القواعد / عدم الشرعية"
   },
   {
     "char": "犯罪",
@@ -2421,7 +2616,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Verbrechen begehen",
     "es": "cometer un crimen",
-    "hi": "अपराध करना"
+    "hi": "अपराध करना",
+    "ar": "لارتكاب جريمة"
   },
   {
     "char": "防范",
@@ -2430,7 +2626,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auf der Hut sein / vorsichtig sein",
     "es": "estar en guardia / cautela",
-    "hi": "सतर्क/सावधान रहना"
+    "hi": "सतर्क/सावधान रहना",
+    "ar": "أن تكون على أهبة الاستعداد / الحذر"
   },
   {
     "char": "防守",
@@ -2450,7 +2647,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hauspreis / Wohnkosten",
     "es": "precio de la casa / costo de la vivienda",
-    "hi": "घर की कीमत/आवास की लागत"
+    "hi": "घर की कीमत/आवास की लागत",
+    "ar": "سعر المنزل / تكلفة السكن"
   },
   {
     "char": "仿佛",
@@ -2470,7 +2668,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Raumschiff / Raumschiff",
     "es": "nave espacial / nave espacial",
-    "hi": "अंतरिक्ष यान/अंतरिक्ष यान"
+    "hi": "अंतरिक्ष यान/अंतरिक्ष यान",
+    "ar": "سفينة فضائية / مركبة فضائية"
   },
   {
     "char": "飞行员",
@@ -2479,7 +2678,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pilot / Flieger",
     "es": "piloto / aviador",
-    "hi": "पायलट / एविएटर"
+    "hi": "पायलट / एविएटर",
+    "ar": "طيار / طيار"
   },
   {
     "char": "肺",
@@ -2488,7 +2688,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Lunge",
     "es": "pulmón",
-    "hi": "फेफड़ा"
+    "hi": "फेफड़ा",
+    "ar": "الرئة"
   },
   {
     "char": "分工",
@@ -2497,7 +2698,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "die Arbeit / Arbeitsteilung aufteilen",
     "es": "dividir el trabajo / división del trabajo",
-    "hi": "कार्य को बाँटना/श्रम का विभाजन करना"
+    "hi": "कार्य को बाँटना/श्रम का विभाजन करना",
+    "ar": "لتقسيم العمل / تقسيم العمل"
   },
   {
     "char": "分裂",
@@ -2539,7 +2741,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gipfeltreffen",
     "es": "reunión cumbre",
-    "hi": "शिखर बैठक"
+    "hi": "शिखर बैठक",
+    "ar": "اجتماع القمة"
   },
   {
     "char": "奉献",
@@ -2559,7 +2762,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Buddha / Buddhismus (Abk. für 陀)",
     "es": "Buda / Budismo (abreviatura de 陀)",
-    "hi": "बुद्ध / बौद्ध धर्म (陀 के लिए संक्षेप)"
+    "hi": "बुद्ध / बौद्ध धर्म (陀 के लिए संक्षेप)",
+    "ar": "بوذا / البوذية (اختصار لـ 陀)"
   },
   {
     "char": "佛教",
@@ -2568,7 +2772,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Buddhismus",
     "es": "budismo",
-    "hi": "बौद्ध धर्म"
+    "hi": "बौद्ध धर्म",
+    "ar": "البوذية"
   },
   {
     "char": "服",
@@ -2577,7 +2782,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kleidung / Kleid",
     "es": "ropa / vestido",
-    "hi": "कपड़े/पोशाक"
+    "hi": "कपड़े/पोशाक",
+    "ar": "ملابس / فستان"
   },
   {
     "char": "浮",
@@ -2586,7 +2792,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schweben / oberflächlich",
     "es": "flotar / superficial",
-    "hi": "तैरना / सतही होना"
+    "hi": "तैरना / सतही होना",
+    "ar": "لتطفو / سطحية"
   },
   {
     "char": "父女",
@@ -2595,7 +2802,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Vater und Tochter",
     "es": "padre e hija",
-    "hi": "पिता और पुत्री"
+    "hi": "पिता और पुत्री",
+    "ar": "الأب وابنته"
   },
   {
     "char": "父子",
@@ -2604,7 +2812,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Vater und Sohn",
     "es": "padre e hijo",
-    "hi": "पिता और पुत्र"
+    "hi": "पिता और पुत्र",
+    "ar": "الأب والابن"
   },
   {
     "char": "妇女",
@@ -2613,7 +2822,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Frau",
     "es": "mujer",
-    "hi": "औरत"
+    "hi": "औरत",
+    "ar": "امرأة"
   },
   {
     "char": "负",
@@ -2622,7 +2832,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "tragen / tragen (auf dem Rücken)",
     "es": "llevar / llevar (en la espalda)",
-    "hi": "सहन करना/ले जाना (अपनी पीठ पर)"
+    "hi": "सहन करना/ले जाना (अपनी पीठ पर)",
+    "ar": "يحمل / يحمل (على ظهره)"
   },
   {
     "char": "复苏",
@@ -2631,7 +2842,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich erholen (gesundheitlich, wirtschaftlich) / wiederbeleben",
     "es": "recuperarse (salud, económico) / resucitar",
-    "hi": "ठीक होना (स्वास्थ्य, आर्थिक)/पुनर्जीवित करना"
+    "hi": "ठीक होना (स्वास्थ्य, आर्थिक)/पुनर्जीवित करना",
+    "ar": "للتعافي (الصحي والاقتصادي) / للإنعاش"
   },
   {
     "char": "副",
@@ -2651,7 +2863,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "reicher Mensch",
     "es": "persona rica",
-    "hi": "अमीर व्यक्ति"
+    "hi": "अमीर व्यक्ति",
+    "ar": "شخص غني"
   },
   {
     "char": "富有",
@@ -2660,7 +2873,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "reich / wohlhabend",
     "es": "rico / rico",
-    "hi": "अमीर/अमीर"
+    "hi": "अमीर/अमीर",
+    "ar": "غني / ثري"
   },
   {
     "char": "改装",
@@ -2669,7 +2883,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sein Kostüm wechseln / umpacken",
     "es": "cambiarse de disfraz / reenvasarse",
-    "hi": "किसी की पोशाक बदलना / पुनः पैकेजिंग करना"
+    "hi": "किसी की पोशाक बदलना / पुनः पैकेजिंग करना",
+    "ar": "لتغيير زي الشخص / لإعادة التعبئة"
   },
   {
     "char": "杆",
@@ -2678,7 +2893,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pol",
     "es": "poste",
-    "hi": "खंभा"
+    "hi": "खंभा",
+    "ar": "القطب"
   },
   {
     "char": "肝",
@@ -2687,7 +2903,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Leber / (Slang) lange Stunden damit verbringen, normalerweise bis spät in die Nacht (ein Videospiel) zu spielen",
     "es": "hígado / (jerga) pasar largas horas, generalmente hasta altas horas de la noche, jugando (un videojuego)",
-    "hi": "लीवर / (स्लैंग) लंबे समय तक खेलना, आमतौर पर देर रात तक खेलना (एक वीडियो गेम)"
+    "hi": "लीवर / (स्लैंग) लंबे समय तक खेलना, आमतौर पर देर रात तक खेलना (एक वीडियो गेम)",
+    "ar": "الكبد / (عامية) لقضاء ساعات طويلة، عادة في وقت متأخر من الليل، للعب (لعبة فيديو)"
   },
   {
     "char": "赶不上",
@@ -2696,7 +2913,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kann nicht mithalten",
     "es": "no puedo seguir el ritmo",
-    "hi": "साथ नहीं रख सकते"
+    "hi": "साथ नहीं रख सकते",
+    "ar": "لا يمكن مواكبة"
   },
   {
     "char": "赶忙",
@@ -2705,7 +2923,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich beeilen / sich beeilen",
     "es": "apresurarse / apresurarse",
-    "hi": "जल्दी करना/जल्दी करना"
+    "hi": "जल्दी करना/जल्दी करना",
+    "ar": "يسرع / يسرع"
   },
   {
     "char": "赶上",
@@ -2714,7 +2933,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mitzuhalten",
     "es": "para mantenerse al día con",
-    "hi": "साथ रखने के लिए"
+    "hi": "साथ रखने के लिए",
+    "ar": "لمواكبة"
   },
   {
     "char": "敢于",
@@ -2723,7 +2943,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "den Mut haben, etw zu tun / es zu wagen",
     "es": "tener el coraje de hacer algo / atreverse a",
-    "hi": "sth करने का साहस रखना/करने का साहस करना"
+    "hi": "sth करने का साहस रखना/करने का साहस करना",
+    "ar": "أن يكون لديك الشجاعة للقيام بشيء ما/للجرأة على القيام بذلك"
   },
   {
     "char": "感人",
@@ -2732,7 +2953,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "berühren/bewegen",
     "es": "tocar / mover",
-    "hi": "छूना/हिलाना"
+    "hi": "छूना/हिलाना",
+    "ar": "اللمس / التحرك"
   },
   {
     "char": "干涉",
@@ -2752,7 +2974,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gerade / genau",
     "es": "sólo / exactamente",
-    "hi": "बस/बिल्कुल"
+    "hi": "बस/बिल्कुल",
+    "ar": "فقط / بالضبط"
   },
   {
     "char": "岗位",
@@ -2783,7 +3006,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hochhaus / hohes Niveau",
     "es": "rascacielos / alto nivel",
-    "hi": "ऊँचा-ऊँचा / ऊँचा स्तर"
+    "hi": "ऊँचा-ऊँचा / ऊँचा स्तर",
+    "ar": "شاهقة / عالية المستوى"
   },
   {
     "char": "高档",
@@ -2803,7 +3027,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hohes Niveau / höher (Tiere, Bildung usw.)",
     "es": "nivel alto / superior (animales, educación, etc.)",
-    "hi": "उच्च-स्तरीय / उच्चतर (पशु, शिक्षा आदि)"
+    "hi": "उच्च-स्तरीय / उच्चतर (पशु, शिक्षा आदि)",
+    "ar": "مستوى عالٍ / أعلى (الحيوانات والتعليم وما إلى ذلك)"
   },
   {
     "char": "高峰",
@@ -2834,7 +3059,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hightech",
     "es": "alta tecnología",
-    "hi": "उच्च तकनीक"
+    "hi": "उच्च तकनीक",
+    "ar": "التكنولوجيا العالية"
   },
   {
     "char": "高手",
@@ -2843,7 +3069,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Experte / Altmeister",
     "es": "experto / pasado maestro",
-    "hi": "विशेषज्ञ/अतीत गुरु"
+    "hi": "विशेषज्ञ/अतीत गुरु",
+    "ar": "خبير / سيد الماضي"
   },
   {
     "char": "稿子",
@@ -2852,7 +3079,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Entwurf eines Dokuments/Skripts",
     "es": "borrador de un documento / guión",
-    "hi": "किसी दस्तावेज़/स्क्रिप्ट का मसौदा"
+    "hi": "किसी दस्तावेज़/स्क्रिप्ट का मसौदा",
+    "ar": "مسودة وثيقة / البرنامج النصي"
   },
   {
     "char": "歌唱",
@@ -2861,7 +3089,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "singen",
     "es": "cantar",
-    "hi": "गाना"
+    "hi": "गाना",
+    "ar": "للغناء"
   },
   {
     "char": "歌词",
@@ -2870,7 +3099,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Liedtext / Liedtext",
     "es": "letra de la canción / letra",
-    "hi": "गीत के बोल / बोल"
+    "hi": "गीत के बोल / बोल",
+    "ar": "كلمات الأغنية / كلمات"
   },
   {
     "char": "歌星",
@@ -2879,7 +3109,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "singender Star / berühmter Sänger",
     "es": "estrella cantante / cantante famoso",
-    "hi": "गायन सितारा/प्रसिद्ध गायक"
+    "hi": "गायन सितारा/प्रसिद्ध गायक",
+    "ar": "نجم الغناء / مطرب مشهور"
   },
   {
     "char": "革新",
@@ -2888,7 +3119,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "innovieren / Innovation",
     "es": "innovar / innovación",
-    "hi": "नवप्रवर्तन/नवाचार करना"
+    "hi": "नवप्रवर्तन/नवाचार करना",
+    "ar": "للابتكار / الابتكار"
   },
   {
     "char": "给予",
@@ -2908,7 +3140,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "noch mehr (so)",
     "es": "aún más (así)",
-    "hi": "और भी अधिक (तो)"
+    "hi": "और भी अधिक (तो)",
+    "ar": "أكثر (هكذا)"
   },
   {
     "char": "工商",
@@ -2917,7 +3150,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Industrie und Handel",
     "es": "industria y comercio",
-    "hi": "उद्योग और वाणिज्य"
+    "hi": "उद्योग और वाणिज्य",
+    "ar": "الصناعة والتجارة"
   },
   {
     "char": "公",
@@ -2926,7 +3160,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "öffentliches / kollektives Eigentum",
     "es": "propiedad pública / colectiva",
-    "hi": "सार्व��निक/सामूहिक स्वामित्व वाली"
+    "hi": "सार्व��निक/सामूहिक स्वामित्व वाली",
+    "ar": "العامة / المملوكة بشكل جماعي"
   },
   {
     "char": "公安",
@@ -2935,7 +3170,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Ministerium für) öffentliche Sicherheit",
     "es": "(Ministerio de) Seguridad Pública",
-    "hi": "(मंत्रालय) सार्वजनिक सुरक्षा"
+    "hi": "(मंत्रालय) सार्वजनिक सुरक्षा",
+    "ar": "(وزارة) الأمن العام"
   },
   {
     "char": "公鸡",
@@ -2944,7 +3180,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hahn / Hahn",
     "es": "gallo / gallo",
-    "hi": "मुर्गा/मुर्गा"
+    "hi": "मुर्गा/मुर्गा",
+    "ar": "الديك / الديك"
   },
   {
     "char": "公众",
@@ -2953,7 +3190,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "öffentlich",
     "es": "publico",
-    "hi": "सार्वजनिक"
+    "hi": "सार्वजनिक",
+    "ar": "عام"
   },
   {
     "char": "公主",
@@ -2995,7 +3233,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Gong",
     "es": "apellido gong",
-    "hi": "उपनाम गोंग"
+    "hi": "उपनाम गोंग",
+    "ar": "اللقب غونغ"
   },
   {
     "char": "巩固",
@@ -3004,7 +3243,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "konsolidieren / konsolidieren",
     "es": "consolidar / consolidar",
-    "hi": "समेकन/समेकन करना"
+    "hi": "समेकन/समेकन करना",
+    "ar": "لتوطيد / توحيد"
   },
   {
     "char": "贡献",
@@ -3024,7 +3264,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "konstruieren (etw. Zusammenfassung)",
     "es": "construir (algo abstracto)",
-    "hi": "निर्माण करना (sth सार)"
+    "hi": "निर्माण करना (sth सार)",
+    "ar": "للبناء (الملخص)"
   },
   {
     "char": "姑姑",
@@ -3055,7 +3296,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Waise",
     "es": "huérfano",
-    "hi": "अनाथ"
+    "hi": "अनाथ",
+    "ar": "يتيم"
   },
   {
     "char": "古典",
@@ -3075,7 +3317,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Oberschenkel / Teil eines Ganzen",
     "es": "muslo / parte de un todo",
-    "hi": "जाँघ/पूरे का हिस्सा"
+    "hi": "जाँघ/पूरे का हिस्सा",
+    "ar": "الفخذ / جزء من الكل"
   },
   {
     "char": "股东",
@@ -3117,7 +3360,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Gu",
     "es": "apellido Gu",
-    "hi": "उपनाम गु"
+    "hi": "उपनाम गु",
+    "ar": "اللقب قو"
   },
   {
     "char": "刮",
@@ -3126,7 +3370,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kratzen / blasen",
     "es": "raspar / soplar",
-    "hi": "कुरेदना/उड़ाना"
+    "hi": "कुरेदना/उड़ाना",
+    "ar": "لكشط / لتفجير"
   },
   {
     "char": "拐",
@@ -3135,7 +3380,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "umdrehen (um eine Ecke usw.) / entführen",
     "es": "doblar (una esquina, etc.) / secuestrar",
-    "hi": "मोड़ना (कोना आदि) / अपहरण करना"
+    "hi": "मोड़ना (कोना आदि) / अपहरण करना",
+    "ar": "لتحويل (زاوية الخ) / لخطف"
   },
   {
     "char": "关爱",
@@ -3144,7 +3390,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Sorge und Fürsorge zeigen",
     "es": "mostrar preocupación y cuidado por",
-    "hi": "चिंता दिखाना और देखभाल करना"
+    "hi": "चिंता दिखाना और देखभाल करना",
+    "ar": "لإظهار الاهتمام والرعاية"
   },
   {
     "char": "关联",
@@ -3153,7 +3400,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verwandt sein / verbunden sein",
     "es": "estar relacionado / estar conectado",
-    "hi": "संबंधित होना/जुड़ा होना"
+    "hi": "संबंधित होना/जुड़ा होना",
+    "ar": "أن تكون ذات صلة / أن تكون متصلا"
   },
   {
     "char": "观光",
@@ -3184,7 +3432,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schläuche / Rohrleitungen",
     "es": "tubería / tubería",
-    "hi": "ट्यूबिंग/पाइपलाइन"
+    "hi": "ट्यूबिंग/पाइपलाइन",
+    "ar": "الأنابيب / خط الأنابيب"
   },
   {
     "char": "光辉",
@@ -3237,7 +3486,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "im Inland produziert",
     "es": "producido en el país",
-    "hi": "घरेलू स्तर पर उत्पादित"
+    "hi": "घरेलू स्तर पर उत्पादित",
+    "ar": "أنتجت محليا"
   },
   {
     "char": "国歌",
@@ -3246,7 +3496,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nationalhymne",
     "es": "himno nacional",
-    "hi": "राष्ट्रगान"
+    "hi": "राष्ट्रगान",
+    "ar": "النشيد الوطني"
   },
   {
     "char": "国会",
@@ -3255,7 +3506,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Parlament (Großbritannien) / Kongress (USA)",
     "es": "Parlamento (Reino Unido) / Congreso (EE.UU.)",
-    "hi": "संसद (यूके) / कांग्रेस (यूएस)"
+    "hi": "संसद (यूके) / कांग्रेस (यूएस)",
+    "ar": "البرلمان (المملكة المتحدة) / الكونجرس (الولايات المتحدة)"
   },
   {
     "char": "国旗",
@@ -3264,7 +3516,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Flagge (eines Landes)",
     "es": "bandera (de un país)",
-    "hi": "झंडा (किसी देश का)"
+    "hi": "झंडा (किसी देश का)",
+    "ar": "علم (دولة)"
   },
   {
     "char": "国王",
@@ -3273,7 +3526,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "König",
     "es": "rey",
-    "hi": "राजा"
+    "hi": "राजा",
+    "ar": "ملك"
   },
   {
     "char": "果酱",
@@ -3282,7 +3536,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Marmelade",
     "es": "mermelada",
-    "hi": "जाम"
+    "hi": "जाम",
+    "ar": "مربى"
   },
   {
     "char": "果树",
@@ -3291,7 +3546,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Obstbaum",
     "es": "arbol frutal",
-    "hi": "फलदार वृक्ष"
+    "hi": "फलदार वृक्ष",
+    "ar": "شجرة الفاكهة"
   },
   {
     "char": "过渡",
@@ -3311,7 +3567,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nach der Veranstaltung",
     "es": "después del evento",
-    "hi": "घटना के बाद"
+    "hi": "घटना के बाद",
+    "ar": "بعد الحدث"
   },
   {
     "char": "过时",
@@ -3320,7 +3577,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "altmodisch / veraltet",
     "es": "anticuado/anticuado",
-    "hi": "पुराने ज़माने का / पुराना"
+    "hi": "पुराने ज़माने का / पुराना",
+    "ar": "الطراز القديم / عفا عليه الزمن"
   },
   {
     "char": "海报",
@@ -3329,7 +3587,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Poster / Theaterzettel",
     "es": "cartel / programa de mano",
-    "hi": "पोस्टर/प्लेबिल"
+    "hi": "पोस्टर/प्लेबिल",
+    "ar": "ملصق / إعلان اللعب"
   },
   {
     "char": "海底",
@@ -3338,7 +3597,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Meeresboden / Meeresboden",
     "es": "fondo marino / fondo marino",
-    "hi": "समुद्र तल/समुद्र तल"
+    "hi": "समुद्र तल/समुद्र तल",
+    "ar": "قاع البحر / قاع البحر"
   },
   {
     "char": "海军",
@@ -3347,7 +3607,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Marine",
     "es": "azul marino",
-    "hi": "नौसेना"
+    "hi": "नौसेना",
+    "ar": "البحرية"
   },
   {
     "char": "海浪",
@@ -3356,7 +3617,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Meereswelle",
     "es": "ola del mar",
-    "hi": "समुद्र की लहर"
+    "hi": "समुद्र की लहर",
+    "ar": "موجة البحر"
   },
   {
     "char": "海外",
@@ -3365,7 +3627,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Übersee / Ausland",
     "es": "en el extranjero / en el extranjero",
-    "hi": "विदेश/विदेश"
+    "hi": "विदेश/विदेश",
+    "ar": "في الخارج / في الخارج"
   },
   {
     "char": "海湾",
@@ -3374,7 +3637,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Persischer) Golf",
     "es": "Golfo (Pérsico)",
-    "hi": "(फ़ारसी) खाड़ी"
+    "hi": "(फ़ारसी) खाड़ी",
+    "ar": "(الخليج الفارسی"
   },
   {
     "char": "海洋",
@@ -3394,7 +3658,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit großer Schwierigkeit / sehr schwierig",
     "es": "con mucha dificultad / muy difícil",
-    "hi": "बड़ी मुश्किल से / बहुत मुश्किल से"
+    "hi": "बड़ी मुश्किल से / बहुत मुश्किल से",
+    "ar": "بصعوبة كبيرة / صعب جدا"
   },
   {
     "char": "好容易",
@@ -3403,7 +3668,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(idiomatischer Gebrauch) mit großen Schwierigkeiten / Schwierigkeiten haben (jenen überzeugen, auf etw verzichten usw.)",
     "es": "(uso idiomático) con gran dificultad / pasar un momento difícil (convencer a alguien, renunciar a algo, etc.)",
-    "hi": "(मुहावरेदार प्रयोग) बड़ी कठिनाई से / कठिन समय बिताना (एसबी को मनाना, एसटीएच को छोड़ना आदि)"
+    "hi": "(मुहावरेदार प्रयोग) बड़ी कठिनाई से / कठिन समय बिताना (एसबी को मनाना, एसटीएच को छोड़ना आदि)",
+    "ar": "(استخدام اصطلاحي) بصعوبة كبيرة / أن تواجه صعوبة (إقناع بينالي الشارقة، والتخلي عن شيء ما، وما إلى ذلك)"
   },
   {
     "char": "好容易",
@@ -3412,7 +3678,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(idiomatischer Gebrauch) mit großen Schwierigkeiten / Schwierigkeiten haben (jenen überzeugen, auf etw verzichten usw.)",
     "es": "(uso idiomático) con gran dificultad / pasar un momento difícil (convencer a alguien, renunciar a algo, etc.)",
-    "hi": "(मुहावरेदार प्रयोग) बड़ी कठिनाई से / कठिन समय बिताना (एसबी को मनाना, एसटीएच को छोड़ना आदि)"
+    "hi": "(मुहावरेदार प्रयोग) बड़ी कठिनाई से / कठिन समय बिताना (एसबी को मनाना, एसटीएच को छोड़ना आदि)",
+    "ar": "(استخدام اصطلاحي) بصعوبة كبيرة / أن تواجه صعوبة (إقناع بينالي الشارقة، والتخلي عن شيء ما، وما إلى ذلك)"
   },
   {
     "char": "好似",
@@ -3421,7 +3688,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "scheinen/sein",
     "es": "parecer / ser como",
-    "hi": "प्रतीत होना/जैसा होना"
+    "hi": "प्रतीत होना/जैसा होना",
+    "ar": "ليبدو / ليكون مثل"
   },
   {
     "char": "好学",
@@ -3430,7 +3698,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "leicht zu erlernen",
     "es": "fácil de aprender",
-    "hi": "सीखना आसान है"
+    "hi": "सीखना आसान है",
+    "ar": "من السهل التعلم"
   },
   {
     "char": "好转",
@@ -3439,7 +3708,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich verbessern / eine Wendung zum Besseren nehmen",
     "es": "mejorar / dar un giro para mejorar",
-    "hi": "सुधार करना/बेहतर की ओर मोड़ लेना"
+    "hi": "सुधार करना/बेहतर की ओर मोड़ लेना",
+    "ar": "لتحسين / لاتخاذ منعطف نحو الأفضل"
   },
   {
     "char": "合约",
@@ -3448,7 +3718,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Vertrag / Vertrag",
     "es": "tratado / contrato",
-    "hi": "संधि/अनुबंध"
+    "hi": "संधि/अनुबंध",
+    "ar": "معاهدة / عقد"
   },
   {
     "char": "和谐",
@@ -3479,7 +3750,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nacht",
     "es": "noche",
-    "hi": "रात"
+    "hi": "रात",
+    "ar": "ليلة"
   },
   {
     "char": "很难说",
@@ -3488,7 +3760,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schwer zu sagen",
     "es": "Difícil de decir",
-    "hi": "कहना मुश्किल है"
+    "hi": "कहना मुश्किल है",
+    "ar": "من الصعب القول"
   },
   {
     "char": "狠",
@@ -3497,7 +3770,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "rücksichtslos / wild",
     "es": "despiadado / feroz",
-    "hi": "निर्दयी/भयंकर"
+    "hi": "निर्दयी/भयंकर",
+    "ar": "لا يرحم / شرسة"
   },
   {
     "char": "横",
@@ -3517,7 +3791,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "abwägen / untersuchen",
     "es": "pesar / examinar",
-    "hi": "तौलना/परखना"
+    "hi": "तौलना/परखना",
+    "ar": "للوزن / للفحص"
   },
   {
     "char": "宏大",
@@ -3526,7 +3801,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "großartig / großartig",
     "es": "genial / grandioso",
-    "hi": "महान/भव्य"
+    "hi": "महान/भव्य",
+    "ar": "عظيم / كبير"
   },
   {
     "char": "洪水",
@@ -3568,7 +3844,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "interagieren / interaktiv",
     "es": "interactuar / interactivo",
-    "hi": "बातचीत/इंटरैक्ट करना"
+    "hi": "बातचीत/इंटरैक्ट करना",
+    "ar": "للتفاعل / التفاعلية"
   },
   {
     "char": "户外",
@@ -3577,7 +3854,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "im Freien",
     "es": "al aire libre",
-    "hi": "आउटडोर"
+    "hi": "आउटडोर",
+    "ar": "في الهواء الطلق"
   },
   {
     "char": "护",
@@ -3586,7 +3864,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zu schützen",
     "es": "proteger",
-    "hi": "रक्षा करना"
+    "hi": "रक्षा करना",
+    "ar": "للحماية"
   },
   {
     "char": "花费",
@@ -3595,7 +3874,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Aufwand / Kosten",
     "es": "gasto / costo",
-    "hi": "व्यय/लागत"
+    "hi": "व्यय/लागत",
+    "ar": "حساب / تكلفة"
   },
   {
     "char": "花瓶",
@@ -3604,7 +3884,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Blumenvase / (Abb.) Angestellte, die nur für ein hübsches Gesicht gehalten wird (attraktiv, aber nicht sehr kompetent)",
     "es": "florero / (fig.) empleada considerada simplemente una cara bonita (atractiva pero no muy competente)",
-    "hi": "फूलदान / (अ��जीर) महिला कर्मचारी को केवल सुंदर चेहरा माना जाता है (आकर्षक लेकिन बहुत सक्षम नहीं)"
+    "hi": "फूलदान / (अ��जीर) महिला कर्मचारी को केवल सुंदर चेहरा माना जाता है (आकर्षक लेकिन बहुत सक्षम नहीं)",
+    "ar": "مزهرية زهور / (الشكل) موظفة تعتبر مجرد وجه جميل (جذابة ولكن ليست ذات كفاءة عالية)"
   },
   {
     "char": "花生",
@@ -3624,7 +3905,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auflösen / auflösen (Widersprüche)",
     "es": "disolver / resolver (contradicciones)",
-    "hi": "विघटित करना/समाधान करना (विरोधाभास)"
+    "hi": "विघटित करना/समाधान करना (विरोधाभास)",
+    "ar": "لحل / لحل (التناقضات)"
   },
   {
     "char": "幻想",
@@ -3655,7 +3937,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kaiser",
     "es": "emperador",
-    "hi": "सम्राट"
+    "hi": "सम्राट",
+    "ar": "الإمبراطور"
   },
   {
     "char": "回应",
@@ -3664,7 +3947,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "antworten/antworten",
     "es": "responder / responder",
-    "hi": "प्रतिक्रिया देना/जवाब देना"
+    "hi": "प्रतिक्रिया देना/जवाब देना",
+    "ar": "للرد / الاستجابة"
   },
   {
     "char": "毁",
@@ -3673,7 +3957,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zerstören / ruinieren",
     "es": "destruir / arruinar",
-    "hi": "नष्ट करना/बर्बाद करना"
+    "hi": "नष्ट करना/बर्बाद करना",
+    "ar": "لتدمير / لتخريب"
   },
   {
     "char": "会见",
@@ -3682,7 +3967,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich mit jdm treffen, der einen Besuch abstattet",
     "es": "reunirse con (alguien que está de visita)",
-    "hi": "(एसबी जो मिलने आ रहा है) से मिलने के लिए"
+    "hi": "(एसबी जो मिलने आ रहा है) से मिलने के लिए",
+    "ar": "للقاء (بينالي الشارقة الذي يقوم بزيارة)"
   },
   {
     "char": "会长",
@@ -3691,7 +3977,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Präsident eines Vereins, Ausschusses etc",
     "es": "presidente de un club, comité, etc.",
-    "hi": "किसी क्लब, समिति आदि का अध्यक्ष"
+    "hi": "किसी क्लब, समिति आदि का अध्यक्ष",
+    "ar": "رئيس النادي أو اللجنة الخ"
   },
   {
     "char": "绘画",
@@ -3700,7 +3987,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Zeichnen / Malen",
     "es": "dibujo / pintura",
-    "hi": "ड्राइंग/पेंटिंग"
+    "hi": "ड्राइंग/पेंटिंग",
+    "ar": "الرسم / اللوحة"
   },
   {
     "char": "昏",
@@ -3709,7 +3997,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verwirrt / Dämmerung",
     "es": "confuso / crepúsculo",
-    "hi": "उलझा हुआ / गोधूलि"
+    "hi": "उलझा हुआ / गोधूलि",
+    "ar": "مشوش الرأس / الشفق"
   },
   {
     "char": "混",
@@ -3718,7 +4007,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verwirrt / schmutzig",
     "es": "confundido / sucio",
-    "hi": "भ्रमित/गंदा"
+    "hi": "भ्रमित/गंदा",
+    "ar": "الخلط / القذرة"
   },
   {
     "char": "混合",
@@ -3771,7 +4061,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kraftfahrzeug",
     "es": "veh��culo de motor",
-    "hi": "मोटर वाहन"
+    "hi": "मोटर वाहन",
+    "ar": "سيارة"
   },
   {
     "char": "机关",
@@ -3802,7 +4093,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Christentum / Christlich",
     "es": "Cristianismo / Cristiano",
-    "hi": "ईसाई धर्म / ईसाई"
+    "hi": "ईसाई धर्म / ईसाई",
+    "ar": "المسيحية / المسيحية"
   },
   {
     "char": "激情",
@@ -3833,7 +4125,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "glücklich/glückverheißend",
     "es": "afortunado / auspicioso",
-    "hi": "भाग्यशाली/शुभ"
+    "hi": "भाग्यशाली/शुभ",
+    "ar": "محظوظ / الميمون"
   },
   {
     "char": "极端",
@@ -3842,7 +4135,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "extrem",
     "es": "extremo",
-    "hi": "चरम"
+    "hi": "चरम",
+    "ar": "المدقع"
   },
   {
     "char": "急救",
@@ -3851,7 +4145,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Notfallbehandlung / Erste Hilfe leisten",
     "es": "para dar tratamiento de emergencia / primeros auxilios",
-    "hi": "आपातकालीन उपचार/प्राथमिक चिकित्सा देना"
+    "hi": "आपातकालीन उपचार/प्राथमिक चिकित्सा देना",
+    "ar": "لتقديم العلاج في حالات الطوارئ / الإسعافات الأولية"
   },
   {
     "char": "疾病",
@@ -3871,7 +4166,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sammeln / sammeln",
     "es": "reunir / recoger",
-    "hi": "इकट्ठा करना/इकट्ठा करना"
+    "hi": "इकट्ठा करना/इकट्ठा करना",
+    "ar": "لجمع / لجمع"
   },
   {
     "char": "加盟",
@@ -3880,7 +4176,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mitglied einer Allianz oder Gewerkschaft werden / sich zusammenschließen",
     "es": "convertirse en miembro de una alianza o sindicato / alinearse",
-    "hi": "किसी गठबंधन या संघ का सदस्य बनना/संरेखित होना"
+    "hi": "किसी गठबंधन या संघ का सदस्य बनना/संरेखित होना",
+    "ar": "لتصبح عضوا في تحالف أو اتحاد / للانحياز"
   },
   {
     "char": "茄子",
@@ -3889,7 +4186,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Aubergine (Solanum melongena L.) / Aubergine",
     "es": "berenjena (Solanum melongena L.) / berenjena",
-    "hi": "बैंगन (सोलनम मेलॉन्गेना एल.) / बैंगन"
+    "hi": "बैंगन (सोलनम मेलॉन्गेना एल.) / बैंगन",
+    "ar": "باذنجان (Solanum melongena L.) / باذنجان"
   },
   {
     "char": "家电",
@@ -3898,7 +4196,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "elektrisches Haushaltsgerät / Abk. für 家用电器",
     "es": "electrodoméstico / abbr. para 家用电器",
-    "hi": "घरेलू विद्युत उपकरण/एबीबीआर.家用电器 के लिए"
+    "hi": "घरेलू विद्युत उपकरण/एबीबीआर.家用电器 के लिए",
+    "ar": "الأجهزة الكهربائية المنزلية / abbr. ل 家用电器"
   },
   {
     "char": "家园",
@@ -3907,7 +4206,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Heimat / Heimat",
     "es": "hogar / patria",
-    "hi": "घर / मातृभूमि"
+    "hi": "घर / मातृभूमि",
+    "ar": "الوطن / الوطن"
   },
   {
     "char": "嘉宾",
@@ -3927,7 +4227,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Feiertag / arbeitsfreier Tag",
     "es": "feriado / día no laborable",
-    "hi": "अवकाश/गैर-कार्य दिवस"
+    "hi": "अवकाश/गैर-कार्य दिवस",
+    "ar": "عطلة / يوم غير عمل"
   },
   {
     "char": "尖",
@@ -3947,7 +4248,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zu überwachen",
     "es": "monitorear",
-    "hi": "निगरानी करना"
+    "hi": "निगरानी करना",
+    "ar": "لرصد"
   },
   {
     "char": "监督",
@@ -3956,7 +4258,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kontrollieren / überwachen",
     "es": "controlar / supervisar",
-    "hi": "नियंत्रित करना/पर्यवेक्षण करना"
+    "hi": "नियंत्रित करना/पर्यवेक्षण करना",
+    "ar": "للسيطرة / للإشراف"
   },
   {
     "char": "捡",
@@ -3965,7 +4268,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "abholen / abholen",
     "es": "recoger / recoger",
-    "hi": "उठाना/इकट्ठा करना"
+    "hi": "उठाना/इकट्ठा करना",
+    "ar": "لالتقاط / لجمع"
   },
   {
     "char": "简介",
@@ -3974,7 +4278,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Zusammenfassung / kurze Einleitung",
     "es": "resumen / breve introducción",
-    "hi": "सारांश/संक्षिप्त परिचय"
+    "hi": "सारांश/संक्षिप्त परिचय",
+    "ar": "ملخص / مقدمة مختصرة"
   },
   {
     "char": "剑",
@@ -3983,7 +4288,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zweischneidiges Schwert",
     "es": "espada de doble filo",
-    "hi": "दोधारी तलवार"
+    "hi": "दोधारी तलवार",
+    "ar": "سيف ذو حدين"
   },
   {
     "char": "鉴定",
@@ -4003,7 +4309,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pfeil",
     "es": "flecha",
-    "hi": "तीर"
+    "hi": "तीर",
+    "ar": "سهم"
   },
   {
     "char": "将军",
@@ -4023,7 +4330,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lehren/vortragen",
     "es": "enseñar / conferencia",
-    "hi": "पढ़ाना/व्याख्यान देना"
+    "hi": "पढ़ाना/व्याख्यान देना",
+    "ar": "تعليم / محاضرة"
   },
   {
     "char": "酱",
@@ -4032,7 +4340,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "dicke Paste aus fermentierten Sojabohnen",
     "es": "pasta espesa de soja fermentada",
-    "hi": "किण्वित सोयाबीन का गाढ़ा पेस्ट"
+    "hi": "किण्वित सोयाबीन का गाढ़ा पेस्ट",
+    "ar": "عجينة سميكة من فول الصويا المخمر"
   },
   {
     "char": "酱油",
@@ -4074,7 +4383,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Fußabdruck",
     "es": "huella",
-    "hi": "पदचिह्न"
+    "hi": "पदचिह्न",
+    "ar": "البصمة"
   },
   {
     "char": "教堂",
@@ -4083,7 +4393,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kirche / Kapelle",
     "es": "iglesia / capilla",
-    "hi": "चर्च/चैपल"
+    "hi": "चर्च/चैपल",
+    "ar": "الكنيسة / مصلى"
   },
   {
     "char": "教育部",
@@ -4092,7 +4403,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Ministerium für Bildung",
     "es": "Ministerio de Educación",
-    "hi": "शिक्षा मंत्रालय"
+    "hi": "शिक्षा मंत्रालय",
+    "ar": "وزارة التربية والتعليم"
   },
   {
     "char": "接收",
@@ -4101,7 +4413,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Empfang (des gesendeten Signals) / empfangen",
     "es": "recepción (de señal transmitida) / recibir",
-    "hi": "रिसेप्शन (संचरित सिग्नल का) / प्राप्त करना"
+    "hi": "रिसेप्शन (संचरित सिग्नल का) / प्राप्त करना",
+    "ar": "استقبال (الإشارة المرسلة) / لتلقي"
   },
   {
     "char": "揭",
@@ -4110,7 +4423,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Jie",
     "es": "apellido Jie",
-    "hi": "उपनाम जी"
+    "hi": "उपनाम जी",
+    "ar": "اللقب جي"
   },
   {
     "char": "街头",
@@ -4119,7 +4433,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Straße",
     "es": "calle",
-    "hi": "सड़क"
+    "hi": "सड़क",
+    "ar": "شارع"
   },
   {
     "char": "节假日",
@@ -4128,7 +4443,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Feiertag",
     "es": "día festivo",
-    "hi": "सार्वजनिक अवकाश"
+    "hi": "सार्वजनिक अवकाश",
+    "ar": "عطلة رسمية"
   },
   {
     "char": "节能",
@@ -4137,7 +4453,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Energie sparen / energiesparend",
     "es": "para ahorrar energía / ahorro de energía",
-    "hi": "ऊर्जा बचाने के लिए / ऊर्जा-बचत करने के लिए"
+    "hi": "ऊर्जा बचाने के लिए / ऊर्जा-बचत करने के लिए",
+    "ar": "لتوفير الطاقة/توفير الطاقة"
   },
   {
     "char": "节奏",
@@ -4190,7 +4507,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Xie",
     "es": "apellido Xie",
-    "hi": "उपनाम झी"
+    "hi": "उपनाम झी",
+    "ar": "اللقب شيه"
   },
   {
     "char": "解说",
@@ -4199,7 +4517,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "erklären (mündlich) / einen laufenden Kommentar abgeben",
     "es": "explicar (verbalmente) / dar un comentario continuo",
-    "hi": "समझाने के लिए (मौखिक रूप से) / चल रही टिप्पणी देने के लिए"
+    "hi": "समझाने के लिए (मौखिक रूप से) / चल रही टिप्पणी देने के लिए",
+    "ar": "للشرح (لفظيًا) / لإعطاء تعليق مستمر"
   },
   {
     "char": "界",
@@ -4208,7 +4527,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(gebundene Form) Grenze / Grenze",
     "es": "(forma encuadernada) límite / frontera",
-    "hi": "(बंधा हुआ रूप) सीमा/सीमा"
+    "hi": "(बंधा हुआ रूप) सीमा/सीमा",
+    "ar": "(نموذج ملزم) الحدود / الحدود"
   },
   {
     "char": "界",
@@ -4217,7 +4537,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(gebundene Form) Grenze / Grenze",
     "es": "(forma encuadernada) límite / frontera",
-    "hi": "(बंधा हुआ रूप) सीमा/सीमा"
+    "hi": "(बंधा हुआ रूप) सीमा/सीमा",
+    "ar": "(نموذج ملزم) الحدود / الحدود"
   },
   {
     "char": "借鉴",
@@ -4237,7 +4558,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geldsumme / Geldwert",
     "es": "suma de dinero / valor monetario",
-    "hi": "धन का योग/मौद्रिक मूल्य"
+    "hi": "धन का योग/मौद्रिक मूल्य",
+    "ar": "مبلغ من المال / القيمة النقدية"
   },
   {
     "char": "金钱",
@@ -4246,7 +4568,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geld / Währung",
     "es": "dinero / moneda",
-    "hi": "पैसा/मुद्रा"
+    "hi": "पैसा/मुद्रा",
+    "ar": "المال / العملة"
   },
   {
     "char": "金融",
@@ -4266,7 +4589,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "im größten Ausmaß / (bei Verwendung vor einem Ortssubstantiv) am weitesten oder extremsten",
     "es": "en la mayor medida / (cuando se usa antes de un sustantivo de ubicación) más lejano o extremo",
-    "hi": "सबसे बड़ी सीमा तक / (जब स्थान की संज्ञा से पहले उपयोग किया जाता है) सबसे दूर या चरम"
+    "hi": "सबसे बड़ी सीमा तक / (जब स्थान की संज्ञा से पहले उपयोग किया जाता है) सबसे दूर या चरम",
+    "ar": "إلى أقصى حد / (عند استخدامها قبل اسم الموقع) الأبعد أو الأقصى"
   },
   {
     "char": "近日",
@@ -4275,7 +4599,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(in) den letzten Tagen / vor kurzem",
     "es": "(en) los últimos días / recientemente",
-    "hi": "(में) पिछले क���छ दिन/हाल ही में"
+    "hi": "(में) पिछले क���छ दिन/हाल ही में",
+    "ar": "(في) الأيام القليلة الماضية / مؤخرًا"
   },
   {
     "char": "近视",
@@ -4284,7 +4609,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kurzsichtig / kurzsichtig",
     "es": "miope / miope",
-    "hi": "अदूरदर्शी/अदूरदर्शी"
+    "hi": "अदूरदर्शी/अदूरदर्शी",
+    "ar": "قصر النظر / قصر النظر"
   },
   {
     "char": "进攻",
@@ -4304,7 +4630,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "erstaunlich",
     "es": "asombroso",
-    "hi": "आश्चर्यजनक"
+    "hi": "आश्चर्यजनक",
+    "ar": "مذهل"
   },
   {
     "char": "惊喜",
@@ -4313,7 +4640,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schöne Überraschung / angenehm überrascht werden",
     "es": "agradable sorpresa / ser gratamente sorprendido",
-    "hi": "अच्छा आश्चर्य / सुखद आश्चर्य होना"
+    "hi": "अच्छा आश्चर्य / सुखद आश्चर्य होना",
+    "ar": "مفاجأة جميلة / أن تكون مفاجأة سارة"
   },
   {
     "char": "精",
@@ -4322,7 +4650,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Essenz / Extrakt",
     "es": "esencia / extracto",
-    "hi": "सार/अर्क"
+    "hi": "सार/अर्क",
+    "ar": "جوهر / استخراج"
   },
   {
     "char": "精美",
@@ -4331,7 +4660,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zart / fein",
     "es": "delicado / fino",
-    "hi": "नाजुक / बढ़िया"
+    "hi": "नाजुक / बढ़िया",
+    "ar": "حساسة / غرامة"
   },
   {
     "char": "精品",
@@ -4340,7 +4670,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Qualitätsware / Premiumprodukt",
     "es": "productos de calidad / producto premium",
-    "hi": "गुणवत्तापूर्ण सामान / प्रीमियम उत्पाद"
+    "hi": "गुणवत्तापूर्ण सामान / प्रीमियम उत्पाद",
+    "ar": "سلع ذات جودة عالية / منتج متميز"
   },
   {
     "char": "井",
@@ -4360,7 +4691,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Jing",
     "es": "apellido jing",
-    "hi": "उपनाम जिंग"
+    "hi": "उपनाम जिंग",
+    "ar": "اللقب جينغ"
   },
   {
     "char": "景点",
@@ -4369,7 +4701,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Touristenattraktion / Aussichtspunkt",
     "es": "atracción turística/lugar escénico",
-    "hi": "पर्यटक आकर्षण/दर्शनीय स्थल"
+    "hi": "पर्यटक आकर्षण/दर्शनीय स्थल",
+    "ar": "منطقة جذب سياحي / منطقة ذات مناظر خلابة"
   },
   {
     "char": "净",
@@ -4378,7 +4711,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Variante von 净",
     "es": "variante de 净",
-    "hi": "净 का प्रकार"
+    "hi": "净 का प्रकार",
+    "ar": "البديل من 净"
   },
   {
     "char": "纠纷",
@@ -4409,7 +4743,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Getränk / Getränk",
     "es": "bebida / bebida",
-    "hi": "पेय पदार्थ / पेय"
+    "hi": "पेय पदार्थ / पेय",
+    "ar": "مشروب / شراب"
   },
   {
     "char": "救命",
@@ -4418,7 +4753,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "jdm das Leben retten / (Interj.) Hilfe!",
     "es": "para salvar la vida de alguien / (interj.) ¡Ayuda!",
-    "hi": "एसबी की जान बचाने के लिए / (इंटरजे.) मदद करें!"
+    "hi": "एसबी की जान बचाने के लिए / (इंटरजे.) मदद करें!",
+    "ar": "لإنقاذ حياة بينالي الشارقة / (interj.) مساعدة!"
   },
   {
     "char": "救援",
@@ -4427,7 +4763,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sparen / unterstützen",
     "es": "guardar / apoyar",
-    "hi": "बचाना/समर्थन करना"
+    "hi": "बचाना/समर्थन करना",
+    "ar": "لحفظ / لدعم"
   },
   {
     "char": "救助",
@@ -4436,7 +4773,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "jdm in Not helfen / Hilfe leisten",
     "es": "ayudar a alguien en problemas / ayuda",
-    "hi": "मुसीबत / सहायता में एसबी की मदद करने के लिए"
+    "hi": "मुसीबत / सहायता में एसबी की मदद करने के लिए",
+    "ar": "لمساعدة بينالي الشارقة في ورطة / المساعدات"
   },
   {
     "char": "就是说",
@@ -4445,7 +4783,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit anderen Worten / das heißt",
     "es": "en otras palabras / eso es",
-    "hi": "दूसरे शब्दों में/अर्थात"
+    "hi": "दूसरे शब्दों में/अर्थात",
+    "ar": "وبعبارة أخرى / هذا هو"
   },
   {
     "char": "就算",
@@ -4454,7 +4793,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(ugs.) auch wenn",
     "es": "(col.) incluso si",
-    "hi": "(सं.) भले ही"
+    "hi": "(सं.) भले ही",
+    "ar": "(مجموع) حتى لو"
   },
   {
     "char": "剧",
@@ -4463,7 +4803,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Theaterarbeit (Schauspiel, Oper, Fernsehserie usw.)",
     "es": "obra teatral (obra teatral, ópera, serie de televisión, etc.)",
-    "hi": "नाट्य कार्य (नाटक, ओपेरा, टीवी श्रृंखला आदि)"
+    "hi": "नाट्य कार्य (नाटक, ओपेरा, टीवी श्रृंखला आदि)",
+    "ar": "العمل المسرحي (مسرحية، أوبرا، مسلسلات تلفزيونية، إلخ)"
   },
   {
     "char": "据",
@@ -4472,7 +4813,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Variante von 据",
     "es": "variante de 据",
-    "hi": "据 का प्रकार"
+    "hi": "据 का प्रकार",
+    "ar": "البديل من 据"
   },
   {
     "char": "捐",
@@ -4481,7 +4823,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "aufgeben / aufgeben",
     "es": "renunciar / abandonar",
-    "hi": "त्यागना/छोड़ना"
+    "hi": "त्यागना/छोड़ना",
+    "ar": "للتخلي عن / للتخلي"
   },
   {
     "char": "捐款",
@@ -4490,7 +4833,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geld spenden / Geld beisteuern",
     "es": "donar dinero / aportar fondos",
-    "hi": "धन दान करना/धन योगदान करना"
+    "hi": "धन दान करना/धन योगदान करना",
+    "ar": "للتبرع بالمال / للمساهمة بالأموال"
   },
   {
     "char": "捐赠",
@@ -4499,7 +4843,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "einen Beitrag leisten (als Geschenk) / spenden",
     "es": "contribuir (como regalo) / donar",
-    "hi": "योगदान देना (उपहार के रूप में)/दान करना"
+    "hi": "योगदान देना (उपहार के रूप में)/दान करना",
+    "ar": "للمساهمة (كهدية) / للتبرع"
   },
   {
     "char": "捐助",
@@ -4508,7 +4853,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "spenden / anbieten (Hilfe)",
     "es": "donar / ofrecer (ayuda)",
-    "hi": "दान देना/प्रस्ताव (सहायता) देना"
+    "hi": "दान देना/प्रस्ताव (सहायता) देना",
+    "ar": "يتبرع / يقدم (مساعدة)"
   },
   {
     "char": "决策",
@@ -4528,7 +4874,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "abkürzen / aussterben",
     "es": "acortar / extinguir",
-    "hi": "छोटा/विलुप्त करना"
+    "hi": "छोटा/विलुप्त करना",
+    "ar": "لقطع / انقراض"
   },
   {
     "char": "绝大多数",
@@ -4537,7 +4884,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "die überwiegende Mehrheit",
     "es": "la gran mayoría",
-    "hi": "विशाल बहुमत"
+    "hi": "विशाल बहुमत",
+    "ar": "الغالبية العظمى"
   },
   {
     "char": "觉",
@@ -4546,7 +4894,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Nickerchen / ein Schlaf",
     "es": "una siesta / un sueño",
-    "hi": "एक झपकी / एक नींद"
+    "hi": "एक झपकी / एक नींद",
+    "ar": "قيلولة / نوم"
   },
   {
     "char": "觉悟",
@@ -4577,7 +4926,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kriegsschiff / militärisches Marineschiff",
     "es": "buque de guerra / buque militar",
-    "hi": "युद्धपोत/सैन्य नौसैनिक पोत"
+    "hi": "युद्धपोत/सैन्य नौसैनिक पोत",
+    "ar": "سفينة حربية/سفينة بحرية عسكرية"
   },
   {
     "char": "军事",
@@ -4597,7 +4947,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "einleiten / beginnen",
     "es": "iniciar / empezar",
-    "hi": "आरंभ करना/शुरू करना"
+    "hi": "आरंभ करना/शुरू करना",
+    "ar": "للبدء / للبدء"
   },
   {
     "char": "开关",
@@ -4606,7 +4957,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Netzschalter / Gasventil",
     "es": "interruptor de encendido/válvula de gas",
-    "hi": "पावर स्विच / गैस वाल्व"
+    "hi": "पावर स्विच / गैस वाल्व",
+    "ar": "مفتاح الطاقة / صمام الغاز"
   },
   {
     "char": "开设",
@@ -4615,7 +4967,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "anbieten (Waren oder Dienstleistungen) / eröffnen (für Geschäfte usw.)",
     "es": "ofrecer (bienes o servicios) / abrir (para negocios, etc.)",
-    "hi": "(वस्तुओं या सेवाओं) की पेशकश करना / खोलना (व्यवसाय आदि के लिए)"
+    "hi": "(वस्तुओं या सेवाओं) की पेशकश करना / खोलना (व्यवसाय आदि के लिए)",
+    "ar": "لعرض (سلع أو خدمات) / لفتح (للأعمال التجارية وما إلى ذلك)"
   },
   {
     "char": "开通",
@@ -4624,7 +4977,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eröffnen (eine neue Straße oder Eisenbahnlinie) / einrichten (eine Hotline)",
     "es": "abrir (una nueva carretera o línea ferroviaria) / establecer (una línea directa)",
-    "hi": "खोलना (एक नई सड़��� या रेलवे लाइन) / स्थापित करना (एक हॉटलाइन)"
+    "hi": "खोलना (एक नई सड़��� या रेलवे लाइन) / स्थापित करना (एक हॉटलाइन)",
+    "ar": "لفتح (طريق أو خط سكة حديد جديد) / لإنشاء (خط ساخن)"
   },
   {
     "char": "开头",
@@ -4633,7 +4987,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Anfang / beginnen",
     "es": "comienzo / empezar",
-    "hi": "शुरुआत/शुरू करना"
+    "hi": "शुरुआत/शुरू करना",
+    "ar": "البداية / للبدء"
   },
   {
     "char": "开夜车",
@@ -4642,7 +4997,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "um das Mitternachtsöl zu verbrennen",
     "es": "para quemar el aceite de medianoche",
-    "hi": "आधी रात को तेल जलाने के लिए"
+    "hi": "आधी रात को तेल जलाने के लिए",
+    "ar": "لحرق زيت منتصف الليل"
   },
   {
     "char": "看得见",
@@ -4651,7 +5007,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kann sehen / sichtbar sein",
     "es": "puede ver / visible",
-    "hi": "देख/दिखाई दे सकते हैं"
+    "hi": "देख/दिखाई दे सकते हैं",
+    "ar": "يمكن أن نرى / مرئية"
   },
   {
     "char": "看得起",
@@ -4660,7 +5017,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Respekt zeigen/hoch schätzen",
     "es": "mostrar respeto por / tener una buena opinión de",
-    "hi": "के प्रति सम्मान प्रकट करना/उच्च विचार करना"
+    "hi": "के प्रति सम्मान प्रकट करना/उच्च विचार करना",
+    "ar": "لإظهار الاحترام ل/ للتفكير بشدة"
   },
   {
     "char": "看管",
@@ -4669,7 +5027,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zu betreuen",
     "es": "cuidar",
-    "hi": "देखभाल करने के लिए"
+    "hi": "देखभाल करने के लिए",
+    "ar": "لرعاية"
   },
   {
     "char": "看好",
@@ -4678,7 +5037,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "im Auge behalten",
     "es": "para estar atento",
-    "hi": "नजर रखने के लिए"
+    "hi": "नजर रखने के लिए",
+    "ar": "لمراقبة"
   },
   {
     "char": "看作",
@@ -4687,7 +5047,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "betrachten als / betrachten als",
     "es": "mirar como / considerar como",
-    "hi": "इस रूप में देखना/मानना"
+    "hi": "इस रूप में देखना/मानना",
+    "ar": "للنظر إلى / لاعتبار"
   },
   {
     "char": "康复",
@@ -4696,7 +5057,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich erholen / genesen (Gesundheit)",
     "es": "recuperarse / recuperarse (salud)",
-    "hi": "स्वस्थ होना / ठीक होना (स्वास्थ्य)"
+    "hi": "स्वस्थ होना / ठीक होना (स्वास्थ्य)",
+    "ar": "يتعافى / يتعافى (الصحة)"
   },
   {
     "char": "抗议",
@@ -4716,7 +5078,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Prüfungsraum",
     "es": "sala de examen",
-    "hi": "परीक्षा कक्ष"
+    "hi": "परीक्षा कक्ष",
+    "ar": "غرفة الامتحان"
   },
   {
     "char": "考题",
@@ -4725,7 +5088,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Prüfungsfrage",
     "es": "pregunta del examen",
-    "hi": "परीक्षा प्रश्न"
+    "hi": "परीक्षा प्रश्न",
+    "ar": "سؤال الامتحان"
   },
   {
     "char": "科研",
@@ -4734,7 +5098,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(wissenschaftliche) Forschung",
     "es": "investigación (científica)",
-    "hi": "(वैज्ञानिक) अनुसंधान"
+    "hi": "(वैज्ञानिक) अनुसंधान",
+    "ar": "(البحث العلمي)."
   },
   {
     "char": "客车",
@@ -4743,7 +5108,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Reisebus / Bus",
     "es": "autocar / autobús",
-    "hi": "कोच/बस"
+    "hi": "कोच/बस",
+    "ar": "مدرب / حافلة"
   },
   {
     "char": "肯",
@@ -4763,7 +5129,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Luftwaffe",
     "es": "fuerza aérea",
-    "hi": "वायु सेना"
+    "hi": "वायु सेना",
+    "ar": "القوة الجوية"
   },
   {
     "char": "口试",
@@ -4772,7 +5139,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mündliche Prüfung",
     "es": "examen oral",
-    "hi": "मौखिक परीक्षा"
+    "hi": "मौखिक परीक्षा",
+    "ar": "الفحص الشفهي"
   },
   {
     "char": "扣",
@@ -4792,7 +5160,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "rücksichtslos / stark (z. B. von Wein)",
     "es": "despiadado / fuerte (por ejemplo, de vino)",
-    "hi": "निर्दयी / मजबूत (उदाहरण के लिए शराब)"
+    "hi": "निर्दयी / मजबूत (उदाहरण के लिए शराब)",
+    "ar": "لا يرحم / قوي (على سبيل المثال من النبيذ)"
   },
   {
     "char": "跨",
@@ -4801,7 +5170,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hinübertreten/überschreiten",
     "es": "cruzar/pasar a zancadas",
-    "hi": "पार जाना / आगे बढ़ना"
+    "hi": "पार जाना / आगे बढ़ना",
+    "ar": "ليخطو / ليخطو"
   },
   {
     "char": "快车",
@@ -4810,7 +5180,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Express (Zug, Bus usw.)",
     "es": "expreso (tren, autobús, etc.)",
-    "hi": "एक्सप्रेस (ट्रेन, बस आदि)"
+    "hi": "एक्सप्रेस (ट्रेन, बस आदि)",
+    "ar": "صريحة (القطار والحافلة وغيرها)"
   },
   {
     "char": "宽阔",
@@ -4819,7 +5190,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "expansiv / breit",
     "es": "expansivo / ancho",
-    "hi": "विस्तृत/विस्तृत"
+    "hi": "विस्तृत/विस्तृत",
+    "ar": "واسعة / واسعة"
   },
   {
     "char": "矿",
@@ -4828,7 +5200,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mineralvorkommen",
     "es": "depósito mineral",
-    "hi": "खनिज भंडार"
+    "hi": "खनिज भंडार",
+    "ar": "رواسب معدنية"
   },
   {
     "char": "阔",
@@ -4848,7 +5221,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(onom.) Klang von Gesang, Jubel usw. / (phonetisch)",
     "es": "(onom.) sonido de canto, vítores, etc. / (fonético)",
-    "hi": "(ओनोम) गायन, जयकार आदि की ध्वनि / (ध्वन्यात्मक)"
+    "hi": "(ओनोम) गायन, जयकार आदि की ध्वनि / (ध्वन्यात्मक)",
+    "ar": "(onom.) صوت الغناء والهتاف وما إلى ذلك / (صوتي)"
   },
   {
     "char": "来往",
@@ -4857,7 +5231,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kommen und gehen / Geschäfte machen",
     "es": "ir y venir / tener tratos con",
-    "hi": "आना-जाना/व्यवहार करना"
+    "hi": "आना-जाना/व्यवहार करना",
+    "ar": "للمجيء والذهاب / للتعامل مع"
   },
   {
     "char": "赖",
@@ -4866,7 +5241,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Lai / (Tw) (ugs.) LINE-Messaging-App",
     "es": "apellido Lai / (Tw) (col.) Aplicación de mensajería LINE",
-    "hi": "उपनाम लाई / (Tw) (संग्रह) LINE मैसेजिंग ऐप"
+    "hi": "उपनाम लाई / (Tw) (संग्रह) LINE मैसेजिंग ऐप",
+    "ar": "اللقب Lai / (Tw) (coll.) تطبيق المراسلة LINE"
   },
   {
     "char": "栏目",
@@ -4886,7 +5262,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Arbeiter",
     "es": "obrero",
-    "hi": "नीला कॉलर"
+    "hi": "नीला कॉलर",
+    "ar": "ذوي الياقات الزرقاء"
   },
   {
     "char": "蓝天",
@@ -4895,7 +5272,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "blauer Himmel",
     "es": "cielo azul",
-    "hi": "नीला आकाश"
+    "hi": "नीला आकाश",
+    "ar": "السماء الزرقاء"
   },
   {
     "char": "懒",
@@ -4915,7 +5293,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "fest / robust",
     "es": "firme / resistente",
-    "hi": "दृढ़/मज़बूत"
+    "hi": "दृढ़/मज़बूत",
+    "ar": "حازم / قوي"
   },
   {
     "char": "老乡",
@@ -4924,7 +5303,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mitbürger",
     "es": "compañero de ciudad",
-    "hi": "साथी नगरवासी"
+    "hi": "साथी नगरवासी",
+    "ar": "زميل بلدة"
   },
   {
     "char": "乐曲",
@@ -4933,7 +5313,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "musikalische Komposition",
     "es": "composicion musical",
-    "hi": "संगीत रचना"
+    "hi": "संगीत रचना",
+    "ar": "تكوين موسيقي"
   },
   {
     "char": "冷气",
@@ -4942,7 +5323,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Klimaanlage (Tw)",
     "es": "aire acondicionado (Tw)",
-    "hi": "एयर कंडीशनिंग (Tw)"
+    "hi": "एयर कंडीशनिंग (Tw)",
+    "ar": "تكييف الهواء (تو)"
   },
   {
     "char": "冷水",
@@ -4951,7 +5333,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kaltes Wasser",
     "es": "agua fria",
-    "hi": "ठंडा पानी"
+    "hi": "ठंडा पानी",
+    "ar": "الماء البارد"
   },
   {
     "char": "礼堂",
@@ -4960,7 +5343,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Aula / Auditorium",
     "es": "salón de actos / auditorio",
-    "hi": "सभा भवन/सभागार"
+    "hi": "सभा भवन/सभागार",
+    "ar": "قاعة التجمع / القاعة"
   },
   {
     "char": "理",
@@ -4969,7 +5353,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Textur / Maserung (von Holz)",
     "es": "textura / veta (de madera)",
-    "hi": "बनावट/दाना (लकड़ी का)"
+    "hi": "बनावट/दाना (लकड़ी का)",
+    "ar": "الملمس / الحبوب (من الخشب)"
   },
   {
     "char": "理财",
@@ -4978,7 +5363,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Vermögen verwalten",
     "es": "para gestionar la riqueza",
-    "hi": "धन का प्रबंधन करने के लिए"
+    "hi": "धन का प्रबंधन करने के लिए",
+    "ar": "لإدارة الثروة"
   },
   {
     "char": "理智",
@@ -4998,7 +5384,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Li",
     "es": "apellido Li",
-    "hi": "उपनाम ली"
+    "hi": "उपनाम ली",
+    "ar": "اللقب لي"
   },
   {
     "char": "联盟",
@@ -5018,7 +5405,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Sport-)Liga",
     "es": "liga (deportiva)",
-    "hi": "(खेल) लीग"
+    "hi": "(खेल) लीग",
+    "ar": "الدوري (الرياضي)."
   },
   {
     "char": "联手",
@@ -5027,7 +5415,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lit. sich die Hände reichen / gemeinsam handeln",
     "es": "iluminado. unir nuestras manos / actuar juntos",
-    "hi": "लिट. हाथ मिलाना/मिलकर कार्य करना"
+    "hi": "लिट. हाथ मिलाना/मिलकर कार्य करना",
+    "ar": "مضاءة. لنتكا��ف / للعمل معًا"
   },
   {
     "char": "凉鞋",
@@ -5036,7 +5425,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Sandale",
     "es": "sandalia",
-    "hi": "चप्पल"
+    "hi": "चप्पल",
+    "ar": "صندل"
   },
   {
     "char": "两侧",
@@ -5045,7 +5435,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zwei seiten",
     "es": "dos lados",
-    "hi": "दो पक्ष"
+    "hi": "दो पक्ष",
+    "ar": "وجهان"
   },
   {
     "char": "两手",
@@ -5054,7 +5445,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "die beiden Hände eines Menschen",
     "es": "las dos manos",
-    "hi": "किसी के दो हाथ"
+    "hi": "किसी के दो हाथ",
+    "ar": "يديه"
   },
   {
     "char": "聊",
@@ -5063,7 +5455,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "plaudern / sich darauf verlassen (literarisch)",
     "es": "charlar / depender de (literario)",
-    "hi": "बातचीत करना / निर्भर रहना (साहित्यिक)"
+    "hi": "बातचीत करना / निर्भर रहना (साहित्यिक)",
+    "ar": "للدردشة / الاعتماد على (الأدبي)"
   },
   {
     "char": "聊天儿",
@@ -5072,7 +5465,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Erhua-Variante von 天",
     "es": "variante erhua de 天",
-    "hi": "天 का एरहुआ संस्करण"
+    "hi": "天 का एरहुआ संस्करण",
+    "ar": "إرهوا البديل من 天"
   },
   {
     "char": "料",
@@ -5081,7 +5475,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Material / Zeug",
     "es": "material / cosas",
-    "hi": "सामग्री/सामग्री"
+    "hi": "सामग्री/सामग्री",
+    "ar": "المادة / الاشياء"
   },
   {
     "char": "裂",
@@ -5090,7 +5485,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "spalten / knacken",
     "es": "dividir / agrietar",
-    "hi": "फूटना/टूटना"
+    "hi": "फूटना/टूटना",
+    "ar": "لتقسيم / للقضاء"
   },
   {
     "char": "灵活",
@@ -5110,7 +5506,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "empfangen / zeichnen",
     "es": "recibir / dibujar",
-    "hi": "प्राप्त करना/आकर्षित करना"
+    "hi": "प्राप्त करना/आकर्षित करना",
+    "ar": "لتلقي / لرسم"
   },
   {
     "char": "领袖",
@@ -5130,7 +5527,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "andere / andere",
     "es": "otro / otro",
-    "hi": "अन्य/अन्य"
+    "hi": "अन्य/अन्य",
+    "ar": "أخرى / أخرى"
   },
   {
     "char": "流感",
@@ -5139,7 +5537,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Grippe / Influenza",
     "es": "gripe / influenza",
-    "hi": "फ़्लू / इन्फ्लूएंजा"
+    "hi": "फ़्लू / इन्फ्लूएंजा",
+    "ar": "الانفلونزا / الانفلونزا"
   },
   {
     "char": "留言",
@@ -5148,7 +5547,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Nachricht hinterlassen",
     "es": "dejar un mensaje",
-    "hi": "एक संदेश छोड़ने के लिए"
+    "hi": "एक संदेश छोड़ने के लिए",
+    "ar": "لترك رسالة"
   },
   {
     "char": "楼道",
@@ -5157,7 +5557,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Korridor / Durchgang (in einem mehrstöckigen Gebäude)",
     "es": "corredor/pasaje (en edificio de varios pisos)",
-    "hi": "गलियारा/मार्ग (मंजिला इमारत में)"
+    "hi": "गलियारा/मार्ग (मंजिला इमारत में)",
+    "ar": "ممر / ممر (في ��بنى مكون من طابقين)"
   },
   {
     "char": "楼房",
@@ -5166,7 +5567,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Gebäude mit zwei oder mehr Stockwerken",
     "es": "un edificio de dos o más pisos",
-    "hi": "दो या दो से अधिक मंजिलों की इमारत"
+    "hi": "दो या दो से अधिक मंजिलों की इमारत",
+    "ar": "مبنى من طابقين أو أكثر"
   },
   {
     "char": "陆军",
@@ -5175,7 +5577,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Armee / Bodentruppen",
     "es": "ejército / fuerzas terrestres",
-    "hi": "सेना/जमीनी सेना"
+    "hi": "सेना/जमीनी सेना",
+    "ar": "قوات الجيش/البرية"
   },
   {
     "char": "录像",
@@ -5184,7 +5587,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auf Video aufnehmen / aufzeichnen",
     "es": "grabar en video / grabar en video",
-    "hi": "वीडियोटेप करना/वीडियोरिकॉर्ड करना"
+    "hi": "वीडियोटेप करना/वीडियोरिकॉर्ड करना",
+    "ar": "إلى شريط فيديو / إلى تسجيل فيديو"
   },
   {
     "char": "录音机",
@@ -5193,7 +5597,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Tonband-)Aufnahmegerät / Tonbandgerät",
     "es": "(cinta) máquina de grabación / grabadora",
-    "hi": "(टेप) रिकॉर्डिंग मशीन/टेप रिकॉर्डर"
+    "hi": "(टेप) रिकॉर्डिंग मशीन/टेप रिकॉर्डर",
+    "ar": "(الشريط) آلة التسجيل / مسجل الشريط"
   },
   {
     "char": "路过",
@@ -5202,7 +5607,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "vorbeigehen oder durchgehen",
     "es": "pasar por o por",
-    "hi": "पास से गुजरना या पार होना"
+    "hi": "पास से गुजरना या पार होना",
+    "ar": "للمرور أو من خلال"
   },
   {
     "char": "露",
@@ -5222,7 +5628,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gasthof / kleines Hotel",
     "es": "posada / pequeño hotel",
-    "hi": "सराय/छोटा होटल"
+    "hi": "सराय/छोटा होटल",
+    "ar": "نزل / فندق صغير"
   },
   {
     "char": "绿化",
@@ -5231,7 +5638,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit Pflanzen begrünen / aufforsten",
     "es": "hacer verde con plantas / reforestar",
-    "hi": "पौधों से हरा-भरा बनाना/पुनः वनीकरण करना"
+    "hi": "पौधों से हरा-भरा बनाना/पुनः वनीकरण करना",
+    "ar": "لجعل اللون الأخضر بالنباتات / لإعادة التشجير"
   },
   {
     "char": "马车",
@@ -5240,7 +5648,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Karren / Streitwagen",
     "es": "carro / carro",
-    "hi": "गाड़ी/रथ"
+    "hi": "गाड़ी/रथ",
+    "ar": "عربة / عربة"
   },
   {
     "char": "嘛",
@@ -5282,7 +5691,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lokaler Bus oder Zug",
     "es": "autobús o tren local",
-    "hi": "स्थानीय बस या ट्रेन"
+    "hi": "स्थानीय बस या ट्रेन",
+    "ar": "الحافلة المحلية أو القطار"
   },
   {
     "char": "盲人",
@@ -5291,7 +5701,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "blinder Mensch",
     "es": "persona ciega",
-    "hi": "अंधा व्यक्ति"
+    "hi": "अंधा व्यक्ति",
+    "ar": "شخص أعمى"
   },
   {
     "char": "没收",
@@ -5300,7 +5711,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "beschlagnahmen / beschlagnahmen",
     "es": "confiscar / confiscar",
-    "hi": "जब्त करना/जब्त करना"
+    "hi": "जब्त करना/जब्त करना",
+    "ar": "لمصادرة / للاستيلاء على"
   },
   {
     "char": "梅花",
@@ -5309,7 +5721,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pflaumenblüte / Kreuz ♣ (eine Farbe in Kartenspielen)",
     "es": "flor de ciruelo / tréboles ♣ (un palo en los juegos de cartas)",
-    "hi": "प्लम ब्लॉसम / क्लब ♣ (ताश के खेल में एक सूट)"
+    "hi": "प्लम ब्लॉसम / क्लब ♣ (ताश के खेल में एक सूट)",
+    "ar": "زهر البرقوق / النوادي ♣ (بدلة في ألعاب الورق)"
   },
   {
     "char": "美容",
@@ -5318,7 +5731,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sein Aussehen verbessern (durch Kosmetika oder Schönheitsoperationen) / sich attraktiver machen",
     "es": "mejorar la apariencia (usando cosméticos o cirugía estética) / hacerse más atractivo",
-    "hi": "किसी की उपस्थिति में सुधार करना (सौंदर्य प्रसाधन या कॉस्मेटिक सर्जरी का उपयोग करके) / खुद को और अधिक आकर्षक बनाना"
+    "hi": "किसी की उपस्थिति में सुधार करना (सौंदर्य प्रसाधन या कॉस्मेटिक सर्जरी का उपयोग करके) / खुद को और अधिक आकर्षक बनाना",
+    "ar": "لتحسين المظهر (باستخدام مستحضرات التجميل أو الجراحة التجميلية) / لجعل الشخص أكثر جاذبية"
   },
   {
     "char": "蒙",
@@ -5338,7 +5752,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wild / heftig",
     "es": "feroz / feroz",
-    "hi": "क्रूर/भयंकर"
+    "hi": "क्रूर/भयंकर",
+    "ar": "شرسة / شرسة"
   },
   {
     "char": "秘书长",
@@ -5347,7 +5762,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Generalsekretär",
     "es": "secretario general",
-    "hi": "महासचिव"
+    "hi": "महासचिव",
+    "ar": "الأمين العام"
   },
   {
     "char": "棉",
@@ -5356,7 +5772,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Oberbegriff für Baumwolle oder Kapok",
     "es": "término genérico para algodón o kapok",
-    "hi": "कपास या कपोक के लिए सामान्य शब्द"
+    "hi": "कपास या कपोक के लिए सामान्य शब्द",
+    "ar": "مصطلح عام للقطن أو الكابوك"
   },
   {
     "char": "免得",
@@ -5376,7 +5793,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "von Angesicht zu Angesicht",
     "es": "cara a cara",
-    "hi": "आमने सामने"
+    "hi": "आमने सामने",
+    "ar": "وجها لوجه"
   },
   {
     "char": "面向",
@@ -5385,7 +5803,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich zuwenden / sich zuwenden",
     "es": "mirar hacia / girar hacia",
-    "hi": "सामना करना/मुड़ना"
+    "hi": "सामना करना/मुड़ना",
+    "ar": "لمواجهة / للتوجه نحو"
   },
   {
     "char": "妙",
@@ -5394,7 +5813,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "klug / wunderbar",
     "es": "inteligente / maravilloso",
-    "hi": "चतुर/अद्भुत"
+    "hi": "चतुर/अद्भुत",
+    "ar": "ذكي / رائع"
   },
   {
     "char": "灭",
@@ -5414,7 +5834,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Volkslied",
     "es": "canción popular",
-    "hi": "लोकगीत"
+    "hi": "लोकगीत",
+    "ar": "أغنية شعبية"
   },
   {
     "char": "民工",
@@ -5423,7 +5844,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Wanderarbeiter (der aus einem ländlichen Gebiet Chinas in eine Stadt gezogen ist, um Arbeit zu finden)",
     "es": "trabajador migrante (que se mudó de una zona rural de China a una ciudad para encontrar trabajo)",
-    "hi": "प्रवासी श्रमिक (जो काम खोजने के लिए चीन के ग्रामीण इलाके से शहर में आए)"
+    "hi": "प्रवासी श्रमिक (जो काम खोजने के लिए चीन के ग्रामीण इलाके से शहर में आए)",
+    "ar": "العامل المهاجر (الذي انتقل من منطقة ريفية في الصين إلى مدينة للعثور على عمل)"
   },
   {
     "char": "民警",
@@ -5432,7 +5854,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Zivilpolizei",
     "es": "policia civil",
-    "hi": "सिविल पुलिस"
+    "hi": "सिविल पुलिस",
+    "ar": "الشرطة المدنية"
   },
   {
     "char": "民意",
@@ -5441,7 +5864,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "öffentliche Meinung / Volkswille",
     "es": "opinión pública / voluntad popular",
-    "hi": "जनता की राय/लोकप्रिय इच्छा"
+    "hi": "जनता की राय/लोकप्रिय इच्छा",
+    "ar": "الرأي العام/ الإرادة الشعبية"
   },
   {
     "char": "民主",
@@ -5472,7 +5896,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Ort, der für seine Landschaft oder seine historischen Relikte/einen malerischen Ort bekannt ist",
     "es": "un lugar famoso por su paisaje o reliquias históricas/lugar escénico",
-    "hi": "वह स्थान जो अपने दृश्यों या ऐतिहासिक अवशेषों/दर्शनीय स्थल के लिए प्रसिद्ध हो"
+    "hi": "वह स्थान जो अपने दृश्यों या ऐतिहासिक अवशेषों/दर्शनीय स्थल के लिए प्रसिद्ध हो",
+    "ar": "مكان مشهور بمناظره الطبيعية أو آثاره التاريخية/منظره الخلاب"
   },
   {
     "char": "名义",
@@ -5481,7 +5906,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Name / Titel",
     "es": "nombre / titular",
-    "hi": "नाम/नामांक"
+    "hi": "नाम/नामांक",
+    "ar": "الاسم / الفخري"
   },
   {
     "char": "名誉",
@@ -5501,7 +5927,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "morgen",
     "es": "mañana",
-    "hi": "कल"
+    "hi": "कल",
+    "ar": "غدا"
   },
   {
     "char": "命",
@@ -5510,7 +5937,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Leben / Schicksal",
     "es": "vida / destino",
-    "hi": "जीवन/भाग्��"
+    "hi": "जीवन/भाग्��",
+    "ar": "الحياة / القدر"
   },
   {
     "char": "膜",
@@ -5530,7 +5958,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "reiben / mahlen",
     "es": "frotar / moler",
-    "hi": "रगड़ना / पीसना"
+    "hi": "रगड़ना / पीसना",
+    "ar": "لفرك / لطحن"
   },
   {
     "char": "墨水",
@@ -5550,7 +5979,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mutter / ältere weibliche Verwandte",
     "es": "madre/pariente anciana",
-    "hi": "माँ/बुजुर्ग महिला रिश्तेदार"
+    "hi": "माँ/बुजुर्ग महिला रिश्तेदार",
+    "ar": "الأم / قريب أنثى مسنة"
   },
   {
     "char": "母鸡",
@@ -5559,7 +5989,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hen / weiß nicht (humorvoller Slang imitiert Kantonesisch 唔知, Jyutping: m4 zi1)",
     "es": "gallina / no lo sé (jerga humorística que imita al cantonés 唔知, Jyutping: m4 zi1)",
-    "hi": "मुर्गी / पता नहीं (कैंटोनीज़ 唔知 की नकल करते हुए विनोदी कठबोली भाषा, ज्युटपिंग: m4 zi1)"
+    "hi": "मुर्गी / पता नहीं (कैंटोनीज़ 唔知 की नकल करते हुए विनोदी कठबोली भाषा, ज्युटपिंग: m4 zi1)",
+    "ar": "دجاجة / لا أعرف (عامية فكاهية تحاكي الكانتونية 唔知، Jyutping: m4 zi1)"
   },
   {
     "char": "母女",
@@ -5568,7 +5999,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mutter und Tochter / Mutter-Tochter",
     "es": "madre e hija / madre-hija",
-    "hi": "माँ और बेटी / माँ-बेटी"
+    "hi": "माँ और बेटी / माँ-बेटी",
+    "ar": "الأم وابنتها / الأم وابنتها"
   },
   {
     "char": "母子",
@@ -5577,7 +6009,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mutter und Kind",
     "es": "madre e hijo",
-    "hi": "माँ और बच्चा"
+    "hi": "माँ और बच्चा",
+    "ar": "الأم والطفل"
   },
   {
     "char": "墓",
@@ -5586,7 +6019,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Grab / Grab",
     "es": "tumba / tumba",
-    "hi": "कब्र/कब्र"
+    "hi": "कब्र/कब्र",
+    "ar": "قبر / قبر"
   },
   {
     "char": "拿走",
@@ -5595,7 +6029,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zum Mitnehmen",
     "es": "quitar",
-    "hi": "ले जाना"
+    "hi": "ले जाना",
+    "ar": "ليأخذ بعيدا"
   },
   {
     "char": "奶粉",
@@ -5604,7 +6039,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Milchpulver",
     "es": "leche en polvo",
-    "hi": "पाउडर ��ाला दूध"
+    "hi": "पाउडर ��ाला दूध",
+    "ar": "الحليب المجفف"
   },
   {
     "char": "奶牛",
@@ -5613,7 +6049,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Milchkuh",
     "es": "vaca lechera",
-    "hi": "दूध देने वाली गाय"
+    "hi": "दूध देने वाली गाय",
+    "ar": "بقرة الحليب"
   },
   {
     "char": "难忘",
@@ -5622,7 +6059,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unvergesslich",
     "es": "inolvidable",
-    "hi": "अविस्मरणीय"
+    "hi": "अविस्मरणीय",
+    "ar": "لا تنسى"
   },
   {
     "char": "内地",
@@ -5631,7 +6069,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Festlandchina (VRC ohne Hongkong und Macau, aber einschließlich Inseln wie Hainan) / Japan (in Taiwan während der japanischen Kolonisierung verwendet)",
     "es": "China continental (RPC excluye Hong Kong y Macao, pero incluye islas como Hainan) / Japón (utilizado en Taiwán durante la colonización japonesa)",
-    "hi": "मुख्य भूमि चीन (पीआरसी हांगकांग और मकाऊ को छोड़कर, लेकिन हैनान जैसे द्वीपों सहित) / जापान (जापानी उपनिवेशीकरण के दौरान ताइवान में उपयोग किया गया)"
+    "hi": "मुख्य भूमि चीन (पीआरसी हांगकांग और मकाऊ को छोड़कर, लेकिन हैनान जैसे द्वीपों सहित) / जापान (जापानी उपनिवेशीकरण के दौरान ताइवान में उपयोग किया गया)",
+    "ar": "البر الرئيسي للصين (جمهورية الصين الشعبية باستثناء هونغ كونغ وماكاو، ولكن بما في ذلك جزر مثل هاينان) / اليابان (استخدمت في تايوان أثناء الاستعمار الياباني)"
   },
   {
     "char": "内外",
@@ -5640,7 +6079,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "drinnen und draußen",
     "es": "dentro y fuera",
-    "hi": "अंदर और बाहर"
+    "hi": "अंदर और बाहर",
+    "ar": "في الداخل والخارج"
   },
   {
     "char": "内衣",
@@ -5649,7 +6089,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Unterwäsche / Unterwäsche",
     "es": "ropa interior / ropa interior",
-    "hi": "अंडरगार्मेंट/अंडरवियर"
+    "hi": "अंडरगार्मेंट/अंडरवियर",
+    "ar": "الملابس الداخلية / الملابس الداخلية"
   },
   {
     "char": "能否",
@@ -5658,7 +6099,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ob oder nicht/kann es oder kann es nicht",
     "es": "si o no puedo o no puedo",
-    "hi": "चाहे या नहीं/कर सकते हैं या नहीं"
+    "hi": "चाहे या नहीं/कर सकते हैं या नहीं",
+    "ar": "أم لا / يستطيع أو لا يستطيع"
   },
   {
     "char": "泥",
@@ -5667,7 +6109,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schlamm / Lehm",
     "es": "barro / arcilla",
-    "hi": "कीचड़/मिट्टी"
+    "hi": "कीचड़/मिट्टी",
+    "ar": "الطين / الطين"
   },
   {
     "char": "扭",
@@ -5676,7 +6119,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "drehen / drehen",
     "es": "girar / torcer",
-    "hi": "मोड़ना/मरोड़ना"
+    "hi": "मोड़ना/मरोड़ना",
+    "ar": "لتحويل / لتحريف"
   },
   {
     "char": "排行榜",
@@ -5685,7 +6129,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "die Charts (der Bestseller) / Rangliste",
     "es": "las listas (de los más vendidos) / tabla de clasificación",
-    "hi": "चार्ट (बेस्ट-सेलर्स के)/रैंकिंग की तालिका"
+    "hi": "चार्ट (बेस्ट-सेलर्स के)/रैंकिंग की तालिका",
+    "ar": "المخططات (للأكثر مبيعًا) / جدول الترتيب"
   },
   {
     "char": "派出",
@@ -5694,7 +6139,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "senden / versenden",
     "es": "enviar / despachar",
-    "hi": "भेजना/भेजना"
+    "hi": "भेजना/भेजना",
+    "ar": "لإرسال / لإرسال"
   },
   {
     "char": "判",
@@ -5703,7 +6149,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "richten / verurteilen",
     "es": "juzgar / sentenciar",
-    "hi": "न्याय करना/दंड देना"
+    "hi": "न्याय करना/दंड देना",
+    "ar": "للحكم / للحكم"
   },
   {
     "char": "盼望",
@@ -5713,7 +6160,8 @@ export const hsk6New = [
     "de": "hoffen",
     "es": "esperar",
     "hi": "आशा",
-    "icon": "🙏"
+    "icon": "🙏",
+    "ar": "أمل"
   },
   {
     "char": "泡",
@@ -5722,7 +6170,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "aufgebläht / geschwollen",
     "es": "hinchado / hinchado",
-    "hi": "फूला हुआ/सूजा हुआ"
+    "hi": "फूला हुआ/सूजा हुआ",
+    "ar": "منتفخ / منتفخ"
   },
   {
     "char": "炮",
@@ -5731,7 +6180,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "anbraten / braten",
     "es": "saltear / freír",
-    "hi": "भूनना/तलना"
+    "hi": "भूनना/तलना",
+    "ar": "مقلي / مقلي"
   },
   {
     "char": "陪同",
@@ -5740,7 +6190,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "begleiten",
     "es": "acompañar",
-    "hi": "साथ देना"
+    "hi": "साथ देना",
+    "ar": "لمرافقة"
   },
   {
     "char": "配置",
@@ -5749,7 +6200,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bereitstellen / zuweisen",
     "es": "desplegar / asignar",
-    "hi": "तैनात करना/आवंटित करना"
+    "hi": "तैनात करना/आवंटित करना",
+    "ar": "للنشر / للتخصيص"
   },
   {
     "char": "皮球",
@@ -5758,7 +6210,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Ball (aus Gummi, Leder etc.)",
     "es": "pelota (hecha de caucho, cuero, etc.)",
-    "hi": "गेंद (रबर, चमड़े आदि से बनी)"
+    "hi": "गेंद (रबर, चमड़े आदि से बनी)",
+    "ar": "الكرة (مصنوعة من المطاط والجلود وغيرها)"
   },
   {
     "char": "偏",
@@ -5767,7 +6220,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich neigen / neigen",
     "es": "inclinarse / inclinarse",
-    "hi": "झुकना/तिरछा होना"
+    "hi": "झुकना/तिरछा होना",
+    "ar": "يميل / يميل"
   },
   {
     "char": "贫困",
@@ -5787,7 +6241,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Markenname / Warenzeichen",
     "es": "nombre de marca / marca registrada",
-    "hi": "ब्रांड नाम/ट्रेडमार्क"
+    "hi": "ब्रांड नाम/ट्रेडमार्क",
+    "ar": "اسم العلامة التجارية / العلامة التجارية"
   },
   {
     "char": "聘请",
@@ -5796,7 +6251,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "engagieren/beauftragen (einen Anwalt usw.)",
     "es": "contratar / contratar (un abogado, etc.)",
-    "hi": "(वकील आदि) नियुक्त करना/किराए पर रखना"
+    "hi": "(वकील आदि) नियुक्त करना/किराए पर रखना",
+    "ar": "لإشراك / لتوظيف (محامي الخ)"
   },
   {
     "char": "平凡",
@@ -5816,7 +6272,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Quadratmeter",
     "es": "metro cuadrado",
-    "hi": "वर्ग मीटर"
+    "hi": "वर्ग मीटर",
+    "ar": "متر مربع"
   },
   {
     "char": "平衡",
@@ -5836,7 +6293,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Plattform / Terrasse",
     "es": "plataforma / terraza",
-    "hi": "मंच/छत"
+    "hi": "मंच/छत",
+    "ar": "منصة / تراس"
   },
   {
     "char": "评",
@@ -5845,7 +6303,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "diskutieren / kommentieren",
     "es": "discutir / comentar",
-    "hi": "चर्चा करना/टिप्पणी करना"
+    "hi": "चर्चा करना/टिप्पणी करना",
+    "ar": "للمناقشة / للتعليق"
   },
   {
     "char": "评选",
@@ -5854,7 +6313,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auf der Grundlage einer Abstimmung oder eines Konsenses auszuwählen",
     "es": "Seleccionar sobre la base de una votación o consenso.",
-    "hi": "वोट या सर्वसम्मति के आ��ार पर चयन करना"
+    "hi": "वोट या सर्वसम्मति के आ��ार पर चयन करना",
+    "ar": "للاختيار على أساس التصويت أو الإجماع"
   },
   {
     "char": "屏幕",
@@ -5940,7 +6400,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Ausgangspunkt",
     "es": "punto de partida",
-    "hi": "प्रारंभिक बिंदु"
+    "hi": "प्रारंभिक बिंदु",
+    "ar": "نقطة البداية"
   },
   {
     "char": "起诉",
@@ -5949,7 +6410,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "klagen/klagen",
     "es": "demandar / entablar una demanda contra",
-    "hi": "मुकदमा करना/मुकदमा चलाना"
+    "hi": "मुकदमा करना/मुकदमा चलाना",
+    "ar": "رفع دعوى قضائية ضد / رفع دعوى قضائية ضد"
   },
   {
     "char": "气氛",
@@ -5980,7 +6442,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wie sich herausstellt / durch glücklichen Zufall",
     "es": "resulta que / por afortunada coincidencia",
-    "hi": "जैसा कि यह पता चला / भाग्यशाली संयोग से"
+    "hi": "जैसा कि यह पता चला / भाग्यशाली संयोग से",
+    "ar": "كما اتضح / بالصدفة المحظوظة"
   },
   {
     "char": "恰恰",
@@ -5989,7 +6452,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "genau / genau",
     "es": "exactamente / solo",
-    "hi": "बिलकुल/बस"
+    "hi": "बिलकुल/बस",
+    "ar": "بالضبط / فقط"
   },
   {
     "char": "牵",
@@ -6031,7 +6495,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "vorne / vorne",
     "es": "adelante / el frente",
-    "hi": "आगे / सामने"
+    "hi": "आगे / सामने",
+    "ar": "قدما / الجبهة"
   },
   {
     "char": "前来",
@@ -6040,7 +6505,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kommen (formell) / vorher",
     "es": "venir (formal) / antes",
-    "hi": "(औपचारिक)/पहले आना"
+    "hi": "(औपचारिक)/पहले आना",
+    "ar": "ليأتي (رسمي) / قبل"
   },
   {
     "char": "潜力",
@@ -6060,7 +6526,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(mit Gewalt) ausrauben / Bandit",
     "es": "robar (con fuerza) / bandido",
-    "hi": "लूटना (बलपूर्वक) / डाकू"
+    "hi": "लूटना (बलपूर्वक) / डाकू",
+    "ar": "للسرقة (بالقوة) / قطاع الطرق"
   },
   {
     "char": "强化",
@@ -6069,7 +6536,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verstärken / intensivieren",
     "es": "fortalecer / intensificar",
-    "hi": "मजबूत करना/तीव्र करना"
+    "hi": "मजबूत करना/तीव्र करना",
+    "ar": "لتعزيز / لتكثيف"
   },
   {
     "char": "强势",
@@ -6078,7 +6546,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "stark / kraftvoll",
     "es": "fuerte / poderoso",
-    "hi": "मजबूत/शक्तिशाली"
+    "hi": "मजबूत/शक्तिशाली",
+    "ar": "قوي / قوي"
   },
   {
     "char": "强壮",
@@ -6087,7 +6556,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "stark / robust",
     "es": "fuerte / resistente",
-    "hi": "मजबूत/मज़बूत"
+    "hi": "मजबूत/मज़बूत",
+    "ar": "قوي / قوي"
   },
   {
     "char": "桥梁",
@@ -6118,7 +6588,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "machbar / realistisch",
     "es": "factible / realista",
-    "hi": "व्यवहार्य/यथार्थवादी"
+    "hi": "व्यवहार्य/यथार्थवादी",
+    "ar": "ممكن / واقعي"
   },
   {
     "char": "亲属",
@@ -6127,7 +6598,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Verwandtschaft / Verwandtschaft",
     "es": "parientes / parientes",
-    "hi": "परिजन/संबंधी"
+    "hi": "परिजन/संबंधी",
+    "ar": "ذوي القربى / الأقرباء"
   },
   {
     "char": "亲眼",
@@ -6136,7 +6608,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit eigenen Augen / persönlich",
     "es": "con los propios ojos / personalmente",
-    "hi": "अपनी आँखों से/व्यक्तिगत रूप से"
+    "hi": "अपनी आँखों से/व्यक्तिगत रूप से",
+    "ar": "بأم أعيننا/شخصياً"
   },
   {
     "char": "侵犯",
@@ -6167,7 +6640,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Qing-Dynastie (Wade-Giles: Ch'ing) im kaiserlichen China (1644-1911)",
     "es": "Dinastía Qing (Wade-Giles: Ch'ing) de la China imperial (1644-1911)",
-    "hi": "शाही चीन का किंग (वेड-गाइल्स: चिंग) राजवंश (1644-1911)"
+    "hi": "शाही चीन का किंग (वेड-गाइल्स: चिंग) राजवंश (1644-1911)",
+    "ar": "سلالة تشينغ (وايد جايلز: تشينغ) في الصين الإمبراطورية (1644-1911)"
   },
   {
     "char": "清洁",
@@ -6187,7 +6661,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Reinigungskraft/Hausmeister",
     "es": "limpiador / conserje",
-    "hi": "सफाईकर्मी/चौकीदार"
+    "hi": "सफाईकर्मी/चौकीदार",
+    "ar": "عامل نظافة / بواب"
   },
   {
     "char": "清明节",
@@ -6196,7 +6671,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Qingming oder Pure Brightness Festival oder Tomb Sweeping Day, Feier für die Toten (Anfang April)",
     "es": "Qingming o Festival del Brillo Puro o Día de Limpieza de Tumbas, celebración de los muertos (a principios de abril)",
-    "hi": "क़िंगमिंग या प्योर ब्राइटन��स फेस्टिवल या टॉम्ब स्वीपिंग डे, मृतकों के लिए उत्सव (अप्रैल की शुरुआत में)"
+    "hi": "क़िंगमिंग या प्योर ब्राइटन��स फेस्टिवल या टॉम्ब स्वीपिंग डे, मृतकों के लिए उत्सव (अप्रैल की शुरुआत में)",
+    "ar": "تشينغمينغ أو مهرجان السطوع النقي أو يوم كنس المقابر، الاحتفال بالموتى (في أوائل أبريل)"
   },
   {
     "char": "清洗",
@@ -6205,7 +6681,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "waschen / putzen",
     "es": "lavar / limpiar",
-    "hi": "धोना/साफ करना"
+    "hi": "धोना/साफ करना",
+    "ar": "لغسل / لتنظيف"
   },
   {
     "char": "情绪",
@@ -6225,7 +6702,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Anstellung suchen",
     "es": "buscar empleo",
-    "hi": "रोजगार की तलाश के लिए"
+    "hi": "रोजगार की तलाश के लिए",
+    "ar": "للبحث عن عمل"
   },
   {
     "char": "球拍",
@@ -6234,7 +6712,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schläger",
     "es": "raqueta",
-    "hi": "रैकेट"
+    "hi": "रैकेट",
+    "ar": "مضرب"
   },
   {
     "char": "球星",
@@ -6243,7 +6722,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Sportstar (Ballsport)",
     "es": "estrella del deporte (deporte de pelota)",
-    "hi": "स्पोर्ट्स स्टार (बॉल स्पोर्ट)"
+    "hi": "स्पोर्ट्स स्टार (बॉल स्पोर्ट)",
+    "ar": "النجم الرياضي (رياضة الكرة)"
   },
   {
     "char": "球员",
@@ -6252,7 +6732,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Ballsport-)Spieler/Teammitglied",
     "es": "(deportes de pelota) jugador/miembro del equipo",
-    "hi": "(बॉल स्पोर्ट्स) खिलाड़ी/टीम सदस्य"
+    "hi": "(बॉल स्पोर्ट्स) खिलाड़ी/टीम सदस्य",
+    "ar": "(رياضة الكرة) لاعب / عضو فريق"
   },
   {
     "char": "区分",
@@ -6283,7 +6764,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geld von einer Bank abheben",
     "es": "retirar dinero de un banco",
-    "hi": "बैंक से पैसे निकालने के लिए"
+    "hi": "बैंक से पैसे निकालने के लिए",
+    "ar": "لسحب الأموال من البنك"
   },
   {
     "char": "取款机",
@@ -6292,7 +6774,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geldautomat",
     "es": "cajero automático",
-    "hi": "एटीएम"
+    "hi": "एटीएम",
+    "ar": "أجهزة الصراف الآلي"
   },
   {
     "char": "去掉",
@@ -6301,7 +6784,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "loswerden / ausschließen",
     "es": "deshacerse de / excluir",
-    "hi": "छुटकारा पाना/बहिष्कृत करना"
+    "hi": "छुटकारा पाना/बहिष्कृत करना",
+    "ar": "للتخلص من / استبعاد"
   },
   {
     "char": "全力",
@@ -6310,7 +6794,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit aller Kraft",
     "es": "con todas las fuerzas",
-    "hi": "अपनी पूरी ताकत के साथ"
+    "hi": "अपनी पूरी ताकत के साथ",
+    "ar": "بكل قوة"
   },
   {
     "char": "全新",
@@ -6319,7 +6804,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "alles neu",
     "es": "todo nuevo",
-    "hi": "बिल्कुल नया"
+    "hi": "बिल्कुल नया",
+    "ar": "كل جديد"
   },
   {
     "char": "权",
@@ -6328,7 +6814,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Quan",
     "es": "apellido Quan",
-    "hi": "उपनाम क्वान"
+    "hi": "उपनाम क्वान",
+    "ar": "اللقب تشيوان"
   },
   {
     "char": "权力",
@@ -6348,7 +6835,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Anleihe (insbesondere zweigeteiltes Dokument, bei dem jede Partei eine Hälfte hält) / Vertrag",
     "es": "vínculo (especialmente documento dividido en dos, donde cada parte posee la mitad) / contrato",
-    "hi": "बांड (विशेषकर दस्तावेज़ दो भागों में विभाजित, प्रत्येक पक्ष के पास एक आधा हिस्सा)/अनुबंध"
+    "hi": "बांड (विशेषकर दस्तावेज़ दो भागों में विभाजित, प्रत्येक पक्ष के पास एक आधा हिस्सा)/अनुबंध",
+    "ar": "السند (خاصة الوثيقة مقسمة إلى قسمين، مع امتلاك كل طرف للنصف) / العقد"
   },
   {
     "char": "缺陷",
@@ -6368,7 +6856,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "trotzdem / tatsächlich",
     "es": "sin embargo / en realidad",
-    "hi": "फिर भी/वास्तव में"
+    "hi": "फिर भी/वास्तव में",
+    "ar": "ومع ذلك / في الواقع"
   },
   {
     "char": "让座",
@@ -6377,7 +6866,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "seinen Platz für jdn. aufgeben",
     "es": "ceder el asiento a alguien",
-    "hi": "एसबी के लिए अपनी सीट छोड़ना"
+    "hi": "एसबी के लिए अपनी सीट छोड़ना",
+    "ar": "للتخلي عن مقعده لبينالي الشارقة"
   },
   {
     "char": "热点",
@@ -6386,7 +6876,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hotspot / Punkt von besonderem Interesse",
     "es": "punto caliente/punto de especial interés",
-    "hi": "हॉट स्पॉट/विशेष रुचि का बिंदु"
+    "hi": "हॉट स्पॉट/विशेष रुचि का बिंदु",
+    "ar": "نقطة ساخنة / نقطة ذات أهمية خاصة"
   },
   {
     "char": "热水",
@@ -6395,7 +6886,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "heißes Wasser",
     "es": "agua caliente",
-    "hi": "गरम पानी"
+    "hi": "गरम पानी",
+    "ar": "الماء الساخن"
   },
   {
     "char": "热水器",
@@ -6404,7 +6896,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Warmwasserbereiter",
     "es": "calentador de agua",
-    "hi": "वॉटर हीटर"
+    "hi": "वॉटर हीटर",
+    "ar": "سخان المياه"
   },
   {
     "char": "热线",
@@ -6413,7 +6906,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hotline (Kommunikationslink)",
     "es": "línea directa (enlace de comunicaciones)",
-    "hi": "हॉटलाइन (संचार लिंक)"
+    "hi": "हॉटलाइन (संचार लिंक)",
+    "ar": "الخط الساخن (رابط الاتصالات)"
   },
   {
     "char": "人权",
@@ -6422,7 +6916,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Menschenrechte",
     "es": "derechos humanos",
-    "hi": "मानवाधिकार"
+    "hi": "मानवाधिकार",
+    "ar": "حقوق الإنسان"
   },
   {
     "char": "认同",
@@ -6431,7 +6926,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zustimmen / befürworten",
     "es": "aprobar / respaldar",
-    "hi": "अनुमोदन करना/समर्थन करना"
+    "hi": "अनुमोदन करना/समर्थन करना",
+    "ar": "للموافقة على / للموافقة"
   },
   {
     "char": "日夜",
@@ -6440,7 +6936,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Tag und Nacht / rund um die Uhr",
     "es": "día y noche / las 24 horas",
-    "hi": "दिन और रात / चौबीसों घंटे"
+    "hi": "दिन और रात / चौबीसों घंटे",
+    "ar": "ليلا ونهارا / على مدار الساعة"
   },
   {
     "char": "日语",
@@ -6449,7 +6946,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Japanische Sprache",
     "es": "idioma japonés",
-    "hi": "जापानी भाषा"
+    "hi": "जापानी भाषा",
+    "ar": "اللغة اليابانية"
   },
   {
     "char": "融合",
@@ -6458,7 +6956,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Mischung / ein Amalgam",
     "es": "una mezcla / una amalgama",
-    "hi": "एक मिश्रण/एक मिश्रण"
+    "hi": "एक मिश्रण/एक मिश्रण",
+    "ar": "خليط / ملغم"
   },
   {
     "char": "融入",
@@ -6467,7 +6966,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich einfügen / integrieren",
     "es": "mezclarse con / integrarse",
-    "hi": "मिलाना/एकीकृत करना"
+    "hi": "मिलाना/एकीकृत करना",
+    "ar": "لمزج في / لدمج"
   },
   {
     "char": "如",
@@ -6476,7 +6976,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "als / als ob",
     "es": "como / como si",
-    "hi": "जैसे / जैसे"
+    "hi": "जैसे / जैसे",
+    "ar": "كما / كما لو"
   },
   {
     "char": "如一",
@@ -6485,7 +6986,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "konsistent / gleich",
     "es": "consistente / igual",
-    "hi": "सुसंगत/समान"
+    "hi": "सुसंगत/समान",
+    "ar": "متسقة / نفس"
   },
   {
     "char": "乳制品",
@@ -6494,7 +6996,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Milchprodukte",
     "es": "productos lácteos",
-    "hi": "डेयरी उत्पाद"
+    "hi": "डेयरी उत्पाद",
+    "ar": "منتجات الألبان"
   },
   {
     "char": "入",
@@ -6503,7 +7006,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eintreten / hineingehen",
     "es": "entrar / entrar",
-    "hi": "प्रवेश करना/प्रवेश करना"
+    "hi": "प्रवेश करना/प्रवेश करना",
+    "ar": "للدخول / للدخول"
   },
   {
     "char": "入学",
@@ -6512,7 +7016,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Schule oder Hochschule besuchen",
     "es": "para ingresar a una escuela o universidad",
-    "hi": "किसी स्कूल या कॉलेज में प्रवेश के लिए"
+    "hi": "किसी स्कूल या कॉलेज में प्रवेश के लिए",
+    "ar": "لدخول المدرسة أو الكلية"
   },
   {
     "char": "若",
@@ -6521,7 +7026,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "scheinen / mögen",
     "es": "parecer / gustar",
-    "hi": "प्रतीत होना/पसंद होना"
+    "hi": "प्रतीत होना/पसंद होना",
+    "ar": "ليبدو / مثل"
   },
   {
     "char": "塞",
@@ -6530,7 +7036,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Serbien / Serbisch",
     "es": "Serbia / Serbio",
-    "hi": "सर्बिया / सर्बियाई"
+    "hi": "सर्बिया / सर्बियाई",
+    "ar": "صربيا / الصربية"
   },
   {
     "char": "赛",
@@ -6539,7 +7046,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "konkurrieren / konkurrieren",
     "es": "competir / competencia",
-    "hi": "प्रतिस्पर्धा/प्रतिस्पर्धा करना"
+    "hi": "प्रतिस्पर्धा/प्रतिस्पर्धा करना",
+    "ar": "للتنافس / المنافسة"
   },
   {
     "char": "赛场",
@@ -6548,7 +7056,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Rennbahn / Feld (für Leichtathletikwettkämpfe)",
     "es": "pista de carreras / campo (para competición de atletismo)",
-    "hi": "रेसट्रैक/मैदान (एथलेटिक्स प्रतियोगिता के लिए)"
+    "hi": "रेसट्रैक/मैदान (एथलेटिक्स प्रतियोगिता के लिए)",
+    "ar": "مضمار السباق/الميدان (لمسابقات ألعاب القوى)"
   },
   {
     "char": "三明治",
@@ -6557,7 +7066,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Sandwich (Lehnwort)",
     "es": "sándwich (palabra prestada)",
-    "hi": "सैंडविच (ऋण शब्द)"
+    "hi": "सैंडविच (ऋण शब्द)",
+    "ar": "ساندويتش (كلمة مستعارة)"
   },
   {
     "char": "丧失",
@@ -6577,7 +7087,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Berg-)Gipfel",
     "es": "pico (montaña)",
-    "hi": "(पहाड़) शिखर"
+    "hi": "(पहाड़) शिखर",
+    "ar": "(الجبل) الذروة"
   },
   {
     "char": "山谷",
@@ -6586,7 +7097,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Tal / Schlucht",
     "es": "valle / barranco",
-    "hi": "घाटी / खड्ड"
+    "hi": "घाटी / खड्ड",
+    "ar": "الوادي / الوادي"
   },
   {
     "char": "山坡",
@@ -6595,7 +7107,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hang",
     "es": "ladera",
-    "hi": "पहाड़ी"
+    "hi": "पहाड़ी",
+    "ar": "التلال"
   },
   {
     "char": "伤口",
@@ -6604,7 +7117,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Wunde / Schnitt",
     "es": "herida / corte",
-    "hi": "घाव/काटना"
+    "hi": "घाव/काटना",
+    "ar": "جرح / قطع"
   },
   {
     "char": "伤亡",
@@ -6613,7 +7127,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Verluste/Verletzungen und Todesfälle",
     "es": "bajas/lesiones y muertes",
-    "hi": "हताहत/चोटें और मौतें"
+    "hi": "हताहत/चोटें और मौतें",
+    "ar": "الضحايا/الإصابات والوفيات"
   },
   {
     "char": "伤员",
@@ -6622,7 +7137,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verwundete Person",
     "es": "persona herida",
-    "hi": "घायल व्यक्ति"
+    "hi": "घायल व्यक्ति",
+    "ar": "شخص جريح"
   },
   {
     "char": "商城",
@@ -6631,7 +7147,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "siehe 商城县",
     "es": "ver 商城县",
-    "hi": "देखें 商城县"
+    "hi": "देखें 商城县",
+    "ar": "انظر 商城县"
   },
   {
     "char": "上班族",
@@ -6640,7 +7157,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Büroangestellte (als soziale Gruppe)",
     "es": "trabajadores de oficina (como grupo social)",
-    "hi": "कार्यालय कर्मचारी (सामाजिक समूह के रूप में)"
+    "hi": "कार्यालय कर्मचारी (सामाजिक समूह के रूप में)",
+    "ar": "عمال المكاتب (كمجموعة اجتماعية)"
   },
   {
     "char": "上当",
@@ -6649,7 +7167,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hereingelegt (durch jemandes Täuschung) / getäuscht werden",
     "es": "ser engañado (por el engaño de alguien) / ser engañado",
-    "hi": "(एसबी के धोखे से) लिया गया / मूर्ख बनाया जाना"
+    "hi": "(एसबी के धोखे से) लिया गया / मूर्ख बनाया जाना",
+    "ar": "مأخوذ (بخداع بينالي الشارقة) / ليتم خداعه"
   },
   {
     "char": "上帝",
@@ -6658,7 +7177,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gott",
     "es": "Dios",
-    "hi": "भगवान"
+    "hi": "भगवान",
+    "ar": "الله"
   },
   {
     "char": "上市",
@@ -6667,7 +7187,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auf den Markt kommen (eines neuen Produkts)",
     "es": "salir al mercado (de un nuevo producto)",
-    "hi": "बाज़ार में आने के लिए (एक नए उत्पाद का)"
+    "hi": "बाज़ार में आने के लिए (एक नए उत्पाद का)",
+    "ar": "للوصول إلى السوق (لمنتج جديد)"
   },
   {
     "char": "上台",
@@ -6676,7 +7197,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "an die Macht kommen (in der Politik)",
     "es": "llegar al poder (en política)",
-    "hi": "सत्ता में आने के लिए (राजनीति में)"
+    "hi": "सत्ता में आने के लिए (राजनीति में)",
+    "ar": "للوصول إلى السلطة (في السياسة)"
   },
   {
     "char": "上演",
@@ -6685,7 +7207,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "vorführen (einen Film) / inszenieren (ein Theaterstück)",
     "es": "a la pantalla (una película) / al escenario (una obra de teatro)",
-    "hi": "स्क्रीन पर (एक फिल्म) / मंच पर (एक नाटक)"
+    "hi": "स्क्रीन पर (एक फिल्म) / मंच पर (एक नाटक)",
+    "ar": "لعرض (فيلم) / لعرض (مسرحية)"
   },
   {
     "char": "勺",
@@ -6694,7 +7217,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Löffel / Schöpfkelle",
     "es": "cuchara / cucharón",
-    "hi": "चम्मच/करछुल"
+    "hi": "चम्मच/करछुल",
+    "ar": "ملعقة / مغرفة"
   },
   {
     "char": "少儿",
@@ -6703,7 +7227,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kind",
     "es": "niño",
-    "hi": "बच्चा"
+    "hi": "बच्चा",
+    "ar": "طفل"
   },
   {
     "char": "舌头",
@@ -6723,7 +7248,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Designer / Architekt",
     "es": "diseñador / arquitecto",
-    "hi": "डिज़ाइनर/वास्तुकार"
+    "hi": "डिज़ाइनर/वास्तुकार",
+    "ar": "مصمم / مهندس معماري"
   },
   {
     "char": "涉及",
@@ -6743,7 +7269,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "vertiefen / intensivieren",
     "es": "profundizar / intensificar",
-    "hi": "गहरा करना/तीव्र करना"
+    "hi": "गहरा करना/तीव्र करना",
+    "ar": "لتعميق / لتكثيف"
   },
   {
     "char": "深深",
@@ -6752,7 +7279,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "tief / tiefgreifend",
     "es": "profundo / profundo",
-    "hi": "गहरा/गहरा"
+    "hi": "गहरा/गहरा",
+    "ar": "عميق / عميق"
   },
   {
     "char": "审查",
@@ -6772,7 +7300,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "um eine Besoldungsgruppe aufsteigen / befördert werden",
     "es": "subir un grado / ser promovido",
-    "hi": "एक ग्रेड ऊपर जाना / पदोन्नत होना"
+    "hi": "एक ग्रेड ऊपर जाना / पदोन्नत होना",
+    "ar": "للارتقاء بدرجة واحدة / للترقية"
   },
   {
     "char": "升学",
@@ -6781,7 +7310,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "in die nächste Grundschule eintreten",
     "es": "para ingresar a la siguiente escuela primaria",
-    "hi": "अगली कक्षा के स्कूल में प्रवेश के लिए"
+    "hi": "अगली कक्षा के स्कूल में प्रवेश के लिए",
+    "ar": "لدخول المدرسة الا��تدائية التالية"
   },
   {
     "char": "升值",
@@ -6790,7 +7320,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "im Wert steigen / schätzen",
     "es": "aumentar de valor / apreciar",
-    "hi": "to rise in value / to appreciate"
+    "hi": "to rise in value / to appreciate",
+    "ar": "لترتفع في القيمة / لتقدر"
   },
   {
     "char": "生活费",
@@ -6799,7 +7330,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Lebenshaltungskosten",
     "es": "costo de vida",
-    "hi": "जीवन यापन की लागत"
+    "hi": "जीवन यापन की लागत",
+    "ar": "تكلفة المعيشة"
   },
   {
     "char": "省钱",
@@ -6808,7 +7340,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "um Geld zu sparen",
     "es": "para ahorrar dinero",
-    "hi": "पैसे बचाने के लिए"
+    "hi": "पैसे बचाने के लिए",
+    "ar": "لتوفير المال"
   },
   {
     "char": "圣诞节",
@@ -6817,7 +7350,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Weihnachtszeit",
     "es": "tiempo de navidad",
-    "hi": "क्रिसमस का समय"
+    "hi": "क्रिसमस का समय",
+    "ar": "وقت عيد الميلاد"
   },
   {
     "char": "盛行",
@@ -6837,7 +7371,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wird für 师傅 (in Taiwan) / Meister verwendet",
     "es": "usado para 师傅 (en Taiwán) / maestro",
-    "hi": "师傅 (ताइवान में) / मास्टर के लिए उपयोग किया जाता है"
+    "hi": "师傅 (ताइवान में) / मास्टर के लिए उपयोग किया जाता है",
+    "ar": "تستخدم لـ 师傅 (في تايوان) / سيد"
   },
   {
     "char": "师生",
@@ -6846,7 +7381,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Lehrer und Schüler",
     "es": "profesores y estudiantes",
-    "hi": "शिक्षक और छात्र"
+    "hi": "शिक्षक और छात्र",
+    "ar": "المعلمين والطلاب"
   },
   {
     "char": "时而",
@@ -6866,7 +7402,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Jahreszeit/Zeit",
     "es": "temporada / tiempo",
-    "hi": "ऋतु/समय"
+    "hi": "ऋतु/समय",
+    "ar": "الموسم / الوقت"
   },
   {
     "char": "时期",
@@ -6886,7 +7423,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "oft / ständig",
     "es": "a menudo / constantemente",
-    "hi": "अक्सर/लगातार"
+    "hi": "अक्सर/लगातार",
+    "ar": "في كثير من الأحيان / باستمرار"
   },
   {
     "char": "时装",
@@ -6917,7 +7455,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Appetit",
     "es": "apetito",
-    "hi": "भूख"
+    "hi": "भूख",
+    "ar": "الشهية"
   },
   {
     "char": "市民",
@@ -6926,7 +7465,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stadtbewohner",
     "es": "residente de la ciudad",
-    "hi": "शहर निवासी"
+    "hi": "शहर निवासी",
+    "ar": "ساكن المدينة"
   },
   {
     "char": "事后",
@@ -6935,7 +7475,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nach der Veranstaltung / im Nachhinein",
     "es": "después del evento / en retrospectiva",
-    "hi": "घटना के बाद/बाद में"
+    "hi": "घटना के बाद/बाद में",
+    "ar": "بعد الحدث / بعد فوات الأوان"
   },
   {
     "char": "试点",
@@ -6944,7 +7485,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Testpunkt / Versuch durchführen",
     "es": "punto de prueba / para realizar la prueba",
-    "hi": "परीक्षण बिंदु / परीक्षण करने के लिए"
+    "hi": "परीक्षण बिंदु / परीक्षण करने के लिए",
+    "ar": "نقطة الاختبار / لإجراء المحاكمة"
   },
   {
     "char": "适当",
@@ -6953,7 +7495,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "geeignet / angemessen",
     "es": "adecuado / apropiado",
-    "hi": "उपयुक्त/उचित"
+    "hi": "उपयुक्त/उचित",
+    "ar": "مناسب / مناسب"
   },
   {
     "char": "识",
@@ -6962,7 +7505,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wissen / wissen",
     "es": "saber / conocimiento",
-    "hi": "जानना/जानना"
+    "hi": "जानना/जानना",
+    "ar": "لمعرفة / المعرفة"
   },
   {
     "char": "识字",
@@ -6971,7 +7515,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lesen lernen",
     "es": "aprender a leer",
-    "hi": "पढ़ना सीखना"
+    "hi": "पढ़ना सीखना",
+    "ar": "لتعلم القراءة"
   },
   {
     "char": "收藏",
@@ -6991,7 +7536,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "empfangen/einsammeln",
     "es": "recibir / recoger",
-    "hi": "प्राप्त करना/संग्रह करना"
+    "hi": "प्राप्त करना/संग्रह करना",
+    "ar": "لتلقي / لجمع"
   },
   {
     "char": "收养",
@@ -7000,7 +7546,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "aufnehmen und betreuen (eine ältere Person, einen Hund usw.) / adoptieren (ein Kind)",
     "es": "acoger y cuidar (una persona mayor, un perro, etc.) / adoptar (un niño)",
-    "hi": "(एक बुजुर्ग व्यक्ति, एक कुत्ता आदि) को गोद लेना और उसकी देखभाल करना / (एक बच्चे को) गोद लेना"
+    "hi": "(एक बुजुर्ग व्यक्ति, एक कुत्ता आदि) को गोद लेना और उसकी देखभाल करना / (एक बच्चे को) गोद लेना",
+    "ar": "لرعاية ورعاية (شخص مسن، كلب، الخ) / تبني (طفل)"
   },
   {
     "char": "手续费",
@@ -7009,7 +7556,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Servicegebühr / Bearbeitungsgebühr",
     "es": "cargo por servicio/tarifa de procesamiento",
-    "hi": "सेवा शुल्क/प्रसंस्करण शुल्क"
+    "hi": "सेवा शुल्क/प्रसंस्करण शुल्क",
+    "ar": "رسوم الخدمة / رسوم المعالجة"
   },
   {
     "char": "首次",
@@ -7018,7 +7566,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zuerst",
     "es": "primero",
-    "hi": "प���रथम"
+    "hi": "प���रथम",
+    "ar": "أولا"
   },
   {
     "char": "首脑",
@@ -7027,7 +7576,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Staatsoberhaupt / Gipfel (Treffen)",
     "es": "jefe (de estado) / cumbre (reunión)",
-    "hi": "प्रमुख (राज्य का) / शिखर सम्मेलन (बैठक)"
+    "hi": "प्रमुख (राज्य का) / शिखर सम्मेलन (बैठक)",
+    "ar": "رئيس (الدولة) / القمة (الاجتماع)"
   },
   {
     "char": "首席",
@@ -7036,7 +7586,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Chef (Vertreter, Korrespondent usw.)",
     "es": "jefe (representante, corresponsal, etc.)",
-    "hi": "प्रमुख (प्रतिनिधि, संवाददाता आदि)"
+    "hi": "प्रमुख (प्रतिनिधि, संवाददाता आदि)",
+    "ar": "رئيس (ممثل، مراسل، الخ)"
   },
   {
     "char": "首相",
@@ -7045,7 +7596,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Premierminister (von Japan oder Großbritannien usw.)",
     "es": "primer ministro (de Japón o Reino Unido, etc.)",
-    "hi": "प्रधान मंत्री (जापान या ब्रिटेन आदि के)"
+    "hi": "प्रधान मंत्री (जापान या ब्रिटेन आदि के)",
+    "ar": "رئيس الوزراء (اليابان أو المملكة المتحدة وغيرها)"
   },
   {
     "char": "书房",
@@ -7054,7 +7606,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Arbeitszimmer (Raum) / Atelier",
     "es": "estudio (habitación) / estudio",
-    "hi": "अध्ययन (कक्ष)/स्टूडियो"
+    "hi": "अध्ययन (कक्ष)/स्टूडियो",
+    "ar": "الدراسة (الغرفة) / الاستوديو"
   },
   {
     "char": "薯片",
@@ -7063,7 +7616,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "frittierte Kartoffelchips",
     "es": "patatas fritas",
-    "hi": "तले हुए आलू के चिप्स"
+    "hi": "तले हुए आलू के चिप्स",
+    "ar": "رقائق البطاطس المقلية"
   },
   {
     "char": "薯条",
@@ -7072,7 +7626,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pommes frites",
     "es": "papas fritas",
-    "hi": "फ्रेंच फ्राइज़"
+    "hi": "फ्रेंच फ्राइज़",
+    "ar": "بطاطا مقلية"
   },
   {
     "char": "双打",
@@ -7081,7 +7636,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Doppel (im Sport)",
     "es": "dobles (en deportes)",
-    "hi": "युगल (खेल में)"
+    "hi": "युगल (खेल में)",
+    "ar": "الزوجي (في الرياضة)"
   },
   {
     "char": "爽",
@@ -7090,7 +7646,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hell / klar",
     "es": "brillante / claro",
-    "hi": "उज्ज्वल/स्पष्ट"
+    "hi": "उज्ज्वल/स्पष्ट",
+    "ar": "مشرق / واضح"
   },
   {
     "char": "水泥",
@@ -7111,7 +7668,8 @@ export const hsk6New = [
     "de": "Steuer",
     "es": "impuesto",
     "hi": "कर",
-    "icon": "💰"
+    "icon": "💰",
+    "ar": "ضريبة"
   },
   {
     "char": "顺",
@@ -7120,7 +7678,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gehorchen / folgen",
     "es": "obedecer / seguir",
-    "hi": "पालन करना/पालन करना"
+    "hi": "पालन करना/पालन करना",
+    "ar": "يطيع / يتبع"
   },
   {
     "char": "说明书",
@@ -7129,7 +7688,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(technisches) Handbuch / (Buch der) Anweisungen",
     "es": "manual (técnico) / (libro de) instrucciones",
-    "hi": "(तकनीकी) मैनुअल / (निर्देशों की पुस्तक)।"
+    "hi": "(तकनीकी) मैनुअल / (निर्देशों की पुस्तक)।",
+    "ar": "الدليل (الفني) / (كتاب) التوجيهات"
   },
   {
     "char": "说实话",
@@ -7138,7 +7698,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "die Wahrheit sagen",
     "es": "decir la verdad",
-    "hi": "सच बोलना"
+    "hi": "सच बोलना",
+    "ar": "لقول الحقيقة"
   },
   {
     "char": "司长",
@@ -7147,7 +7708,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Büroleiter",
     "es": "jefe de oficina",
-    "hi": "ब्यूरो प्रमुख"
+    "hi": "ब्यूरो प्रमुख",
+    "ar": "رئيس المكتب"
   },
   {
     "char": "死亡",
@@ -7167,7 +7729,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "überall",
     "es": "por todas partes",
-    "hi": "हर जगह"
+    "hi": "हर जगह",
+    "ar": "في كل مكان"
   },
   {
     "char": "寺",
@@ -7176,7 +7739,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Buddhistischer Tempel/Moschee",
     "es": "Templo budista/mezquita",
-    "hi": "बौद्ध मंदिर/मस्जिद"
+    "hi": "बौद्ध मंदिर/मस्जिद",
+    "ar": "معبد بوذي / مسجد"
   },
   {
     "char": "送礼",
@@ -7185,7 +7749,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Geschenk machen",
     "es": "dar un regalo",
-    "hi": "एक उपहार देने के लिए"
+    "hi": "एक उपहार देने के लिए",
+    "ar": "لإعطاء هدية"
   },
   {
     "char": "送行",
@@ -7194,7 +7759,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "jemanden verabschieden",
     "es": "despedir a alguien",
-    "hi": "किसी को विदा करना"
+    "hi": "किसी को विदा करना",
+    "ar": "لرؤية شخص ما"
   },
   {
     "char": "素质",
@@ -7214,7 +7780,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lass es sein",
     "es": "déjalo ser",
-    "hi": "रह��े दो"
+    "hi": "रह��े दो",
+    "ar": "فليكن"
   },
   {
     "char": "算是",
@@ -7223,7 +7790,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "als / endlich angesehen",
     "es": "considerado ser / por fin",
-    "hi": "अंतिम रूप से / माना जाता है"
+    "hi": "अंतिम रूप से / माना जाता है",
+    "ar": "يعتبر / في النهاية"
   },
   {
     "char": "虽",
@@ -7232,7 +7800,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "obwohl / obwohl",
     "es": "aunque / aunque",
-    "hi": "यद्यपि / यद्यपि"
+    "hi": "यद्यपि / यद्यपि",
+    "ar": "على الرغم من / على الرغم من"
   },
   {
     "char": "岁数",
@@ -7241,7 +7810,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Alter (Anzahl der Jahre alt)",
     "es": "edad (número de años)",
-    "hi": "आयु (वर्षों की संख्या)"
+    "hi": "आयु (वर्षों की संख्या)",
+    "ar": "العمر (عدد السنوات)"
   },
   {
     "char": "塔",
@@ -7250,7 +7820,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pagode / Turm",
     "es": "pagoda / torre",
-    "hi": "शिवालय/मीनार"
+    "hi": "शिवालय/मीनार",
+    "ar": "باغودا / برج"
   },
   {
     "char": "踏",
@@ -7259,7 +7830,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "siehe 踏实",
     "es": "ver 踏实",
-    "hi": "देखें 踏实"
+    "hi": "देखें 踏实",
+    "ar": "انظر 踏实"
   },
   {
     "char": "踏实",
@@ -7279,7 +7851,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schreibtischlampe",
     "es": "lámpara de escritorio",
-    "hi": "डेस्क लैंप"
+    "hi": "डेस्क लैंप",
+    "ar": "مصباح مكتبي"
   },
   {
     "char": "太阳能",
@@ -7288,7 +7861,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Solarenergie",
     "es": "energía solar",
-    "hi": "सौर ऊर्जा"
+    "hi": "सौर ऊर्जा",
+    "ar": "الطاقة الشمسية"
   },
   {
     "char": "叹气",
@@ -7330,7 +7904,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "alte Variante von 趟",
     "es": "antigua variante de 趟",
-    "hi": "趟 का पुराना संस्करण"
+    "hi": "趟 का पुराना संस्करण",
+    "ar": "البديل القديم من 趟"
   },
   {
     "char": "掏",
@@ -7350,7 +7925,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "besonders / einzigartig",
     "es": "especial / único",
-    "hi": "विशेष/अद्वितीय"
+    "hi": "विशेष/अद्वितीय",
+    "ar": "خاص / فريد"
   },
   {
     "char": "特大",
@@ -7359,7 +7935,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "außergewöhnlich groß",
     "es": "excepcionalmente grande",
-    "hi": "असाधारण रूप से बड़ा"
+    "hi": "असाधारण रूप से बड़ा",
+    "ar": "كبيرة بشكل استثنائي"
   },
   {
     "char": "特地",
@@ -7368,7 +7945,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "speziell / für einen besonderen Zweck",
     "es": "especialmente / para un propósito especial",
-    "hi": "विशेष रूप से/विशेष प्रयोजन के लिए"
+    "hi": "विशेष रूप से/विशेष प्रयोजन के लिए",
+    "ar": "خصيصا / لغرض خاص"
   },
   {
     "char": "特快",
@@ -7377,7 +7955,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Express (Zug, Lieferung usw.)",
     "es": "expreso (tren, entrega, etc.)",
-    "hi": "एक्सप्रेस (ट्रेन, डिलीवरी आदि)"
+    "hi": "एक्सप्रेस (ट्रेन, डिलीवरी आदि)",
+    "ar": "صريحة (القطار والتسليم الخ)"
   },
   {
     "char": "特意",
@@ -7397,7 +7976,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schmerz / (eines Körperteils) schmerzhaft sein",
     "es": "dolor / (de una parte del cuerpo) ser doloroso",
-    "hi": "दर्द / (शरीर के किसी अंग का) कष्टदायक होना"
+    "hi": "दर्द / (शरीर के किसी अंग का) कष्टदायक होना",
+    "ar": "ألم / (جزء من الجسم) ليكون مؤلما"
   },
   {
     "char": "踢",
@@ -7417,7 +7997,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(einen Bericht usw.) einreichen / (ein Problem) an jdn. weiterleiten",
     "es": "enviar (un informe, etc.) / referir (un problema) a alguien",
-    "hi": "सबमिट करना (रि��ोर्ट आदि)/एसबी को (समस्या) रेफर करना"
+    "hi": "सबमिट करना (रि��ोर्ट आदि)/एसबी को (समस्या) रेफर करना",
+    "ar": "لتقديم (تقرير الخ) / للإحالة (مشكلة) إلى بينالي الشارقة"
   },
   {
     "char": "提升",
@@ -7426,7 +8007,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "befördern (in eine höhere Position) / aufsteigen",
     "es": "ascender (a una posición de mayor rango) / ascender",
-    "hi": "पदोन्नति करना (उच्च रैंकिंग पद पर)/उठाना"
+    "hi": "पदोन्नति करना (उच्च रैंकिंग पद पर)/उठाना",
+    "ar": "للترقية (إلى منصب أعلى) / للرفع"
   },
   {
     "char": "天然",
@@ -7435,7 +8017,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "natürlich",
     "es": "naturales",
-    "hi": "प्राकृतिक"
+    "hi": "प्राकृतिक",
+    "ar": "طبيعي"
   },
   {
     "char": "天堂",
@@ -7455,7 +8038,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Land unter dem Himmel / die ganze Welt",
     "es": "tierra bajo el cielo / el mundo entero",
-    "hi": "स्वर्ग के नीचे भूमि / सारी दुनिया"
+    "hi": "स्वर्ग के नीचे भूमि / सारी दुनिया",
+    "ar": "الأرض تحت السماء / العالم كله"
   },
   {
     "char": "添",
@@ -7464,7 +8048,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hinzufügen / erhöhen",
     "es": "agregar / aumentar",
-    "hi": "जोड़ना/बढ़ाना"
+    "hi": "जोड़ना/बढ़ाना",
+    "ar": "لإضافة / لزيادة"
   },
   {
     "char": "田",
@@ -7473,7 +8058,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Tian",
     "es": "apellido Tian",
-    "hi": "उपनाम तियान"
+    "hi": "उपनाम तियान",
+    "ar": "اللقب تيان"
   },
   {
     "char": "田径",
@@ -7493,7 +8079,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(ins Wasser) / (Sport-)Tauchen tauchen",
     "es": "bucear (en el agua) / buceo (deportivo)",
-    "hi": "गोता लगाना (पानी में) / (खेल-कूद) गोता लगाना"
+    "hi": "गोता लगाना (पानी में) / (खेल-कूद) गोता लगाना",
+    "ar": "للغوص (في الماء) / (الرياضة) الغوص"
   },
   {
     "char": "听取",
@@ -7502,7 +8089,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hören (Nachrichten) / hören",
     "es": "escuchar (noticias) / escuchar",
-    "hi": "सुनना (समाचार) / सुनना"
+    "hi": "सुनना (समाचार) / सुनना",
+    "ar": "لسماع (أخبار) / للاستماع إلى"
   },
   {
     "char": "通报",
@@ -7511,7 +8099,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "informieren / benachrichtigen",
     "es": "informar / notificar",
-    "hi": "सूचित करना/सूचित करना"
+    "hi": "सूचित करना/सूचित करना",
+    "ar": "لإبلاغ / لإخطار"
   },
   {
     "char": "通道",
@@ -7520,7 +8109,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Autonomer Kreis Tongdao Dong in Huaihua 怀化, Hunan",
     "es": "Condado autónomo de Tongdao Dong en Huaihua 怀化, Hunan",
-    "hi": "हुइहुआ 怀化, हुनान में टोंगडाओ डोंग स्वायत्त काउंटी"
+    "hi": "हुइहुआ 怀化, हुनान में टोंगडाओ डोंग स्वायत्त काउंटी",
+    "ar": "مقاطعة تونغداو دونغ ذاتية الحكم في هوايهوا 怀化، هونان"
   },
   {
     "char": "通红",
@@ -7529,7 +8119,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sehr rot",
     "es": "muy rojo",
-    "hi": "बहुत लाल"
+    "hi": "बहुत लाल",
+    "ar": "أحمر جدا"
   },
   {
     "char": "通话",
@@ -7538,7 +8129,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Gespräch führen / telefonieren",
     "es": "mantener una conversación / hablar por teléfono",
-    "hi": "बातचीत करना/टेलीफोन पर बात करना"
+    "hi": "बातचीत करना/टेलीफोन पर बात करना",
+    "ar": "لإجراء محادثة / التحدث عبر الهاتف"
   },
   {
     "char": "通行",
@@ -7547,7 +8139,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "durchgehen",
     "es": "pasar por",
-    "hi": "गुजरना"
+    "hi": "गुजरना",
+    "ar": "للذهاب من خلال"
   },
   {
     "char": "通讯",
@@ -7567,7 +8160,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wie / gleich",
     "es": "como / igual",
-    "hi": "जैसा / वैसा ही"
+    "hi": "जैसा / वैसा ही",
+    "ar": "مثل / نفسه"
   },
   {
     "char": "同胞",
@@ -7587,7 +8181,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "der entsprechende Zeitraum (in einem anderen Jahr usw.) / gleichzeitig",
     "es": "el período de tiempo correspondiente (en un año diferente, etc.) / concurrente",
-    "hi": "संगत समयावधि (एक अलग वर्ष आदि में) / समवर्ती"
+    "hi": "संगत समयावधि (एक अलग वर्ष आदि में) / समवर्ती",
+    "ar": "الفترة الزمنية المقابلة (في سنة مختلفة وما إلى ذلك) / المتزامنة"
   },
   {
     "char": "同行",
@@ -7596,7 +8191,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Person desselben Berufs",
     "es": "persona de la misma profesión",
-    "hi": "एक ही पेशे का व्यक्ति"
+    "hi": "एक ही पेशे का व्यक्ति",
+    "ar": "شخص من نفس المهنة"
   },
   {
     "char": "同一",
@@ -7605,7 +8201,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "identisch / gleich",
     "es": "idéntico / igual",
-    "hi": "समान/समान"
+    "hi": "समान/समान",
+    "ar": "متطابقة / نفس"
   },
   {
     "char": "铜牌",
@@ -7614,7 +8211,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Bronzemedaille",
     "es": "medalla de bronce",
-    "hi": "कांस्य पदक"
+    "hi": "कांस्य पदक",
+    "ar": "الميدالية البرونزية"
   },
   {
     "char": "头疼",
@@ -7623,7 +8221,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kopfschmerzen",
     "es": "dolor de cabeza",
-    "hi": "सिरदर्द"
+    "hi": "सिरदर्द",
+    "ar": "صداع"
   },
   {
     "char": "投票",
@@ -7654,7 +8253,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Bücher (in einer Bibliothek oder Buchhandlung)",
     "es": "libros (en una biblioteca o librería)",
-    "hi": "किताबें (लाइब्रेरी या किताबों की दुकान में)"
+    "hi": "किताबें (लाइब्रेरी या किताबों की दुकान में)",
+    "ar": "الكتب (في المكتبة أو محل بيع الكتب)"
   },
   {
     "char": "徒弟",
@@ -7685,7 +8285,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Team",
     "es": "equipo",
-    "hi": "टीम"
+    "hi": "टीम",
+    "ar": "فريق"
   },
   {
     "char": "推出",
@@ -7694,7 +8295,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "herausdrücken / loslassen",
     "es": "sacar/liberar",
-    "hi": "बाहर धकेलना/छोड़ना"
+    "hi": "बाहर धकेलना/छोड़ना",
+    "ar": "لدفع / للافراج"
   },
   {
     "char": "退票",
@@ -7703,7 +8305,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(einen Scheck einlösen) / ein Ticket zurückgeben",
     "es": "rebotar (un cheque) / devolver un billete",
-    "hi": "(चेक बाउंस करना) / टिकट वापस करना"
+    "hi": "(चेक बाउंस करना) / टिकट वापस करना",
+    "ar": "لترتد (شيك) / لإعادة تذكرة"
   },
   {
     "char": "吞",
@@ -7712,7 +8315,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schlucken / nehmen",
     "es": "tragar / tomar",
-    "hi": "निगलना/लेना"
+    "hi": "निगलना/लेना",
+    "ar": "لابتلاع / لاتخاذ"
   },
   {
     "char": "托",
@@ -7721,7 +8325,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stütze / Stütze (für Gewicht)",
     "es": "puntal / soporte (para peso)",
-    "hi": "प्रोप/समर्थन (वजन के लिए)"
+    "hi": "प्रोप/समर्थन (वजन के लिए)",
+    "ar": "الدعامة / الدعم (للوزن)"
   },
   {
     "char": "拖",
@@ -7730,7 +8335,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Variante von 拖",
     "es": "variante de 拖",
-    "hi": "拖 का प्रकार"
+    "hi": "拖 का प्रकार",
+    "ar": "البديل من 拖"
   },
   {
     "char": "拖鞋",
@@ -7739,7 +8345,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hausschuhe / Sandalen",
     "es": "zapatillas / sandalias",
-    "hi": "चप्पल/सैंडल"
+    "hi": "चप्पल/सैंडल",
+    "ar": "النعال / الصنادل"
   },
   {
     "char": "挖",
@@ -7748,7 +8355,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "graben / ausgraben",
     "es": "cavar / excavar",
-    "hi": "खोदना/उत्खनन करना"
+    "hi": "खोदना/उत्खनन करना",
+    "ar": "لحفر / للتنقيب"
   },
   {
     "char": "娃娃",
@@ -7779,7 +8387,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Fremdwährung",
     "es": "moneda extranjera",
-    "hi": "विदेशी मुद्रा"
+    "hi": "विदेशी मुद्रा",
+    "ar": "العملة الأجنبية"
   },
   {
     "char": "外部",
@@ -7799,7 +8408,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ausgehen / weggehen (auf eine Reise usw.)",
     "es": "salir / irse (de viaje, etc.)",
-    "hi": "बाहर जाना / दूर जाना (यात्रा आदि पर)"
+    "hi": "बाहर जाना / दूर जाना (यात्रा आदि पर)",
+    "ar": "للخروج / للذهاب بعيدا (في رحلة الخ)"
   },
   {
     "char": "外观",
@@ -7808,7 +8418,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "äußeres Erscheinungsbild",
     "es": "apariencia exterior",
-    "hi": "बाहरी दिखावट"
+    "hi": "बाहरी दिखावट",
+    "ar": "المظهر الخارجي"
   },
   {
     "char": "外科",
@@ -7817,7 +8428,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Chirurgie (Zweiggebiet der Medizin)",
     "es": "cirugía (rama de la medicina)",
-    "hi": "सर्जरी (चिकित्सा की शाखा)"
+    "hi": "सर्जरी (चिकित्सा की शाखा)",
+    "ar": "الجراحة (فرع من الطب)"
   },
   {
     "char": "外来",
@@ -7826,7 +8438,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "extern / fremd",
     "es": "externo / extranjero",
-    "hi": "बाहरी/विदेशी"
+    "hi": "बाहरी/विदेशी",
+    "ar": "خارجي / أجنبي"
   },
   {
     "char": "外头",
@@ -7835,7 +8448,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "draußen / draußen",
     "es": "afuera / afuera",
-    "hi": "बाहर/बाहर"
+    "hi": "बाहर/बाहर",
+    "ar": "خارج / خارج"
   },
   {
     "char": "外衣",
@@ -7844,7 +8458,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Oberbekleidung / Aussehen",
     "es": "ropa exterior / apariencia",
-    "hi": "बाहरी वस्त्र/सदृश"
+    "hi": "बाहरी वस्त्र/सदृश",
+    "ar": "الملابس الخارجية / ما يشبه"
   },
   {
     "char": "外资",
@@ -7875,7 +8490,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "frech",
     "es": "travieso",
-    "hi": "शरारती"
+    "hi": "शरारती",
+    "ar": "شقي"
   },
   {
     "char": "顽强",
@@ -7895,7 +8511,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Königin",
     "es": "reina",
-    "hi": "रानी"
+    "hi": "रानी",
+    "ar": "ملكة"
   },
   {
     "char": "王子",
@@ -7915,7 +8532,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Internetcafé",
     "es": "cibercafé",
-    "hi": "इंटरनेट कैफे"
+    "hi": "इंटरनेट कैफे",
+    "ar": "مقهى الانترنت"
   },
   {
     "char": "网页",
@@ -7924,7 +8542,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Webseite",
     "es": "pagina web",
-    "hi": "वेब पेज"
+    "hi": "वेब पेज",
+    "ar": "صفحة ويب"
   },
   {
     "char": "往后",
@@ -7933,7 +8552,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "von jetzt an / in der Zukunft",
     "es": "de ahora en adelante / en el futuro",
-    "hi": "अभी से/भविष्य में"
+    "hi": "अभी से/भविष्य में",
+    "ar": "من الآن فصاعدا / في المستقبل"
   },
   {
     "char": "往来",
@@ -7942,7 +8562,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geschäfte/Kontakte",
     "es": "tratos / contactos",
-    "hi": "व्यवहार/संपर्क"
+    "hi": "व्यवहार/संपर्क",
+    "ar": "التعاملات / الاتصالات"
   },
   {
     "char": "往年",
@@ -7951,7 +8572,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "in früheren Jahren",
     "es": "en años anteriores",
-    "hi": "पूर्व वर्षों में"
+    "hi": "पूर्व वर्षों में",
+    "ar": "في السنوات السابقة"
   },
   {
     "char": "望见",
@@ -7960,7 +8582,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ausspionieren / entdecken",
     "es": "espiar / detectar",
-    "hi": "जासूसी करना/पहचानना"
+    "hi": "जासूसी करना/पहचानना",
+    "ar": "للتجسس / على الفور"
   },
   {
     "char": "危机",
@@ -7991,7 +8614,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mikrowelle",
     "es": "horno microondas",
-    "hi": "माइक्रोवेव ओवन"
+    "hi": "माइक्रोवेव ओवन",
+    "ar": "فرن الميكروويف"
   },
   {
     "char": "维生素",
@@ -8011,7 +8635,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "aus diesem Grund",
     "es": "por esta razón",
-    "hi": "इस कारण से"
+    "hi": "इस कारण से",
+    "ar": "لهذا السبب"
   },
   {
     "char": "为何",
@@ -8020,7 +8645,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "warum",
     "es": "por qué",
-    "hi": "क्यों"
+    "hi": "क्यों",
+    "ar": "لماذا"
   },
   {
     "char": "文娱",
@@ -8029,7 +8655,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kulturelle Erholung / Unterhaltung",
     "es": "recreación cultural / entretenimiento",
-    "hi": "सांस्कृतिक मनोरंजन/मनोरंजन"
+    "hi": "सांस्कृतिक मनोरंजन/मनोरंजन",
+    "ar": "الترفيه الثقافي/الترفيهي"
   },
   {
     "char": "卧铺",
@@ -8038,7 +8665,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Bett (im Zug) / ein Liegewagen",
     "es": "una cama (en un tren) / una litera",
-    "hi": "एक बिस्तर (ट्रेन में) / एक सोफ़ा"
+    "hi": "एक बिस्तर (ट्रेन में) / एक सोफ़ा",
+    "ar": "سرير (في القطار) / عربة"
   },
   {
     "char": "乌云",
@@ -8047,7 +8675,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schwarze Wolke",
     "es": "nube negra",
-    "hi": "काला बादल"
+    "hi": "काला बादल",
+    "ar": "سحابة سوداء"
   },
   {
     "char": "无边",
@@ -8056,7 +8685,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ohne Grenze / nicht begrenzt",
     "es": "sin límites / sin límites",
-    "hi": "बिना सीमा के/सीमाबद्ध नहीं"
+    "hi": "बिना सीमा के/सीमाबद्ध नहीं",
+    "ar": "بلا حدود / لا يحدها"
   },
   {
     "char": "无关",
@@ -8065,7 +8695,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nichts damit zu tun haben / nichts (mit etwas anderem) zu tun haben",
     "es": "no relacionado/no tener nada que ver (con algo más)",
-    "hi": "असंबंधित / इसका कोई लेना-देना नहीं है (किसी और चीज़ से)"
+    "hi": "असंबंधित / इसका कोई लेना-देना नहीं है (किसी और चीज़ से)",
+    "ar": "لا علاقة له / ليس لديه ما يفعله (مع شيء آخر)"
   },
   {
     "char": "无效",
@@ -8074,7 +8705,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ungültig/unwirksam",
     "es": "no válido / ineficaz",
-    "hi": "वैध/अप्रभावी नहीं"
+    "hi": "वैध/अप्रभावी नहीं",
+    "ar": "غير صالحة / غير فعالة"
   },
   {
     "char": "舞蹈",
@@ -8094,7 +8726,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Artikel / Waren",
     "es": "artículos / bienes",
-    "hi": "लेख/सामान"
+    "hi": "लेख/सामान",
+    "ar": "المقالات / البضائع"
   },
   {
     "char": "误",
@@ -8103,7 +8736,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Fehler / Irrtum",
     "es": "error / error",
-    "hi": "गलती/त्रुटि"
+    "hi": "गलती/त्रुटि",
+    "ar": "خطأ / خطأ"
   },
   {
     "char": "吸毒",
@@ -8112,7 +8746,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Drogen nehmen",
     "es": "tomar drogas",
-    "hi": "ड्रग्स लेना"
+    "hi": "ड्रग्स लेना",
+    "ar": "لتعاطي المخدرات"
   },
   {
     "char": "牺牲",
@@ -8132,7 +8767,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Waschmittel/Waschpulver",
     "es": "detergente para ropa / detergente en polvo",
-    "hi": "कपड़े धोने का डिटर्जेंट / वाशिंग पाउडर"
+    "hi": "कपड़े धोने का डिटर्जेंट / वाशिंग पाउडर",
+    "ar": "منظف الغسيل / مسحوق الغسيل"
   },
   {
     "char": "戏曲",
@@ -8141,7 +8777,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Chinesische Oper",
     "es": "ópera china",
-    "hi": "चीनी ओपेरा"
+    "hi": "चीनी ओपेरा",
+    "ar": "الأوبرا الصينية"
   },
   {
     "char": "细胞",
@@ -8172,7 +8809,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Spanische Sprache",
     "es": "idioma español",
-    "hi": "स्पैनिश भाषा"
+    "hi": "स्पैनिश भाषा",
+    "ar": "اللغة الاسبانية"
   },
   {
     "char": "先锋",
@@ -8181,7 +8819,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Avantgarde / Pionier",
     "es": "vanguardia / pionero",
-    "hi": "अग्रणी/अग्रणी"
+    "hi": "अग्रणी/अग्रणी",
+    "ar": "الطليعة / الرائد"
   },
   {
     "char": "嫌",
@@ -8201,7 +8840,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ausdrücken / ausstellen",
     "es": "expresar / exhibir",
-    "hi": "व्यक्त करना/प्रदर्शन करना"
+    "hi": "व्यक्त करना/प्रदर्शन करना",
+    "ar": "للتعبير / للعرض"
   },
   {
     "char": "险",
@@ -8210,7 +8850,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gefahr / gefährlich",
     "es": "peligro / peligroso",
-    "hi": "ख़तरा / ख़तरनाक"
+    "hi": "ख़तरा / ख़तरनाक",
+    "ar": "خطر / خطير"
   },
   {
     "char": "线路",
@@ -8219,7 +8860,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(Strom-)Leitung / Stromkreis",
     "es": "(electricidad) línea / circuito",
-    "hi": "(बिजली) लाइन/सर्किट"
+    "hi": "(बिजली) लाइन/सर्किट",
+    "ar": "(كهرباء) خط / دائرة"
   },
   {
     "char": "陷入",
@@ -8239,7 +8881,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Lärm",
     "es": "ruido",
-    "hi": "शोर"
+    "hi": "शोर",
+    "ar": "الضوضاء"
   },
   {
     "char": "想不到",
@@ -8248,7 +8891,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unerwartet / schwer vorstellbar",
     "es": "inesperado / difícil de imaginar",
-    "hi": "अप्रत्याशित/कल्पना करना कठिन"
+    "hi": "अप्रत्याशित/कल्पना करना कठिन",
+    "ar": "غير متوقع / يصعب تخيله"
   },
   {
     "char": "消耗",
@@ -8279,7 +8923,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Trinkgeld / Trinkgeld",
     "es": "propina / gratificación",
-    "hi": "टिप / ग्रेच्युटी"
+    "hi": "टिप / ग्रेच्युटी",
+    "ar": "نصيحة / مكافأة"
   },
   {
     "char": "小麦",
@@ -8299,7 +8944,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kleiner als, <",
     "es": "menos que, <",
-    "hi": "से कम, <"
+    "hi": "से कम, <",
+    "ar": "أقل من،<"
   },
   {
     "char": "晓得",
@@ -8308,7 +8954,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wissen",
     "es": "saber",
-    "hi": "जानना"
+    "hi": "जानना",
+    "ar": "لتعرف"
   },
   {
     "char": "笑脸",
@@ -8317,7 +8964,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lächelndes Gesicht / Smiley :) ☺",
     "es": "cara sonriente / smiley :) ☺",
-    "hi": "मुस्कुराता हुआ चेहरा / स्माइली :) ☺"
+    "hi": "मुस्कुराता हुआ चेहरा / स्माइली :) ☺",
+    "ar": "وجه مبتسم / مبتسم :) ☺"
   },
   {
     "char": "笑容",
@@ -8326,7 +8974,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Lächeln / lächelnder Ausdruck",
     "es": "sonrisa / expresión sonriente",
-    "hi": "मुस्कुराहट / मुस्कुराती अभिव्यक्ति"
+    "hi": "मुस्कुराहट / मुस्कुराती अभिव्यक्ति",
+    "ar": "ابتسامة / تعبير مبتسم"
   },
   {
     "char": "笑声",
@@ -8335,7 +8984,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Lachen",
     "es": "risa",
-    "hi": "हंसी"
+    "hi": "हंसी",
+    "ar": "ضحك"
   },
   {
     "char": "协调",
@@ -8388,7 +9038,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Bürogebäude",
     "es": "edificio de oficinas",
-    "hi": "कार्याल��� भवन"
+    "hi": "कार्याल��� भवन",
+    "ar": "مبنى المكاتب"
   },
   {
     "char": "写字台",
@@ -8397,7 +9048,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schreibtisch",
     "es": "escritorio",
-    "hi": "लेखन डेस्क"
+    "hi": "लेखन डेस्क",
+    "ar": "مكتب للكتابة"
   },
   {
     "char": "心灵",
@@ -8417,7 +9069,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gehegter Wunsch/Traum",
     "es": "deseo / sueño preciado",
-    "hi": "पोषित इच्छा/सपना"
+    "hi": "पोषित इच्छा/सपना",
+    "ar": "الرغبة العزيزة / الحلم"
   },
   {
     "char": "心脏",
@@ -8437,7 +9090,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Herzkrankheit",
     "es": "enfermedad del corazon",
-    "hi": "हृदय रोग"
+    "hi": "हृदय रोग",
+    "ar": "أمراض القلب"
   },
   {
     "char": "新人",
@@ -8446,7 +9100,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Newcomer / frisches Talent",
     "es": "recién llegado / talento fresco",
-    "hi": "नवागंतुक / ताज़ा प्रतिभा"
+    "hi": "नवागंतुक / ताज़ा प्रतिभा",
+    "ar": "الوافد الجديد / المواهب الجديدة"
   },
   {
     "char": "新兴",
@@ -8455,7 +9110,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Landkreis Xinxing in Yunfu 云浮, Guangdong",
     "es": "Condado de Xinxing en Yunfu 云浮, Guangdong",
-    "hi": "युनफू 云浮, ग्वांगडोंग में शिनक्सिंग काउंटी"
+    "hi": "युनफू 云浮, ग्वांगडोंग में शिनक्सिंग काउंटी",
+    "ar": "(مقاطعة شينشينغ في يونفو 云浮، قوانغدونغ)."
   },
   {
     "char": "薪水",
@@ -8486,7 +9142,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Vertrauenswürdigkeit / (Handels-)Kredit",
     "es": "confiabilidad / crédito (comercial)",
-    "hi": "विश्वसनीयता / (वाणिज्य) क्रेडिट"
+    "hi": "विश्वसनीयता / (वाणिज्य) क्रेडिट",
+    "ar": "الجدارة بالثقة / (التجارة) الائتمان"
   },
   {
     "char": "行程",
@@ -8495,7 +9152,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Reise",
     "es": "viaje",
-    "hi": "यात्रा"
+    "hi": "यात्रा",
+    "ar": "رحلة"
   },
   {
     "char": "形",
@@ -8504,7 +9162,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "erscheinen / schauen",
     "es": "aparecer / mirar",
-    "hi": "प्रकट होना/दिखना"
+    "hi": "प्रकट होना/दिखना",
+    "ar": "لتظهر / لتنظر"
   },
   {
     "char": "兴旺",
@@ -8524,7 +9183,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "schrecklich / ängstlich",
     "es": "terrible / aterrador",
-    "hi": "भयानक/डरावना"
+    "hi": "भयानक/डरावना",
+    "ar": "رهيب / خائف"
   },
   {
     "char": "凶手",
@@ -8544,7 +9204,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Fahrrad (Auto usw.) reparieren",
     "es": "reparar una bicicleta (coche, etc.)",
-    "hi": "बाइक (कार आदि) की मरम्मत के लिए"
+    "hi": "बाइक (कार आदि) की मरम्मत के लिए",
+    "ar": "لإصلاح دراجة (سيارة الخ)"
   },
   {
     "char": "袖珍",
@@ -8553,7 +9214,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "im Taschenformat / in der Hosentasche (Buch usw.)",
     "es": "tamaño de bolsillo / bolsillo (libro, etc.)",
-    "hi": "जेब के आकार का / पॉकेट (पुस्तक आदि)"
+    "hi": "जेब के आकार का / पॉकेट (पुस्तक आदि)",
+    "ar": "بحجم الجيب / الجيب (كتاب الخ)"
   },
   {
     "char": "悬",
@@ -8562,7 +9224,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "hängen oder suspendieren / sich Sorgen machen",
     "es": "colgar o suspender / preocuparse",
-    "hi": "फाँसी देना या निलम्बित करना/चिन्ता करना"
+    "hi": "फाँसी देना या निलम्बित करना/चिन्ता करना",
+    "ar": "لشنق أو تعليق / للقلق"
   },
   {
     "char": "旋转",
@@ -8604,7 +9267,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "lernen / meistern",
     "es": "aprender / dominar",
-    "hi": "सीखना / महारत हासिल करना"
+    "hi": "सीखना / महारत हासिल करना",
+    "ar": "للتعلم / لإتقان"
   },
   {
     "char": "学员",
@@ -8613,7 +9277,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Student/Mitglied einer Bildungseinrichtung",
     "es": "estudiante / miembro de una institución de aprendizaje",
-    "hi": "किसी शिक्षण संस्थान का छात्र/सदस्य"
+    "hi": "किसी शिक्षण संस्थान का छात्र/सदस्य",
+    "ar": "طالب / عضو في مؤسسة تعليمية"
   },
   {
     "char": "血管",
@@ -8622,7 +9287,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Vene / Arterie",
     "es": "vena / arteria",
-    "hi": "शिरा/धमनी"
+    "hi": "शिरा/धमनी",
+    "ar": "الوريد / الشريان"
   },
   {
     "char": "血液",
@@ -8631,7 +9297,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Blut",
     "es": "sangre",
-    "hi": "खून"
+    "hi": "खून",
+    "ar": "الدم"
   },
   {
     "char": "循环",
@@ -8662,7 +9329,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Feuerwerk / Prostituierte (besonders im Yuan-Theater)",
     "es": "fuegos artificiales / prostituta (especialmente en el teatro Yuan)",
-    "hi": "आतिशबाज़ी / वेश्या (विशेषकर युआन थिएटर में)"
+    "hi": "आतिशबाज़ी / वेश्या (विशेषकर युआन थिएटर में)",
+    "ar": "الألعاب النارية / عاهرة (خاصة في مسرح يوان)"
   },
   {
     "char": "沿",
@@ -8671,7 +9339,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "entlang / folgen (einer Linie, Tradition usw.)",
     "es": "seguir / seguir (una línea, tradición, etc.)",
-    "hi": "साथ में/पालन करना (एक पंक्ति, परंपरा आदि)"
+    "hi": "साथ में/पालन करना (एक पंक्ति, परंपरा आदि)",
+    "ar": "على طول / لمتابعة (خط، تقليد، الخ)"
   },
   {
     "char": "沿海",
@@ -8691,7 +9360,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mitgehen / folgen",
     "es": "ir junto / seguir",
-    "hi": "साथ चलना/अनुगमन करना"
+    "hi": "साथ चलना/अनुगमन करना",
+    "ar": "للذهاب على طول / لمتابعة"
   },
   {
     "char": "研发",
@@ -8700,7 +9370,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Forschung und Entwicklung / entwickeln",
     "es": "investigación y desarrollo / desarrollar",
-    "hi": "अनुसंधान एवं विकास/विकसित करना"
+    "hi": "अनुसंधान एवं विकास/विकसित करना",
+    "ar": "البحث والتطوير / لتطوير"
   },
   {
     "char": "眼看",
@@ -8709,7 +9380,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bald / in einem Moment",
     "es": "pronto / en un momento",
-    "hi": "शीघ्र/एक क्षण में"
+    "hi": "शीघ्र/एक क्षण में",
+    "ar": "قريبا / في لحظة"
   },
   {
     "char": "演奏",
@@ -8740,7 +9412,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Ozean / riesig",
     "es": "océano / vasto",
-    "hi": "सागर/विशाल"
+    "hi": "सागर/विशाल",
+    "ar": "المحيط / واسعة"
   },
   {
     "char": "仰",
@@ -8749,7 +9422,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Yang",
     "es": "apellido Yang",
-    "hi": "उपनाम यांग"
+    "hi": "उपनाम यांग",
+    "ar": "اللقب يانغ"
   },
   {
     "char": "养老",
@@ -8758,7 +9432,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "für die Versorgung älterer Menschen (Familienmitglieder) sorgen / ein Leben im Ruhestand genießen",
     "es": "para mantener a los ancianos (miembros de la familia) / para disfrutar de una vida de jubilación",
-    "hi": "बुजुर्गों (परिवार के सदस्यों) को प्रदान करना/सेवानिवृत्ति में जीवन का आनंद लेना"
+    "hi": "बुजुर्गों (परिवार के सदस्यों) को प्रदान करना/सेवानिवृत्ति में जीवन का आनंद लेना",
+    "ar": "لتوفير كبار السن (أفراد الأسرة) / للاستمتاع بحياة التقاعد"
   },
   {
     "char": "氧气",
@@ -8778,7 +9453,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Art und Weise / Muster",
     "es": "manera / patrón",
-    "hi": "ढंग/पैटर्न"
+    "hi": "ढंग/पैटर्न",
+    "ar": "الطريقة / النمط"
   },
   {
     "char": "药品",
@@ -8787,7 +9463,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Medikamente / Medizin",
     "es": "medicamentos / medicina",
-    "hi": "औषधियाँ / औषधि"
+    "hi": "औषधियाँ / औषधि",
+    "ar": "الأدوية / الطب"
   },
   {
     "char": "要不然",
@@ -8796,7 +9473,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sonst / oder sonst",
     "es": "de lo contrario/o si no",
-    "hi": "अन्यथा/अन्यथा"
+    "hi": "अन्यथा/अन्यथा",
+    "ar": "وإلا / وإلا"
   },
   {
     "char": "要好",
@@ -8805,7 +9483,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich gut verstehen / enge Freunde sein",
     "es": "estar en buenos términos / ser amigos cercanos",
-    "hi": "अच्छे संबंध रखना/घनिष्ठ मित्र बनना"
+    "hi": "अच्छे संबंध रखना/घनिष्ठ मित्र बनना",
+    "ar": "أن نكون على علاقة جيدة / أن نكون أصدقاء مقربين"
   },
   {
     "char": "要么",
@@ -8814,7 +9493,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "oder / entweder das eine oder das andere",
     "es": "o / ya sea uno o el otro",
-    "hi": "या/या तो एक या दूसरा"
+    "hi": "या/या तो एक या दूसरा",
+    "ar": "أو / أحدهما أو الآخر"
   },
   {
     "char": "要素",
@@ -8834,7 +9514,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "alte Variante von 野",
     "es": "antigua variante de 野",
-    "hi": "野 का पुराना संस्करण"
+    "hi": "野 का पुराना संस्करण",
+    "ar": "البديل القديم من 野"
   },
   {
     "char": "野生",
@@ -8843,7 +9524,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wild / nicht domestiziert",
     "es": "salvaje / no domesticado",
-    "hi": "जंगली/अपालतू"
+    "hi": "जंगली/अपालतू",
+    "ar": "البرية / غير المستأنسة"
   },
   {
     "char": "一次性",
@@ -8852,7 +9534,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "einmalig (Angebot) / einmalig",
     "es": "única (oferta) / única",
-    "hi": "एकमुश्त (प्रस्ताव) / एकबारगी"
+    "hi": "एकमुश्त (प्रस्ताव) / एकबारगी",
+    "ar": "لمرة واحدة (عرض) / لمرة واحدة"
   },
   {
     "char": "一代",
@@ -8861,7 +9544,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Generation",
     "es": "generación",
-    "hi": "पीढ़ी"
+    "hi": "पीढ़ी",
+    "ar": "جيل"
   },
   {
     "char": "一道",
@@ -8870,7 +9554,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zusammen",
     "es": "juntos",
-    "hi": "एक साथ"
+    "hi": "एक साथ",
+    "ar": "معًا"
   },
   {
     "char": "一番",
@@ -8879,7 +9564,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Einige",
     "es": "algunos",
-    "hi": "कुछ"
+    "hi": "कुछ",
+    "ar": "بعض"
   },
   {
     "char": "一贯",
@@ -8899,7 +9585,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unterwegs",
     "es": "a lo largo del camino",
-    "hi": "रास्ते में"
+    "hi": "रास्ते में",
+    "ar": "على طول الطريق"
   },
   {
     "char": "一模一样",
@@ -8908,7 +9595,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "genau das gleiche (Redewendung) / Kopie",
     "es": "exactamente lo mismo (modismo) / copia al carbón",
-    "hi": "बिल्कुल वैसा ही (मुहावरा)/कार्बन कॉपी"
+    "hi": "बिल्कुल वैसा ही (मुहावरा)/कार्बन कॉपी",
+    "ar": "بالضبط نفس (المصطلح) / نسخة كربونية"
   },
   {
     "char": "一齐",
@@ -8917,7 +9605,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "gleichzeitig / gleichzeitig",
     "es": "al mismo tiempo / simultáneamente",
-    "hi": "एक ही समय में/एक साथ"
+    "hi": "एक ही समय में/एक साथ",
+    "ar": "في نفس الوقت / في وقت واحد"
   },
   {
     "char": "一时",
@@ -8926,7 +9615,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Zeitspanne / eine Weile",
     "es": "un período de tiempo / un tiempo",
-    "hi": "एक समयावधि / थोड़ी देर"
+    "hi": "एक समयावधि / थोड़ी देर",
+    "ar": "فترة من الزمن/ بعض الوقت"
   },
   {
     "char": "一同",
@@ -8957,7 +9647,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "medizinische Versorgung und Medikamente / Medizin (Arzneimittel)",
     "es": "atención médica y medicamentos / medicina (droga)",
-    "hi": "चिकित्सा देखभाल और दवाइयाँ / दवा (दवा)"
+    "hi": "चिकित्सा देखभाल और दवाइयाँ / दवा (दवा)",
+    "ar": "الرعاية الطبية والأدوية / الطب (المخدرات)"
   },
   {
     "char": "依次",
@@ -9021,7 +9712,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "darstellender Künstler/Schauspieler",
     "es": "artista escénico / actor",
-    "hi": "प्रदर्शन करने वाला कलाकार/अभिनेता"
+    "hi": "प्रदर्शन करने वाला कलाकार/अभिनेता",
+    "ar": "فنان أداء / ممثل"
   },
   {
     "char": "议题",
@@ -9030,7 +9722,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Diskussionsthema",
     "es": "tema de discusión",
-    "hi": "चर्चा का विषय"
+    "hi": "चर्चा का विषय",
+    "ar": "موضوع المناقشة"
   },
   {
     "char": "异常",
@@ -9050,7 +9743,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unerwartet / bisher unvorstellbar",
     "es": "inesperado/antes inimaginable",
-    "hi": "अप्रत्याशित / पहले से अकल्पित"
+    "hi": "अप्रत्याशित / पहले से अकल्पित",
+    "ar": "غير متوقع / لم يكن من الممكن تصوره من قبل"
   },
   {
     "char": "意愿",
@@ -9059,7 +9753,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Aspiration / Wunsch (für)",
     "es": "aspiración / deseo (de)",
-    "hi": "आकांक्षा/इच्छा (के लिए)"
+    "hi": "आकांक्षा/इच्छा (के लिए)",
+    "ar": "الطموح / الرغبة (ل)"
   },
   {
     "char": "因",
@@ -9068,7 +9763,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "alte Variante von 因",
     "es": "antigua variante de 因",
-    "hi": "因 का पुराना संस्करण"
+    "hi": "因 का पुराना संस्करण",
+    "ar": "البديل القديم من 因"
   },
   {
     "char": "因素",
@@ -9077,7 +9773,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Element / Faktor",
     "es": "elemento / factor",
-    "hi": "तत्व/कारक"
+    "hi": "तत्व/कारक",
+    "ar": "العنصر / العامل"
   },
   {
     "char": "阴谋",
@@ -9097,7 +9794,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(lit. und fig.) Schatten",
     "es": "(lit. y fig.) sombra",
-    "hi": "(शाब्दिक और चित्र) छाया"
+    "hi": "(शाब्दिक और चित्र) छाया",
+    "ar": "(مضاءة وشكل.) الظل"
   },
   {
     "char": "音量",
@@ -9106,7 +9804,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Lautstärke / Lautstärke",
     "es": "sonoridad / volumen",
-    "hi": "तीव्रता/मात्रा"
+    "hi": "तीव्रता/मात्रा",
+    "ar": "جهارة الصوت / الحجم"
   },
   {
     "char": "音像",
@@ -9115,7 +9814,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Audio und Video / audiovisuell",
     "es": "audio y vídeo / audiovisual",
-    "hi": "ऑडियो और वीडियो / दृश्य-श्रव्य"
+    "hi": "ऑडियो और वीडियो / दृश्य-श्रव्य",
+    "ar": "الصوت والفيديو / السمعي البصري"
   },
   {
     "char": "隐藏",
@@ -9124,7 +9824,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "verstecken / verbergen",
     "es": "ocultar / ocultar",
-    "hi": "छिपाना/छुपाना"
+    "hi": "छिपाना/छुपाना",
+    "ar": "لإخفاء / لإخفاء"
   },
   {
     "char": "隐私",
@@ -9144,7 +9845,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Yin / Abk. für 度",
     "es": "apellido Yin / abbr. para 度",
-    "hi": "उपनाम यिन / abbr.度 के लिए"
+    "hi": "उपनाम यिन / abbr.度 के लिए",
+    "ar": "اللقب يين / أبر. ل 度"
   },
   {
     "char": "应对",
@@ -9153,7 +9855,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "antworten / antworten",
     "es": "responder / responder",
-    "hi": "उत्तर देना / उत्तर देना"
+    "hi": "उत्तर देना / उत्तर देना",
+    "ar": "للإجابة / للرد"
   },
   {
     "char": "应急",
@@ -9162,7 +9865,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "auf einen Notfall reagieren/einen Notfall bewältigen",
     "es": "responder a una emergencia / hacer frente a una contingencia",
-    "hi": "किसी आपात स्थिति का जवाब देने के लिए/आकस्मिक स्थिति से निपटने के लिए"
+    "hi": "किसी आपात स्थिति का जवाब देने के लिए/आकस्मिक स्थिति से निपटने के लिए",
+    "ar": "للاستجابة لحالة الطوارئ / لمواجهة حالة الطوارئ"
   },
   {
     "char": "英雄",
@@ -9182,7 +9886,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(einen Besucher oder Neuankömmling) willkommen heißen / (fig.) eintreten",
     "es": "dar la bienvenida (a un visitante o recién llegado) / (fig.) marcar el comienzo",
-    "hi": "स्वागत करना (आगंतुक या नवागंतुक) / (अंजीर) प्रवेश कराना"
+    "hi": "स्वागत करना (आगंतुक या नवागंतुक) / (अंजीर) प्रवेश कराना",
+    "ar": "للترحيب (بالزائر أو الوافد الجديد) / (الشكل) للدخول"
   },
   {
     "char": "影迷",
@@ -9191,7 +9896,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Filmliebhaber / Filmfan",
     "es": "entusiasta del cine / fanático del cine",
-    "hi": "फ़िल्म प्रेमी/फ़िल्म प्रशंसक"
+    "hi": "फ़िल्म प्रेमी/फ़िल्म प्रशंसक",
+    "ar": "عشاق السينما / محبي السينما"
   },
   {
     "char": "影响力",
@@ -9200,7 +9906,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Einfluss / Wirkung",
     "es": "influencia / impacto",
-    "hi": "प्रभाव/प्रभाव"
+    "hi": "प्रभाव/प्रभाव",
+    "ar": "تأثير / تأثير"
   },
   {
     "char": "影星",
@@ -9209,7 +9916,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Filmstar",
     "es": "estrella de cine",
-    "hi": "फिल्म स्टार"
+    "hi": "फिल्म स्टार",
+    "ar": "نجم سينمائي"
   },
   {
     "char": "用处",
@@ -9218,7 +9926,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nützlichkeit",
     "es": "utilidad",
-    "hi": "उपयोगिता"
+    "hi": "उपयोगिता",
+    "ar": "فائدة"
   },
   {
     "char": "用得着",
@@ -9227,7 +9936,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "nutzen/nutzen können",
     "es": "poder usar / utilizable",
-    "hi": "उपयोग करने योग्य/प्रयोग योग्य होना"
+    "hi": "उपयोग करने योग्य/प्रयोग योग्य होना",
+    "ar": "لتكون قادرة على استخدام / صالحة للاستعمال"
   },
   {
     "char": "用法",
@@ -9236,7 +9946,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nutzung",
     "es": "uso",
-    "hi": "उपयोग"
+    "hi": "उपयोग",
+    "ar": "الاستخدام"
   },
   {
     "char": "用品",
@@ -9245,7 +9956,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gebrauchsgegenstände / Produkte",
     "es": "artículos de uso / productos",
-    "hi": "उपयोग के लिए लेख / उत्पाद"
+    "hi": "उपयोग के लिए लेख / उत्पाद",
+    "ar": "مقالات للاستخدام / المنتجات"
   },
   {
     "char": "用心",
@@ -9254,7 +9966,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Motiv/Absicht",
     "es": "motivo / intención",
-    "hi": "मकसद/इरादा"
+    "hi": "मकसद/इरादा",
+    "ar": "الدافع / النية"
   },
   {
     "char": "优质",
@@ -9263,7 +9976,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ausgezeichnete Qualität",
     "es": "excelente calidad",
-    "hi": "उत्कृष्ट गुणवत्ता"
+    "hi": "उत्कृष्ट गुणवत्ता",
+    "ar": "نوعية ممتازة"
   },
   {
     "char": "游人",
@@ -9272,7 +9986,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ein Tourist",
     "es": "un turista",
-    "hi": "एक पर्यटक"
+    "hi": "एक पर्यटक",
+    "ar": "سائح"
   },
   {
     "char": "游玩",
@@ -9281,7 +9996,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich amüsieren / Spaß haben",
     "es": "divertirse / divertirse",
-    "hi": "अपना मन बहलाना/मौज-मस्ती करना"
+    "hi": "अपना मन बहलाना/मौज-मस्ती करना",
+    "ar": "للتسلية / للحصول على المتعة"
   },
   {
     "char": "游戏机",
@@ -9290,7 +10006,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Videospielmaschine",
     "es": "maquina de videojuegos",
-    "hi": "वीडियो गेम मशीन"
+    "hi": "वीडियो गेम मशीन",
+    "ar": "آلة ألعاب الفيديو"
   },
   {
     "char": "游行",
@@ -9299,7 +10016,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "marschieren / paradieren",
     "es": "marchar / desfilar",
-    "hi": "मार्च करना/परेड करना"
+    "hi": "मार्च करना/परेड करना",
+    "ar": "لمسيرة / إلى العرض"
   },
   {
     "char": "有关",
@@ -9308,7 +10026,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit etw etwas zu tun haben/sich darauf beziehen",
     "es": "tener algo que ver con / relacionarse con",
-    "hi": "sth का संबंध होना/संबंधित होना"
+    "hi": "sth का संबंध होना/संबंधित होना",
+    "ar": "أن يكون له علاقة بـ / يرتبط به"
   },
   {
     "char": "有没有",
@@ -9317,7 +10036,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(vor einem Substantiv) Haben (Sie, sie usw.) ...?",
     "es": "(antes de un sustantivo) ¿(tú, ellos, etc.) tienen...?",
-    "hi": "(संज्ञा से पहले) क्या (आपके, उनके आदि) पास हैं...?"
+    "hi": "(संज्ञा से पहले) क्या (आपके, उनके आदि) पास हैं...?",
+    "ar": "(قبل الاسم) هل (أنتم وهم الخ) لديهم...؟"
   },
   {
     "char": "有事",
@@ -9326,7 +10046,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit etw. beschäftigt sein",
     "es": "estar ocupado con algo",
-    "hi": "sth पर कब्ज़ा होना"
+    "hi": "sth पर कब्ज़ा होना",
+    "ar": "أن تكون مشغولة بشيء"
   },
   {
     "char": "于",
@@ -9335,7 +10056,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Yu",
     "es": "apellido Yu",
-    "hi": "उपनाम यू"
+    "hi": "उपनाम यू",
+    "ar": "اللقب يو"
   },
   {
     "char": "娱乐",
@@ -9355,7 +10077,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "fröhlich / fröhlich",
     "es": "alegre / alegremente",
-    "hi": "हर्षित/प्रसन्नतापूर्वक"
+    "hi": "हर्षित/प्रसन्नतापूर्वक",
+    "ar": "البهجة / بمرح"
   },
   {
     "char": "与",
@@ -9375,7 +10098,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Astronaut",
     "es": "astronauta",
-    "hi": "अंतरिक्ष यात्री"
+    "hi": "अंतरिक्ष यात्री",
+    "ar": "رائد فضاء"
   },
   {
     "char": "雨衣",
@@ -9384,7 +10108,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Regenmantel",
     "es": "impermeable",
-    "hi": "रेनकोट"
+    "hi": "रेनकोट",
+    "ar": "معطف واق من المطر"
   },
   {
     "char": "预约",
@@ -9393,7 +10118,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Buchung / Reservierung",
     "es": "reserva / reserva",
-    "hi": "बुकिंग/आरक्षण"
+    "hi": "बुकिंग/आरक्षण",
+    "ar": "الحجز / الحجز"
   },
   {
     "char": "元素",
@@ -9413,7 +10139,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Yuan",
     "es": "apellido yuan",
-    "hi": "उपनाम युआन"
+    "hi": "उपनाम युआन",
+    "ar": "اللقب يوان"
   },
   {
     "char": "园地",
@@ -9422,7 +10149,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gartenbereich",
     "es": "zona de jardín",
-    "hi": "उद्यान क्षेत्र"
+    "hi": "उद्यान क्षेत्र",
+    "ar": "منطقة الحديقة"
   },
   {
     "char": "原",
@@ -9431,7 +10159,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Yuan / (japanischer Nachname) Hara",
     "es": "apellido Yuan / (apellido japonés) Hara",
-    "hi": "उपनाम युआन / (जापानी उपनाम) हारा"
+    "hi": "उपनाम युआन / (जापानी उपनाम) हारा",
+    "ar": "اللقب يوان / (اللقب الياباني) هارا"
   },
   {
     "char": "原告",
@@ -9462,7 +10191,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Kugelschreiber",
     "es": "bolígrafo",
-    "hi": "बॉलपॉइंट पेन"
+    "hi": "बॉलपॉइंट पेन",
+    "ar": "قلم حبر جاف"
   },
   {
     "char": "援助",
@@ -9471,7 +10201,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "helfen / unterstützen",
     "es": "ayudar / apoyar",
-    "hi": "सहायता करना/समर्थन करना"
+    "hi": "सहायता करना/समर्थन करना",
+    "ar": "للمساعدة / لدعم"
   },
   {
     "char": "缘故",
@@ -9480,7 +10211,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Grund / Ursache",
     "es": "razón / causa",
-    "hi": "कारण/कारण"
+    "hi": "कारण/कारण",
+    "ar": "سبب / سبب"
   },
   {
     "char": "远方",
@@ -9489,7 +10221,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "weit weg / ein entfernter Ort",
     "es": "lejos / un lugar distante",
-    "hi": "बहुत दूर / सुदूर स्थान"
+    "hi": "बहुत दूर / सुदूर स्थान",
+    "ar": "بعيد / مكان بعيد"
   },
   {
     "char": "远离",
@@ -9498,7 +10231,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "weit davon entfernt sein",
     "es": "estar lejos de",
-    "hi": "से दूर होना"
+    "hi": "से दूर होना",
+    "ar": "أن تكون بعيدة عن"
   },
   {
     "char": "远远",
@@ -9507,7 +10241,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "entfernt / bei weitem",
     "es": "distante / de lejos",
-    "hi": "दूर / बहुत दूर तक"
+    "hi": "दूर / बहुत दूर तक",
+    "ar": "البعيد / البعيد"
   },
   {
     "char": "约定",
@@ -9516,7 +10251,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "sich (nach einer Diskussion) auf etw einigen / einen Handel abschließen",
     "es": "ponerse de acuerdo en algo (después de la discusión) / concluir un trato",
-    "hi": "एसटीएच पर सहमत होना (चर्चा के बाद)/सौदा समाप्त करना"
+    "hi": "एसटीएच पर सहमत होना (चर्चा के बाद)/सौदा समाप्त करना",
+    "ar": "للاتفاق على شيء (بعد المناقشة) / لإبرام صفقة"
   },
   {
     "char": "晕",
@@ -9536,7 +10272,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Autokrankheit haben",
     "es": "estar mareado",
-    "hi": "कार्सिक होना"
+    "hi": "कार्सिक होना",
+    "ar": "أن تكون مريضا بالسيارة"
   },
   {
     "char": "允许",
@@ -9567,7 +10304,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Variante von 杂",
     "es": "variante de 杂",
-    "hi": "杂 का प्रकार"
+    "hi": "杂 का प्रकार",
+    "ar": "البديل من 杂"
   },
   {
     "char": "再生",
@@ -9576,7 +10314,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wiedergeboren werden / regenerieren",
     "es": "renacer / regenerarse",
-    "hi": "पुनर्जन्म होना/पुनर्जीवित होना"
+    "hi": "पुनर्जन्म होना/पुनर्जीवित होना",
+    "ar": "أن تولد من جديد / أن تتجدد"
   },
   {
     "char": "再说",
@@ -9585,7 +10324,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "noch einmal sagen / eine Diskussion auf später verschieben",
     "es": "decir otra vez / posponer una discusión para más tarde",
-    "hi": "दोबारा कहना/चर्चा को बाद के लिए टालना"
+    "hi": "दोबारा कहना/चर्चा को बाद के लिए टालना",
+    "ar": "ليقول مرة أخرى / لتأجيل المناقشة إلى وقت لاحق"
   },
   {
     "char": "遭到",
@@ -9594,7 +10334,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "leiden / mit (etwas Unglücklichem) zusammentreffen",
     "es": "sufrir / encontrarse con (algo desafortunado)",
-    "hi": "कष्ट सहना/मिलना (दुर्भाग्यपूर्ण)"
+    "hi": "कष्ट सहना/मिलना (दुर्भाग्यपूर्ण)",
+    "ar": "يعاني / يجتمع مع (مؤسف)"
   },
   {
     "char": "遭受",
@@ -9625,7 +10366,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "morgens und abends / (Dialekt) irgendwann in der Zukunft",
     "es": "mañana y tarde / (dialecto) en algún momento en el futuro",
-    "hi": "सुबह और शाम / (बोली) भविष्य में कुछ समय"
+    "hi": "सुबह और शाम / (बोली) भविष्य में कुछ समय",
+    "ar": "الصباح والمساء / (اللهجة) في وقت ما في المستقبل"
   },
   {
     "char": "增进",
@@ -9645,7 +10387,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(finanziell) wertschätzen / im Wert steigern",
     "es": "apreciar (financieramente) / aumentar de valor",
-    "hi": "सराहना करना (आर्थिक रूप से) / मूल्य में वृद्धि करना"
+    "hi": "सराहना करना (आर्थिक रूप से) / मूल्य में वृद्धि करना",
+    "ar": "لتقدير (ماليا) / لزيادة القيمة"
   },
   {
     "char": "扎",
@@ -9676,7 +10419,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "zum Frittieren / Taiwan pr. [zhà]",
     "es": "para freír / Taiwán pr. [zhá]",
-    "hi": "डीप फ्राई करने के लिए / ताइवान पीआर। [zhà]"
+    "hi": "डीप फ्राई करने के लिए / ताइवान पीआर। [zhà]",
+    "ar": "للقلي العميق / تايوان pr. [زا]"
   },
   {
     "char": "炸弹",
@@ -9685,7 +10429,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Bombe",
     "es": "bomba",
-    "hi": "बम"
+    "hi": "बम",
+    "ar": "قنبلة"
   },
   {
     "char": "炸药",
@@ -9694,7 +10439,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "explosiv (materiell)",
     "es": "explosivo (material)",
-    "hi": "विस्फोटक (सामग्री)"
+    "hi": "विस्फोटक (सामग्री)",
+    "ar": "متفجر (مادة)"
   },
   {
     "char": "债",
@@ -9703,7 +10449,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schulden",
     "es": "deuda",
-    "hi": "ऋण"
+    "hi": "ऋण",
+    "ar": "الديون"
   },
   {
     "char": "占据",
@@ -9723,7 +10470,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schlachtfeld",
     "es": "campo de batalla",
-    "hi": "युद्धक्षेत्र"
+    "hi": "युद्धक्षेत्र",
+    "ar": "ساحة المعركة"
   },
   {
     "char": "战略",
@@ -9754,7 +10502,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mitstreiter / Kampfgefährte",
     "es": "camarada de armas / compañero de batalla",
-    "hi": "हथियारबंद साथी/युद्ध साथी"
+    "hi": "हथियारबंद साथी/युद्ध साथी",
+    "ar": "الرفيق في السلاح / رفيق المعركة"
   },
   {
     "char": "站台",
@@ -9763,7 +10512,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Bahnsteig (an einem Bahnhof) / (Tw) (einer einflussreichen Person), um öffentlich seine Unterstützung auszusprechen (z. B. für einen Wahlkandidaten)",
     "es": "plataforma (en una estación de tren) / (Tw) (de una persona influyente) para prestar públicamente su apoyo (por ejemplo, a un candidato electoral)",
-    "hi": "मंच (रेलवे स्टेशन पर) / (Tw) (एक प्रभावशाली व्यक्ति का) सार्वजनिक रूप से किसी को समर्थन देने के लिए (उदाहरण के लिए चुनाव उम्मीदवार के लिए)"
+    "hi": "मंच (रेलवे स्टेशन पर) / (Tw) (एक प्रभावशाली व्यक्ति का) सार्वजनिक रूप से किसी को समर्थन देने के लिए (उदाहरण के लिए चुनाव उम्मीदवार के लिए)",
+    "ar": "منصة (في محطة السكك الحديدية) / (Tw) (لشخص مؤثر) لتقديم الدعم علنًا (على سبيل المثال لمرشح انتخابي)"
   },
   {
     "char": "章",
@@ -9772,7 +10522,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Nachname Zhang",
     "es": "apellido Zhang",
-    "hi": "उपनाम झांग"
+    "hi": "उपनाम झांग",
+    "ar": "اللقب تشانغ"
   },
   {
     "char": "长短",
@@ -9781,7 +10532,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Länge / Unfall",
     "es": "longitud / accidente",
-    "hi": "लंबाई/दुर्घटना"
+    "hi": "लंबाई/दुर्घटना",
+    "ar": "طول / حادث"
   },
   {
     "char": "长假",
@@ -9790,7 +10542,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "langer Urlaub",
     "es": "largas vacaciones",
-    "hi": "लंबी छुट्टी"
+    "hi": "लंबी छुट्टी",
+    "ar": "اجازة طويلة"
   },
   {
     "char": "长久",
@@ -9799,7 +10552,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(für eine) lange Zeit",
     "es": "(por un) largo tiempo",
-    "hi": "(ए) लंबे समय के लिए"
+    "hi": "(ए) लंबे समय के लिए",
+    "ar": "(أ) لفترة طويلة"
   },
   {
     "char": "长跑",
@@ -9808,7 +10562,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Langstreckenlauf",
     "es": "carrera de larga distancia",
-    "hi": "लंबी दूरी की दौड़"
+    "hi": "लंबी दूरी की दौड़",
+    "ar": "الجري لمسافات طويلة"
   },
   {
     "char": "长远",
@@ -9817,7 +10572,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "langfristig / weitreichend",
     "es": "largo plazo / largo plazo",
-    "hi": "दीर्घकालिक/दीर्घकालिक"
+    "hi": "दीर्घकालिक/दीर्घकालिक",
+    "ar": "طويلة المدى / طويلة المدى"
   },
   {
     "char": "掌声",
@@ -9826,7 +10582,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Applaus",
     "es": "aplausos",
-    "hi": "तालियाँ"
+    "hi": "तालियाँ",
+    "ar": "تصفيق"
   },
   {
     "char": "账",
@@ -9835,7 +10592,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Konto / Rechnung",
     "es": "cuenta/factura",
-    "hi": "खाता/बिल"
+    "hi": "खाता/बिल",
+    "ar": "الحساب / الفاتورة"
   },
   {
     "char": "账户",
@@ -9844,7 +10602,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Bankkonto",
     "es": "cuenta bancaria",
-    "hi": "बैंक खाता"
+    "hi": "बैंक खाता",
+    "ar": "حساب مصرفي"
   },
   {
     "char": "障碍",
@@ -9864,7 +10623,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "rekrutieren / provozieren",
     "es": "reclutar / provocar",
-    "hi": "भर्ती करना/उकसाना"
+    "hi": "भर्ती करना/उकसाना",
+    "ar": "لتجنيد / للاستفزاز"
   },
   {
     "char": "招聘",
@@ -9917,7 +10677,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit anderen Worten / das heißt",
     "es": "en otras palabras / es decir",
-    "hi": "दूसरे शब्दों में/अर्थात्"
+    "hi": "दूसरे शब्दों में/अर्थात्",
+    "ar": "وبعبارة أخرى / وهذا يعني"
   },
   {
     "char": "镇",
@@ -9926,7 +10687,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "niederdrücken / beruhigen",
     "es": "presionar hacia abajo / calmar",
-    "hi": "दबाना/शांत करना"
+    "hi": "दबाना/शांत करना",
+    "ar": "للضغط لأسفل / للتهدئة"
   },
   {
     "char": "争夺",
@@ -9957,7 +10719,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "unter Kontrolle bringen / regulieren",
     "es": "poner bajo control / regular",
-    "hi": "नियंत्रण में लाना/नियमित करना"
+    "hi": "नियंत्रण में लाना/नियमित करना",
+    "ar": "للسيطرة / التنظيم"
   },
   {
     "char": "正当",
@@ -9988,7 +10751,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "politische Partei",
     "es": "partido politico",
-    "hi": "राजनीतिक दल"
+    "hi": "राजनीतिक दल",
+    "ar": "حزب سياسي"
   },
   {
     "char": "政权",
@@ -10019,7 +10783,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "und so weiter",
     "es": "y así sucesivamente",
-    "hi": "वगैरह"
+    "hi": "वगैरह",
+    "ar": "وهكذا"
   },
   {
     "char": "支撑",
@@ -10061,7 +10826,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bekannt / berühmt",
     "es": "conocido / famoso",
-    "hi": "सुप्रसिद्ध/प्रसिद्ध"
+    "hi": "सुप्रसिद्ध/प्रसिद्ध",
+    "ar": "معروف / مشهور"
   },
   {
     "char": "织",
@@ -10070,7 +10836,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "weben",
     "es": "tejer",
-    "hi": "बुनना"
+    "hi": "बुनना",
+    "ar": "لنسج"
   },
   {
     "char": "直升机",
@@ -10079,7 +10846,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hubschrauber",
     "es": "helicóptero",
-    "hi": "हेलीकाप्टर"
+    "hi": "हेलीकाप्टर",
+    "ar": "هليكوبتر"
   },
   {
     "char": "职责",
@@ -10088,7 +10856,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Pflicht / Verantwortung",
     "es": "deber / responsabilidad",
-    "hi": "कर्तव्य/जिम्मेदारी"
+    "hi": "कर्तव्य/जिम्मेदारी",
+    "ar": "الواجب / المسؤولية"
   },
   {
     "char": "止",
@@ -10097,7 +10866,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "stoppen / verbieten",
     "es": "detener / prohibir",
-    "hi": "रोकना/रोकना"
+    "hi": "रोकना/रोकना",
+    "ar": "لوقف / لحظر"
   },
   {
     "char": "只得",
@@ -10106,7 +10876,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "keine andere Wahl haben als / dazu verpflichtet sein",
     "es": "no tener otra alternativa que / estar obligado a",
-    "hi": "बाध्य होने के अलावा कोई विकल्प नहीं होना"
+    "hi": "बाध्य होने के अलावा कोई विकल्प नहीं होना",
+    "ar": "أن لا يكون هناك بديل سوى / أن نكون مضطرين لذلك"
   },
   {
     "char": "只顾",
@@ -10115,7 +10886,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ausschließlich (mit einer Sache) beschäftigt / vertieft",
     "es": "únicamente preocupado (con una cosa) / absorto",
-    "hi": "पूरी तरह से व्यस्त (किसी एक चीज़ में) / तल्लीन"
+    "hi": "पूरी तरह से व्यस्त (किसी एक चीज़ में) / तल्लीन",
+    "ar": "مشغول فقط (بشيء واحد) / منشغل"
   },
   {
     "char": "只管",
@@ -10124,7 +10896,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ausschließlich in eine Sache vertieft / nur (eine Sache, um den Rest muss man sich keine Sorgen machen)",
     "es": "únicamente absorto en una cosa / solo (una cosa, no hay necesidad de preocuparse por el resto)",
-    "hi": "पूरी तरह से एक चीज में तल्लीन / सिर्फ (एक चीज, बाकी के बारे में चिंता करने की कोई जरूरत नहीं)"
+    "hi": "पूरी तरह से एक चीज में तल्लीन / सिर्फ (एक चीज, बाकी के बारे में चिंता करने की कोई जरूरत नहीं)",
+    "ar": "منشغل بشيء واحد فقط / فقط (شيء واحد، لا داعي للقلق بشأن الباقي)"
   },
   {
     "char": "指定",
@@ -10144,7 +10917,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "(numerischer, statistischer) Index / (math.) Exponent",
     "es": "Índice (numérico, estadístico) / exponente (matemático)",
-    "hi": "(संख्यात्मक, सांख्यिकीय) सूचकांक / (गणित) प्रतिपादक"
+    "hi": "(संख्यात्मक, सांख्यिकीय) सूचकांक / (गणित) प्रतिपादक",
+    "ar": "(عددي، إحصائي) مؤشر / (رياضيات) أس"
   },
   {
     "char": "指头",
@@ -10153,7 +10927,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Finger/Zehe",
     "es": "dedo/dedo del pie",
-    "hi": "उंगली / पैर की अंगुली"
+    "hi": "उंगली / पैर की अंगुली",
+    "ar": "الاصبع / اصبع القدم"
   },
   {
     "char": "指着",
@@ -10162,7 +10937,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stochern",
     "es": "empujar",
-    "hi": "प्रहार"
+    "hi": "प्रहार",
+    "ar": "كزة"
   },
   {
     "char": "至于",
@@ -10171,7 +10947,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "was / was angeht",
     "es": "en cuanto a / en cuanto a",
-    "hi": "के रूप में / के रूप में"
+    "hi": "के रूप में / के रूप में",
+    "ar": "أما بالنسبة ل/ أما بالنسبة ل"
   },
   {
     "char": "治病",
@@ -10180,7 +10957,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "eine Krankheit behandeln",
     "es": "para tratar una enfermedad",
-    "hi": "किसी बीमारी का इलाज करने के लिए"
+    "hi": "किसी बीमारी का इलाज करने के लिए",
+    "ar": "لعلاج مرض ما"
   },
   {
     "char": "智慧",
@@ -10200,7 +10978,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mittel",
     "es": "medio",
-    "hi": "मध्यम"
+    "hi": "मध्यम",
+    "ar": "متوسطة"
   },
   {
     "char": "中华",
@@ -10209,7 +10988,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "China (alternativer offizieller Name)",
     "es": "China (nombre formal alternativo)",
-    "hi": "चीन (वैकल्पिक औपचारिक नाम)"
+    "hi": "चीन (वैकल्पिक औपचारिक नाम)",
+    "ar": "الصين (الاسم الرسمي البديل)"
   },
   {
     "char": "中期",
@@ -10218,7 +10998,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mittelfristig (eines Zeitraums) / mittelfristig (Plan, Prognose usw.)",
     "es": "medio (de un período de tiempo) / medio plazo (plan, previsión, etc.)",
-    "hi": "मध्य (समयावधि का) / मध्यम अवधि (योजना, पूर्वानुमान आदि)"
+    "hi": "मध्य (समयावधि का) / मध्यम अवधि (योजना, पूर्वानुमान आदि)",
+    "ar": "متوسط (لفترة زمنية) / متوسط المدى (خطة، توقعات، الخ)"
   },
   {
     "char": "中外",
@@ -10227,7 +11008,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Chinesisch-Ausländisch / Chinesisch-Ausländisch",
     "es": "Chino-extranjero / Chino-extranjero",
-    "hi": "चीन-विदेशी / चीनी-विदेशी"
+    "hi": "चीन-विदेशी / चीनी-विदेशी",
+    "ar": "صينية-أجنبية/صينية-أجنبية"
   },
   {
     "char": "忠心",
@@ -10236,7 +11018,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "guter Glaube / Hingabe",
     "es": "buena fe / devoción",
-    "hi": "सद्भावना/भक्ति"
+    "hi": "सद्भावना/भक्ति",
+    "ar": "حسن النية / الإخلاص"
   },
   {
     "char": "钟头",
@@ -10245,7 +11028,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Stunde",
     "es": "hora",
-    "hi": "घंटा"
+    "hi": "घंटा",
+    "ar": "ساعة"
   },
   {
     "char": "肿",
@@ -10254,7 +11038,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "anschwellen / anschwellen",
     "es": "hincharse / hincharse",
-    "hi": "फूलना/सूजन होना"
+    "hi": "फूलना/सूजन होना",
+    "ar": "لتورم / تورم"
   },
   {
     "char": "种种",
@@ -10263,7 +11048,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "alle möglichen",
     "es": "todo tipo de",
-    "hi": "सभी प्रकार के"
+    "hi": "सभी प्रकार के",
+    "ar": "جميع أنواع"
   },
   {
     "char": "重建",
@@ -10272,7 +11058,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wieder aufbauen / wiederherstellen",
     "es": "reconstruir / restablecer",
-    "hi": "पुनर्निर्माण करना/पुनर्स्थापित करना"
+    "hi": "पुनर्निर्माण करना/पुनर्स्थापित करना",
+    "ar": "لإعادة البناء / لإعادة التأسيس"
   },
   {
     "char": "重组",
@@ -10281,7 +11068,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "neu organisieren / neu vereinen",
     "es": "reorganizar / recombinar",
-    "hi": "पुनर्संगठित करना/पुनः संयोजित करना"
+    "hi": "पुनर्संगठित करना/पुनः संयोजित करना",
+    "ar": "لإعادة التنظيم / لإعادة الجمع"
   },
   {
     "char": "粥",
@@ -10301,7 +11089,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Perlen / Juwelen",
     "es": "perlas / joyas",
-    "hi": "मोती/जवाहरात"
+    "hi": "मोती/जवाहरात",
+    "ar": "اللؤلؤ / الجواهر"
   },
   {
     "char": "诸位",
@@ -10321,7 +11110,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Fernseh- oder Radiomoderator/Moderator",
     "es": "Presentador/presentador de radio o televisión",
-    "hi": "टीवी या रेडियो प्रस्तोता/मेजबान"
+    "hi": "टीवी या रेडियो प्रस्तोता/मेजबान",
+    "ar": "مذيع/مقدم برامج تلفزيونية أو إذاعية"
   },
   {
     "char": "主角",
@@ -10330,7 +11120,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hauptrolle / Lead",
     "es": "papel principal / líder",
-    "hi": "अग्रणी भूमिका/नेतृत्व"
+    "hi": "अग्रणी भूमिका/नेतृत्व",
+    "ar": "الدور القيادي / الرصاص"
   },
   {
     "char": "主流",
@@ -10372,7 +11163,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "anhalten / bleiben",
     "es": "detenerse / quedarse",
-    "hi": "रुकना/रुकना"
+    "hi": "रुकना/रुकना",
+    "ar": "للتوقف/للبقاء"
   },
   {
     "char": "柱子",
@@ -10381,7 +11173,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Säule",
     "es": "pilar",
-    "hi": "स्तंभ"
+    "hi": "स्तंभ",
+    "ar": "عمود"
   },
   {
     "char": "祝愿",
@@ -10390,7 +11183,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "wünschen",
     "es": "desear",
-    "hi": "इच्छा करना"
+    "hi": "इच्छा करना",
+    "ar": "أتمنى"
   },
   {
     "char": "专用",
@@ -10421,7 +11215,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geld verdienen/Geld verdienen",
     "es": "ganar dinero / hacer dinero",
-    "hi": "पैसा कमाने/पैसा कमाने के लिए"
+    "hi": "पैसा कमाने/पैसा कमाने के लिए",
+    "ar": "لكسب المال / كسب المال"
   },
   {
     "char": "装备",
@@ -10463,7 +11258,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "umklammern / greifen",
     "es": "agarrar / agarrar",
-    "hi": "पकड़ना/पकड़ना"
+    "hi": "पकड़ना/पकड़ना",
+    "ar": "للقابض / للاستيلاء"
   },
   {
     "char": "咨询",
@@ -10472,7 +11268,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "konsultieren / Rat einholen",
     "es": "consultar/buscar consejo",
-    "hi": "परामर्श करना/सलाह लेना"
+    "hi": "परामर्श करना/सलाह लेना",
+    "ar": "للتشاور / لطلب المشورة"
   },
   {
     "char": "自来水",
@@ -10481,7 +11278,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "fließendes Wasser",
     "es": "agua corriente",
-    "hi": "बहता पानी"
+    "hi": "बहता पानी",
+    "ar": "المياه الجارية"
   },
   {
     "char": "自我",
@@ -10490,7 +11288,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Selbst- / Ego (Psychologie)",
     "es": "yo-/ego (psicología)",
-    "hi": "स्व- / अहंकार (मनोविज्ञान)"
+    "hi": "स्व- / अहंकार (मनोविज्ञान)",
+    "ar": "الذات / الأنا (علم النفس)"
   },
   {
     "char": "自学",
@@ -10499,7 +11298,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Selbststudium / selbstständig lernen",
     "es": "autoestudiar / estudiar por cuenta propia",
-    "hi": "स्वाध्याय/स्वयं अध्ययन करना"
+    "hi": "स्वाध्याय/स्वयं अध्ययन करना",
+    "ar": "الدراسة الذاتية / للدراسة بمفردها"
   },
   {
     "char": "自言自语",
@@ -10508,7 +11308,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "mit sich selbst reden / laut denken",
     "es": "hablar consigo mismo / pensar en voz alta",
-    "hi": "स्वयं से बात करना/जोर से सोचना"
+    "hi": "स्वयं से बात करना/जोर से सोचना",
+    "ar": "للتحدث مع النفس / للتفكير بصوت عال"
   },
   {
     "char": "自在",
@@ -10517,7 +11318,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "bequem / entspannt",
     "es": "cómodo/a gusto",
-    "hi": "आरामदायक/आसानी से"
+    "hi": "आरामदायक/आसानी से",
+    "ar": "مريح / في سهولة"
   },
   {
     "char": "宗教",
@@ -10537,7 +11339,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Hauptquartier",
     "es": "cuartel general",
-    "hi": "सामान्य मुख्यालय"
+    "hi": "सामान्य मुख्यालय",
+    "ar": "المقر العام"
   },
   {
     "char": "总监",
@@ -10546,7 +11349,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Leiter/Direktor (einer Organisationseinheit)",
     "es": "jefe / director (de una unidad organizativa)",
-    "hi": "प्रमुख/निदेशक (एक संगठनात्मक इकाई का)"
+    "hi": "प्रमुख/निदेशक (एक संगठनात्मक इकाई का)",
+    "ar": "رئيس / مدير (وحدة تنظيمية)"
   },
   {
     "char": "总经理",
@@ -10555,7 +11359,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Geschäftsführer/CEO",
     "es": "gerente general / director ejecutivo",
-    "hi": "महाप्रबंधक/सीईओ"
+    "hi": "महाप्रबंधक/सीईओ",
+    "ar": "المدير العام / الرئيس التنفيذي"
   },
   {
     "char": "总量",
@@ -10564,7 +11369,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Gesamt-/Gesamtbetrag",
     "es": "importe total / total",
-    "hi": "कुल/समग्र राशि"
+    "hi": "कुल/समग्र राशि",
+    "ar": "المبلغ الإجمالي / الإجمالي"
   },
   {
     "char": "走私",
@@ -10584,7 +11390,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Musik spielen / erreichen",
     "es": "tocar música / lograr",
-    "hi": "संगीत बजाना/प्राप्त करना"
+    "hi": "संगीत बजाना/प्राप्त करना",
+    "ar": "لتشغيل الموسيقى / لتحقيق"
   },
   {
     "char": "租金",
@@ -10593,7 +11400,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Miete",
     "es": "alquilar",
-    "hi": "किराया"
+    "hi": "किराया",
+    "ar": "الإيجار"
   },
   {
     "char": "足",
@@ -10602,7 +11410,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "übertrieben",
     "es": "excesivo",
-    "hi": "अत्यधिक"
+    "hi": "अत्यधिक",
+    "ar": "المفرط"
   },
   {
     "char": "足以",
@@ -10611,7 +11420,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ausreichend, um... / so sehr, dass",
     "es": "suficiente para... / tanto que",
-    "hi": "के लिए पर्याप्त... /इतना कि"
+    "hi": "के लिए पर्याप्त... /इतना कि",
+    "ar": "يكفي لـ... / لدرجة أن"
   },
   {
     "char": "族",
@@ -10620,7 +11430,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Rasse / Nationalität",
     "es": "raza/nacionalidad",
-    "hi": "जाति/राष्ट्रीयता"
+    "hi": "जाति/राष्ट्रीयता",
+    "ar": "العرق / الجنسية"
   },
   {
     "char": "族",
@@ -10629,7 +11440,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Rasse / Nationalität",
     "es": "raza/nacionalidad",
-    "hi": "जाति/राष्ट्रीयता"
+    "hi": "जाति/राष्ट्रीयता",
+    "ar": "العرق / الجنسية"
   },
   {
     "char": "祖父",
@@ -10638,7 +11450,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Vater des Vaters / Großvater väterlicherseits",
     "es": "padre del padre / abuelo paterno",
-    "hi": "पिता का पिता/दादा"
+    "hi": "पिता का पिता/दादा",
+    "ar": "والد الأب / جد الأب"
   },
   {
     "char": "祖国",
@@ -10658,7 +11471,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Mutter des Vaters / Großmutter väterlicherseits",
     "es": "madre del padre/abuela paterna",
-    "hi": "पिता की माता/नानी"
+    "hi": "पिता की माता/नानी",
+    "ar": "والدة الأب / جدة الأب"
   },
   {
     "char": "钻",
@@ -10667,7 +11481,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Variante von 钻",
     "es": "variante de 钻",
-    "hi": "钻 का प्रकार"
+    "hi": "钻 का प्रकार",
+    "ar": "البديل من 钻"
   },
   {
     "char": "最佳",
@@ -10676,7 +11491,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "optimal / optimal",
     "es": "óptimo / óptimo",
-    "hi": "इष्टतम/इष्टतम"
+    "hi": "इष्टतम/इष्टतम",
+    "ar": "الأمثل / الأمثل"
   },
   {
     "char": "最终",
@@ -10685,7 +11501,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "endgültig / endgültig",
     "es": "final / último",
-    "hi": "अंतिम/अंतिम"
+    "hi": "अंतिम/अंतिम",
+    "ar": "النهائي / النهائي"
   },
   {
     "char": "罪",
@@ -10694,7 +11511,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Schuld / Verbrechen",
     "es": "culpa / crimen",
-    "hi": "दोष/अपराध"
+    "hi": "दोष/अपराध",
+    "ar": "الذنب / الجريمة"
   },
   {
     "char": "罪恶",
@@ -10703,7 +11521,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Verbrechen / Böses",
     "es": "crimen / maldad",
-    "hi": "अपराध/बुराई"
+    "hi": "अपराध/बुराई",
+    "ar": "الجريمة / الشر"
   },
   {
     "char": "作",
@@ -10712,7 +11531,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "Arbeiter / Werkstatt",
     "es": "trabajador / taller",
-    "hi": "कार्यकर्ता/कार्यशाला"
+    "hi": "कार्यकर्ता/कार्यशाला",
+    "ar": "عامل / ورشة"
   },
   {
     "char": "作废",
@@ -10721,7 +11541,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "ungültig werden / annullieren",
     "es": "dejar de ser válido / cancelar",
-    "hi": "अमान्य होना/रद्द करना"
+    "hi": "अमान्य होना/रद्द करना",
+    "ar": "لتصبح غير صالحة / لإلغاء"
   },
   {
     "char": "作战",
@@ -10730,7 +11551,8 @@ export const hsk6New = [
     "cat": "General",
     "de": "kämpfen / kämpfen",
     "es": "combatir / pelear",
-    "hi": "मुकाबल�� करना/लड़ना"
+    "hi": "मुकाबल�� करना/लड़ना",
+    "ar": "قتال / للقتال"
   },
   {
     "char": "座谈会",
@@ -10739,6 +11561,7 @@ export const hsk6New = [
     "cat": "General",
     "de": "Konferenz / Symposium",
     "es": "conferencia / simposio",
-    "hi": "सम्मेलन/संगोष्ठी"
+    "hi": "सम्मेलन/संगोष्ठी",
+    "ar": "مؤتمر / ندوة"
   }
 ];
