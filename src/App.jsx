@@ -17,7 +17,7 @@ const App = () => {
   const { currentUser, signInWithGoogle, logout } = useAuth();
   const [activeTab, setActiveTab] = useState('vocabulary');
   const [hskLevel, setHskLevel] = useState(1);
-  const [hskVersion, setHskVersion] = useState('old'); // 'old' (2.0) or 'new' (3.0)
+  const [hskVersion, setHskVersion] = useState('new'); // 'old' (2.0) or 'new' (3.0)
   const [targetLang, setTargetLang] = useState('de');
   const [isGenerating, setIsGenerating] = useState(false);
   const [generatedImageUrl, setGeneratedImageUrl] = useState(null);
@@ -613,20 +613,20 @@ const App = () => {
                   </div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
                     {categorizedVocab[cat].map((item, idx) => (
-                      <button key={idx} onClick={() => { markAsClicked(hskLevel, item.char); speak(item.char); }} className="group bg-white p-6 rounded-[32px] border border-slate-200 transition-all text-center relative overflow-hidden flex flex-col items-center justify-center min-h-[220px]"
-                        style={{ cursor: 'pointer' }}
+                      <div key={idx} onClick={() => { markAsClicked(hskLevel, item.char); speak(item.char); }} className="group bg-white p-6 rounded-[32px] border border-slate-200 transition-all text-center relative overflow-hidden flex flex-col items-center justify-center min-h-[220px]"
+                        style={{ cursor: 'pointer', userSelect: 'text', WebkitUserSelect: 'text' }}
                         onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#f87171'; e.currentTarget.style.boxShadow = '0 25px 50px -12px rgba(239, 68, 68, 0.1)'; }}
                         onMouseLeave={(e) => { e.currentTarget.style.borderColor = '#e2e8f0'; e.currentTarget.style.boxShadow = 'none'; }}>
                         <div className="absolute top-4 right-4 text-slate-200">
                           <Volume2 size={16} />
                         </div>
                         <span className="text-5xl mb-4 transition-transform duration-300" style={{ display: 'block' }}>{item.icon}</span>
-                        <h3 className="text-3xl font-black text-slate-800 leading-tight">{item.char}</h3>
-                        <p className="text-slate-400 font-bold text-xs italic mt-1">{item.pinyin}</p>
+                        <h3 className="text-3xl font-black text-slate-800 leading-tight" style={{ userSelect: 'text', WebkitUserSelect: 'text' }}>{item.char}</h3>
+                        <p className="text-slate-400 font-bold text-xs italic mt-1" style={{ userSelect: 'text', WebkitUserSelect: 'text' }}>{item.pinyin}</p>
                         <div className="mt-4 pt-3 border-t border-slate-100 w-full">
-                          <p className="text-slate-600 font-bold text-sm line-clamp-2">{item[targetLang]}</p>
+                          <p className="text-slate-600 font-bold text-sm line-clamp-2" style={{ userSelect: 'text', WebkitUserSelect: 'text' }}>{item[targetLang]}</p>
                         </div>
-                      </button>
+                      </div>
                     ))}
                   </div>
                 </div>
