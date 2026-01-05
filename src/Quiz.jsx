@@ -1,25 +1,18 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { HelpCircle, CheckCircle, XCircle, RefreshCw, Trophy, ArrowRight, Volume2, ArrowLeftRight } from 'lucide-react';
+import { HelpCircle, CheckCircle, XCircle, RefreshCw, Trophy, ArrowRight, Volume2, ArrowLeftRight, Lock, LogIn } from 'lucide-react';
+import { useQuizStats } from './hooks/useQuizStats';
+import { useAuth } from './contexts/AuthContext';
 
-const Quiz = ({ vocabData, hskLevel, setHskLevel, targetLang = 'de', speak, isActive = true }) => {
+const Quiz = ({ vocabData, hskLevel, setHskLevel, targetLang = 'de', speak, isActive = true, onLoginClick }) => {
+    const { currentUser } = useAuth();
+    const { stats, updateStats, loading: statsLoading } = useQuizStats(currentUser);
+    const { score, totalAnswered, streak } = stats;
+
     const [currentQuestion, setCurrentQuestion] = useState(null);
     const [options, setOptions] = useState([]);
     const [selectedOption, setSelectedOption] = useState(null);
     const [isCorrect, setIsCorrect] = useState(null);
-
-    // Initialize stats from localStorage
-    const [score, setScore] = useState(() => parseInt(localStorage.getItem('quiz_score') || '0'));
-    const [totalAnswered, setTotalAnswered] = useState(() => parseInt(localStorage.getItem('quiz_total') || '0'));
-    const [streak, setStreak] = useState(() => parseInt(localStorage.getItem('quiz_streak') || '0'));
-
     const [gameMode, setGameMode] = useState('char-to-meaning'); // 'char-to-meaning' or 'meaning-to-char'
-
-    // Persist stats whenever they change
-    useEffect(() => {
-        localStorage.setItem('quiz_score', score);
-        localStorage.setItem('quiz_total', totalAnswered);
-        localStorage.setItem('quiz_streak', streak);
-    }, [score, totalAnswered, streak]);
 
     // UI Translations
     const translations = {
@@ -77,6 +70,33 @@ const Quiz = ({ vocabData, hskLevel, setHskLevel, targetLang = 'de', speak, isAc
             score: "स्कोर",
             streak: "लगातार जीत",
             noStreak: "अभी कोई लगातार जीत नहीं"
+        },
+        locked: {
+            de: {
+                title: "HSK Level gesperrt",
+                desc: "Melde dich kostenlos an, um Zugriff auf alle HSK-Level und Statistiken zu erhalten.",
+                button: "Jetzt anmelden"
+            },
+            en: {
+                title: "HSK Level Locked",
+                desc: "Sign up for free to access all HSK levels and track your progress.",
+                button: "Sign Up Now"
+            },
+            es: {
+                title: "Nivel HSK Bloqueado",
+                desc: "Regístrate gratis para acceder a todos los niveles HSK y guardar tu progreso.",
+                button: "Regístrate Ahora"
+            },
+            ar: {
+                title: "مستوى HSK مقفل",
+                desc: "سجل مجاناً للوصول إلى جميع مستويات HSK وحفظ تقدمك.",
+                button: "سجل الآن"
+            },
+            hi: {
+                title: "HSK स्तर लॉक है",
+                desc: "सभी HSK स्तरों तक पहुँचने और अपनी प्रगति को ट्रैक करने के लिए निःशुल्क साइन अप करें।",
+                button: "अभी साइन अप करें"
+            }
         }
     };
 
@@ -156,16 +176,16 @@ const Quiz = ({ vocabData, hskLevel, setHskLevel, targetLang = 'de', speak, isAc
         setSelectedOption(option);
         const correct = option.char === currentQuestion.char;
         setIsCorrect(correct);
-        setTotalAnswered(prev => prev + 1);
+
+        const newStats = { ...stats, totalAnswered: stats.totalAnswered + 1 };
 
         if (correct) {
-            setScore(prev => prev + 1);
-            setStreak(prev => prev + 1);
-            // Play sound for correct answer automatically? Maybe too intrusive.
-            // Let's just encourage them.
+            newStats.score = stats.score + 1;
+            newStats.streak = stats.streak + 1;
         } else {
-            setStreak(0);
+            newStats.streak = 0;
         }
+        updateStats(newStats);
     };
 
     const nextQuestion = () => {
@@ -184,15 +204,19 @@ const Quiz = ({ vocabData, hskLevel, setHskLevel, targetLang = 'de', speak, isAc
             {/* Controls: HSK Level & Game Mode */}
             <div className="bg-white p-4 rounded-[24px] border border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="flex gap-1 overflow-x-auto w-full sm:w-auto pb-2 sm:pb-0 scrollbar-hide">
-                    {[1, 2, 3, 4, 5, 6].map(lvl => (
-                        <button
-                            key={lvl}
-                            onClick={() => setHskLevel(lvl)}
-                            className={`px-4 py-2 rounded-xl text-sm font-black transition-all whitespace-nowrap ${hskLevel === lvl ? 'bg-red-600 text-white shadow-md' : 'bg-slate-50 text-slate-400 hover:bg-slate-100'}`}
-                        >
-                            HSK {lvl}
-                        </button>
-                    ))}
+                    {[1, 2, 3, 4, 5, 6].map(lvl => {
+                        const isLocked = !currentUser && lvl > 1;
+                        return (
+                            <button
+                                key={lvl}
+                                onClick={() => setHskLevel(lvl)}
+                                className={`relative px-4 py-2 rounded-xl text-sm font-black transition-all whitespace-nowrap flex items-center justify-center gap-2 ${hskLevel === lvl ? 'bg-red-600 text-white shadow-md' : 'bg-slate-50 text-slate-400 hover:bg-slate-100'}`}
+                            >
+                                <span>HSK {lvl}</span>
+                                {isLocked && <Lock size={12} className={hskLevel === lvl ? "text-red-200" : "text-slate-300"} />}
+                            </button>
+                        );
+                    })}
                 </div>
 
                 <div className="flex bg-slate-100 p-1 rounded-xl shadow-inner border border-slate-200">
@@ -243,81 +267,103 @@ const Quiz = ({ vocabData, hskLevel, setHskLevel, targetLang = 'de', speak, isAc
                 </div>
             </div>
 
-            {/* Question Card */}
-            <div className="bg-white p-8 sm:p-12 rounded-[48px] border-2 border-slate-100 shadow-xl text-center relative overflow-hidden">
-
-                <span className="inline-block px-4 py-1 rounded-full bg-red-50 text-red-600 text-xs font-black uppercase tracking-widest mb-6">
-                    {gameMode === 'char-to-meaning' ? t.whatMeansChar : (gameMode === 'meaning-to-char' ? t.whichChar : t.whatHear)}
-                </span>
-
-                {gameMode === 'audio-to-meaning' ? (
-                    <div className="flex flex-col items-center justify-center mb-10">
-                        <button
-                            onClick={() => speak(currentQuestion.char)}
-                            className="w-32 h-32 rounded-full bg-red-600 text-white shadow-xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center mb-4"
-                        >
-                            <Volume2 size={48} />
-                        </button>
-                        <p className="text-slate-400 font-bold text-sm uppercase tracking-widest">{t.clickRepeat}</p>
+            {/* Locked State Overlay or Content */}
+            {(!currentUser && hskLevel > 1) ? (
+                <div className="bg-white p-12 rounded-[48px] border-2 border-slate-100 shadow-xl text-center flex flex-col items-center justify-center min-h-[400px] animate-in fade-in slide-in-from-bottom-4">
+                    <div className="bg-red-50 p-6 rounded-full mb-6">
+                        <Lock size={48} className="text-red-600" />
                     </div>
-                ) : (
-                    <h2 className={`font-black text-slate-800 mb-2 ${gameMode === 'char-to-meaning' ? 'text-8xl' : 'text-4xl'}`}>
-                        {gameMode === 'char-to-meaning' ? currentQuestion.char : (currentQuestion[targetLang] || currentQuestion.en)}
+                    <h2 className="text-3xl font-black text-slate-800 mb-4">
+                        {(translations.locked[targetLang] || translations.locked.de).title}
                     </h2>
-                )}
-                {gameMode === 'char-to-meaning' && (
-                    <p className="text-slate-400 text-2xl font-medium italic mb-6">{currentQuestion.pinyin}</p>
-                )}
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-                    {options.map((opt, idx) => {
-                        const isSelected = selectedOption === opt;
-                        const isTheCorrectAnswer = opt === currentQuestion;
-
-                        let updateStyle = "border-slate-200";
-                        // Only add hover effects if no option is selected
-                        if (!selectedOption) {
-                            updateStyle += " hover:border-slate-300 hover:bg-slate-50";
-                        }
-
-                        if (selectedOption) {
-                            if (isTheCorrectAnswer) {
-                                // Correct answer: Solid Green
-                                updateStyle = "border-green-600 bg-green-500 text-white ring-4 ring-green-200 shadow-md transform scale-[1.02]";
-                            } else if (isSelected && !isTheCorrectAnswer) {
-                                // Selected incorrect answer: Solid Red
-                                updateStyle = "border-red-600 bg-red-600 text-white shadow-sm";
-                            } else {
-                                // Unselected options: Fade out
-                                updateStyle = "border-slate-100 opacity-40 bg-slate-50";
-                            }
-                        }
-
-                        return (
-                            <button
-                                key={idx}
-                                onClick={() => handleOptionClick(opt)}
-                                disabled={!!selectedOption}
-                                className={`p-6 rounded-2xl border-2 text-lg font-bold transition-all duration-200 ${updateStyle}`}
-                            >
-                                <div className="flex flex-col items-center gap-1">
-                                    {gameMode === 'meaning-to-char' ? (
-                                        <>
-                                            <span className="text-4xl mb-1">{opt.char}</span>
-                                            <span className="text-sm font-normal opacity-75">{opt.pinyin}</span>
-                                        </>
-                                    ) : (
-                                        <span>{opt[targetLang] || opt.en}</span>
-                                    )}
-                                </div>
-                            </button>
-                        );
-                    })}
+                    <p className="text-slate-500 max-w-md mb-8 text-lg font-medium">
+                        {(translations.locked[targetLang] || translations.locked.de).desc}
+                    </p>
+                    <button
+                        onClick={onLoginClick}
+                        className="flex items-center gap-3 bg-red-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-xl hover:bg-red-700 transition-all hover:scale-105"
+                    >
+                        <LogIn size={20} />
+                        {(translations.locked[targetLang] || translations.locked.de).button}
+                    </button>
                 </div>
-            </div>
+            ) : (
+                /* Question Card */
+                <div className="bg-white p-8 sm:p-12 rounded-[48px] border-2 border-slate-100 shadow-xl text-center relative overflow-hidden">
+
+                    <span className="inline-block px-4 py-1 rounded-full bg-red-50 text-red-600 text-xs font-black uppercase tracking-widest mb-6">
+                        {gameMode === 'char-to-meaning' ? t.whatMeansChar : (gameMode === 'meaning-to-char' ? t.whichChar : t.whatHear)}
+                    </span>
+
+                    {gameMode === 'audio-to-meaning' ? (
+                        <div className="flex flex-col items-center justify-center mb-10">
+                            <button
+                                onClick={() => speak(currentQuestion.char)}
+                                className="w-32 h-32 rounded-full bg-red-600 text-white shadow-xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center mb-4"
+                            >
+                                <Volume2 size={48} />
+                            </button>
+                            <p className="text-slate-400 font-bold text-sm uppercase tracking-widest">{t.clickRepeat}</p>
+                        </div>
+                    ) : (
+                        <h2 className={`font-black text-slate-800 mb-2 ${gameMode === 'char-to-meaning' ? 'text-8xl' : 'text-4xl'}`}>
+                            {gameMode === 'char-to-meaning' ? currentQuestion.char : (currentQuestion[targetLang] || currentQuestion.en)}
+                        </h2>
+                    )}
+                    {gameMode === 'char-to-meaning' && (
+                        <p className="text-slate-400 text-2xl font-medium italic mb-6">{currentQuestion.pinyin}</p>
+                    )}
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+                        {options.map((opt, idx) => {
+                            const isSelected = selectedOption === opt;
+                            const isTheCorrectAnswer = opt === currentQuestion;
+
+                            let updateStyle = "border-slate-200";
+                            // Only add hover effects if no option is selected
+                            if (!selectedOption) {
+                                updateStyle += " hover:border-slate-300 hover:bg-slate-50";
+                            }
+
+                            if (selectedOption) {
+                                if (isTheCorrectAnswer) {
+                                    // Correct answer: Solid Green
+                                    updateStyle = "border-green-600 bg-green-500 text-white ring-4 ring-green-200 shadow-md transform scale-[1.02]";
+                                } else if (isSelected && !isTheCorrectAnswer) {
+                                    // Selected incorrect answer: Solid Red
+                                    updateStyle = "border-red-600 bg-red-600 text-white shadow-sm";
+                                } else {
+                                    // Unselected options: Fade out
+                                    updateStyle = "border-slate-100 opacity-40 bg-slate-50";
+                                }
+                            }
+
+                            return (
+                                <button
+                                    key={idx}
+                                    onClick={() => handleOptionClick(opt)}
+                                    disabled={!!selectedOption}
+                                    className={`p-6 rounded-2xl border-2 text-lg font-bold transition-all duration-200 ${updateStyle}`}
+                                >
+                                    <div className="flex flex-col items-center gap-1">
+                                        {gameMode === 'meaning-to-char' ? (
+                                            <>
+                                                <span className="text-4xl mb-1">{opt.char}</span>
+                                                <span className="text-sm font-normal opacity-75">{opt.pinyin}</span>
+                                            </>
+                                        ) : (
+                                            <span>{opt[targetLang] || opt.en}</span>
+                                        )}
+                                    </div>
+                                </button>
+                            );
+                        })}
+                    </div>
+                </div>
+            )}
 
             {/* Feedback / Next Button */}
-            {selectedOption && (
+            {!(!currentUser && hskLevel > 1) && selectedOption && (
                 <div className="flex justify-center animate-in md:justify-end">
                     <button onClick={nextQuestion} className="w-full sm:w-auto bg-blue-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-xl hover:bg-blue-700 hover:scale-105 transition-all flex items-center justify-center gap-3">
                         {t.nextQuestion} <ArrowRight size={20} />

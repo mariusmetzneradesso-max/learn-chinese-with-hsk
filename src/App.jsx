@@ -1,11 +1,21 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { BookOpen, Image as ImageIcon, Languages, Download, Sparkles, RefreshCw, Search, Volume2, GraduationCap, ChevronDown, Play, BrainCircuit } from 'lucide-react';
+import { useAuth } from './contexts/AuthContext';
+import { useUserProgress } from './hooks/useUserProgress';
+import { BookOpen, Image as ImageIcon, Languages, Download, Sparkles, RefreshCw, Search, Volume2, GraduationCap, ChevronDown, Play, BrainCircuit, LogIn, LogOut, Lock } from 'lucide-react';
 import { hsk1Vocab, hsk2Vocab, hsk3Vocab, hsk4Vocab, hsk5Vocab, hsk6Vocab } from './vocabulary';
+import { hsk1New, hsk2New, hsk3New, hsk4New, hsk5New, hsk6New, hsk7New, hsk8New, hsk9New } from './vocabularyNew';
+
 import Quiz from './Quiz';
+import LoginModal from './components/LoginModal';
+import Footer from './components/Footer';
+import Impressum from './components/Impressum';
+import TermsOfUse from './components/TermsOfUse';
 
 const App = () => {
+  const { currentUser, signInWithGoogle, logout } = useAuth();
   const [activeTab, setActiveTab] = useState('vocabulary');
   const [hskLevel, setHskLevel] = useState(1);
+  const [hskVersion, setHskVersion] = useState('old'); // 'old' (2.0) or 'new' (3.0)
   const [targetLang, setTargetLang] = useState('de');
   const [isGenerating, setIsGenerating] = useState(false);
   const [generatedImageUrl, setGeneratedImageUrl] = useState(null);
@@ -15,12 +25,18 @@ const App = () => {
   const [selectedVoiceIndex, setSelectedVoiceIndex] = useState(0);
   const [voiceDropdownOpen, setVoiceDropdownOpen] = useState(false);
   const voiceDropdownRef = useRef(null);
+  const [profileMenuOpen, setProfileMenuOpen] = useState(false);
+  const profileMenuRef = useRef(null);
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
 
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (voiceDropdownRef.current && !voiceDropdownRef.current.contains(event.target)) {
         setVoiceDropdownOpen(false);
+      }
+      if (profileMenuRef.current && !profileMenuRef.current.contains(event.target)) {
+        setProfileMenuOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -42,6 +58,7 @@ const App = () => {
           lang.includes('cantonese') ||
           lang.includes('mandarin');
       });
+
       if (chineseVoices.length > 0) {
         // Sort by dialect type for better organization
         const sorted = chineseVoices.sort((a, b) => {
@@ -56,6 +73,15 @@ const App = () => {
           return getPriority(a) - getPriority(b);
         });
         setVoices(sorted);
+
+        // Restore saved voice preference
+        const savedVoiceURI = localStorage.getItem('hsk_voice_uri');
+        if (savedVoiceURI) {
+          const savedIndex = sorted.findIndex(v => v.voiceURI === savedVoiceURI);
+          if (savedIndex !== -1) {
+            setSelectedVoiceIndex(savedIndex);
+          }
+        }
       }
     };
 
@@ -89,7 +115,9 @@ const App = () => {
       language: "Sprache",
       creatingPoster: "KI entwirft Lernposter...",
       hskFocusTitle: "HSK 4 FOKUS",
-      hskFocusText: "HSK 4 verdoppelt den Wortschatz erneut. Wir haben Hunderte neue Begriffe aus Bereichen wie Wirtschaft und Wissenschaft hinzugefügt."
+      hskFocusText: "HSK 4 verdoppelt den Wortschatz erneut. Wir haben Hunderte neue Begriffe aus Bereichen wie Wirtschaft und Wissenschaft hinzugefügt.",
+      lockedSuffix: "ist gesperrt",
+      lockedText: "Melde dich jetzt kostenlos an, um Zugriff auf alle HSK-Level von 1 bis 6 zu erhalten, deinen Lernfortschritt zu speichern und mehr."
 
     },
     en: {
@@ -110,7 +138,9 @@ const App = () => {
       language: "Language",
       creatingPoster: "AI creating poster...",
       hskFocusTitle: "HSK 4 FOCUS",
-      hskFocusText: "HSK 4 doubles the vocabulary again. We added hundreds of new terms from fields like business and science."
+      hskFocusText: "HSK 4 doubles the vocabulary again. We added hundreds of new terms from fields like business and science.",
+      lockedSuffix: "is locked",
+      lockedText: "Sign up for free now to get access to all HSK levels from 1 to 6, save your learning progress, and more."
     },
     es: {
       progress: "Progreso",
@@ -130,7 +160,9 @@ const App = () => {
       language: "Idioma",
       creatingPoster: "IA creando póster...",
       hskFocusTitle: "ENFOQUE HSK 4",
-      hskFocusText: "HSK 4 duplica el vocabulario de nuevo. Hemos añadido cientos de términos nuevos de campos como negocios y ciencia."
+      hskFocusText: "HSK 4 duplica el vocabulario de nuevo. Hemos añadido cientos de términos nuevos de campos como negocios y ciencia.",
+      lockedSuffix: "está bloqueado",
+      lockedText: "Regístrate gratis ahora para obtener acceso a todos los niveles HSK del 1 al 6, guardar tu progreso de aprendizaje y más."
     },
     ar: {
       progress: "تقدم",
@@ -150,7 +182,9 @@ const App = () => {
       language: "لغة",
       creatingPoster: "الذكاء الاصطناعي ينشئ ملصقًا...",
       hskFocusTitle: "تركيز HSK 4",
-      hskFocusText: "HSK 4 يضاعف المفردات مرة أخرى. أضفنا مئات المصطلحات الجديدة من مجالات مثل الأعمال والعلوم."
+      hskFocusText: "HSK 4 يضاعف المفردات مرة أخرى. أضفنا مئات المصطلحات الجديدة من مجالات مثل الأعمال والعلوم.",
+      lockedSuffix: "مغلق",
+      lockedText: "سجل مجاناً الآن للحصول على حق الوصول إلى جميع مستويات HSK من 1 إلى 6، وحفظ تقدمك في التعلم والمزيد."
     },
     hi: {
       progress: "प्रगति",
@@ -170,7 +204,9 @@ const App = () => {
       language: "भाषा",
       creatingPoster: "AI पोस्टर बना रहा है...",
       hskFocusTitle: "HSK 4 फोकस",
-      hskFocusText: "HSK 4 फिर से शब्दावली को दोगुना करता है। हमने व्यापार और विज्ञान जैसे क्षेत्रों से सैकड़ों नए शब्द जोड़े हैं।"
+      hskFocusText: "HSK 4 फिर से शब्दावली को दोगुना करता है। हमने व्यापार और विज्ञान जैसे क्षेत्रों से सैकड़ों नए शब्द जोड़े हैं।",
+      lockedSuffix: "लॉक है",
+      lockedText: "1 से 6 तक के सभी HSK स्तरों तक पहुँच प्राप्त करने, अपनी सीखने की प्रगति को सहेजने और अधिक के लिए अभी निःशुल्क साइन अप करें।"
     }
   };
 
@@ -178,15 +214,34 @@ const App = () => {
 
 
   const currentVocab = useMemo(() => {
+    if (hskVersion === 'new') {
+      if (hskLevel === 1) return hsk1New;
+      if (hskLevel === 2) return hsk2New;
+      if (hskLevel === 3) return hsk3New;
+      if (hskLevel === 4) return hsk4New;
+      if (hskLevel === 5) return hsk5New;
+      if (hskLevel === 6) return hsk6New;
+      if (hskLevel === 7) return [...hsk7New, ...hsk8New, ...hsk9New];
+      return hsk1New;
+    }
     if (hskLevel === 1) return hsk1Vocab;
     if (hskLevel === 2) return hsk2Vocab;
     if (hskLevel === 3) return hsk3Vocab;
     if (hskLevel === 4) return hsk4Vocab;
     if (hskLevel === 5) return hsk5Vocab;
     return hsk6Vocab;
-  }, [hskLevel]);
+  }, [hskLevel, hskVersion]);
 
-  const targetCount = hskLevel === 6 ? 2500 : (hskLevel === 5 ? 1300 : (hskLevel === 4 ? 600 : (hskLevel === 3 ? 300 : 150)));
+  const targetCount = useMemo(() => {
+    if (hskVersion === 'new') {
+      // Approximate counts for HSK 3.0
+      // Level 1: 500, 2: 772, 3: 973, 4: 1000, 5: 1071, 6: 1140, 7-9: ~5636 (cumulative 11092)
+      // Adjust these numbers based on actual lists later
+      const counts = { 1: 500, 2: 1272, 3: 2245, 4: 3245, 5: 4316, 6: 5456, 7: 5636 };
+      return counts[hskLevel] || 500;
+    }
+    return hskLevel === 6 ? 2500 : (hskLevel === 5 ? 1300 : (hskLevel === 4 ? 600 : (hskLevel === 3 ? 300 : 150)));
+  }, [hskLevel, hskVersion]);
 
   const categorizedVocab = useMemo(() => {
     const groups = {};
@@ -202,8 +257,16 @@ const App = () => {
     return groups;
   }, [currentVocab, searchTerm, targetLang]);
 
-  // Zähle die aktuell angezeigten Wörter
-  const displayedWordCount = useMemo(() => {
+  // Progress tracking
+  const { markAsClicked, getProgressCount } = useUserProgress(currentUser);
+
+  // Count clicked words for current level
+  const progressCount = useMemo(() => {
+    return getProgressCount(hskLevel);
+  }, [hskLevel, getProgressCount]);
+
+  // Count filtered words (search results)
+  const searchResultCount = useMemo(() => {
     return Object.values(categorizedVocab).reduce((sum, arr) => sum + arr.length, 0);
   }, [categorizedVocab]);
 
@@ -319,30 +382,106 @@ const App = () => {
               <BrainCircuit size={20} />
             </button>
           </div>
-        </div>
-      </nav>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-8 pt-8">
+          <div className="pl-2 ml-2 border-l border-slate-200">
+            {currentUser ? (
+              <div className="relative" ref={profileMenuRef}>
+                <button
+                  onClick={() => setProfileMenuOpen(!profileMenuOpen)}
+                  className="block rounded-full overflow-hidden transition-transform hover:scale-105 flex-shrink-0"
+                  style={{ width: '32px', height: '32px', minWidth: '32px', borderRadius: '50%' }}
+                >
+                  <img
+                    src={currentUser.photoURL}
+                    alt={currentUser.displayName}
+                    className="w-full h-full object-cover max-w-full block"
+                    title={currentUser.displayName}
+                    referrerPolicy="no-referrer"
+                    style={{ width: '100%', height: '100%', borderRadius: '50%' }}
+                  />
+                </button>
+                {profileMenuOpen && (
+                  <div className="absolute right-0 top-12 w-48 bg-white rounded-2xl shadow-xl border border-slate-100 p-2 z-50 animate-in fade-in slide-in-from-top-2">
+                    <div className="p-3 border-b border-slate-50 mb-1">
+                      <p className="text-sm font-black text-slate-800 truncate">{currentUser.displayName}</p>
+                      <p className="text-xs text-slate-400 truncate">{currentUser.email}</p>
+                    </div>
+                    <button
+                      onClick={() => {
+                        logout();
+                        setProfileMenuOpen(false); // Close menu on logout
+                      }}
+                      className="w-full flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold text-red-500 hover:bg-red-50 transition-colors"
+                    >
+                      <LogOut size={14} />
+                      Logout
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <button
+                onClick={() => setIsLoginModalOpen(true)}
+                className="flex items-center gap-2 bg-red-600 text-white px-4 py-2.5 rounded-xl font-bold text-xs shadow-lg hover:bg-red-700 transition-all hover:scale-105"
+              >
+                <LogIn size={16} />
+                <span className="hidden sm:inline">Login</span>
+              </button>
+            )}
+          </div>
+        </div>
+      </nav >
+
+      <main className="max-w-screen-2xl mx-auto px-4 sm:px-8 pt-8">
         <div className={activeTab === 'vocabulary' ? 'block' : 'hidden'}>
           <section className="space-y-10 animate-in">
             <div className="flex flex-col lg:flex-row gap-6 items-center justify-between bg-white p-6 rounded-[32px] border border-slate-200 shadow-sm">
-              <div className="flex items-center gap-4">
-                <div className="flex bg-slate-100 p-1.5 rounded-2xl border border-slate-100">
-                  {[1, 2, 3, 4, 5, 6].map(lvl => (
-                    <button key={lvl} onClick={() => { setHskLevel(lvl); setSearchTerm(""); }}
-                      className={`px-8 py-3 rounded-xl font-black text-sm transition-all ${hskLevel === lvl ? 'bg-red-600 text-white shadow-xl scale-105' : 'text-slate-400'}`}>
-                      HSK {lvl}
+              <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+                <div className="w-full flex flex-col gap-4">
+                  {/* HSK Version Toggle */}
+                  <div className="flex gap-2 p-1 bg-slate-100 rounded-2xl w-fit">
+                    <button
+                      onClick={() => { setHskVersion('old'); setHskLevel(1); setSearchTerm(""); }}
+                      className={`px-4 py-2 rounded-xl text-sm font-black transition-all ${hskVersion === 'old' ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-400 hover:text-slate-600'}`}
+                    >
+                      Old HSK (2.0)
                     </button>
-                  ))}
+                    <button
+                      onClick={() => { setHskVersion('new'); setHskLevel(1); setSearchTerm(""); }}
+                      className={`px-4 py-2 rounded-xl text-sm font-black transition-all ${hskVersion === 'new' ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-400 hover:text-slate-600'}`}
+                    >
+                      New HSK (3.0)
+                    </button>
+                  </div>
+
+                  <div className="flex bg-slate-100 p-1.5 rounded-2xl border border-slate-100 overflow-x-auto max-w-full no-scrollbar">
+                    {(hskVersion === 'old' ? [1, 2, 3, 4, 5, 6] : [1, 2, 3, 4, 5, 6, 7]).map(lvl => {
+                      const isLocked = !currentUser && lvl > 1;
+                      let label = `HSK ${lvl}`;
+                      if (hskVersion === 'new' && lvl === 7) label = "HSK 7-9";
+
+                      return (
+                        <button key={lvl} onClick={() => { setHskLevel(lvl); setSearchTerm(""); }}
+                          className={`relative px-3 sm:px-4 lg:px-5 xl:px-6 py-3 rounded-xl font-black text-sm transition-all flex-shrink-0 whitespace-nowrap ${hskLevel === lvl ? 'bg-red-600 text-white shadow-xl scale-105' : 'text-slate-500'} ${isLocked ? 'defaut-cursor' : ''}`}>
+                          <span>{label}</span>
+                          {isLocked && (
+                            <div className="absolute flex items-center justify-center" style={{ top: 0, left: 0, width: '100%', height: '100%', zIndex: 10 }}>
+                              <Lock size={24} className="text-slate-400 opacity-25" />
+                            </div>
+                          )}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
                 <div className="flex flex-col">
                   <span className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">{appT.progress}</span>
                   <div className="flex items-center gap-2">
                     <span className="text-sm font-black text-slate-800">
-                      {searchTerm ? `${displayedWordCount} ${appT.found}` : `${currentVocab.length} ${appT.of} ${targetCount}`}
+                      {searchTerm ? `${searchResultCount} ${appT.found}` : `${progressCount} ${appT.of} ${targetCount}`}
                     </span>
                     <div style={{ width: '6rem', height: '0.375rem', backgroundColor: '#f1f5f9', borderRadius: '9999px', overflow: 'hidden' }}>
-                      <div style={{ height: '100%', backgroundColor: currentVocab.length >= targetCount ? '#22c55e' : '#f59e0b', width: `${Math.min((currentVocab.length / targetCount) * 100, 100)}%` }}></div>
+                      <div style={{ height: '100%', backgroundColor: progressCount >= targetCount ? '#22c55e' : '#f59e0b', width: `${Math.min((progressCount / targetCount) * 100, 100)}%` }}></div>
                     </div>
                     <span className="text-xs font-bold text-slate-400">{appT.words}</span>
                   </div>
@@ -404,6 +543,8 @@ const App = () => {
                                   }`}
                                 onClick={() => {
                                   setSelectedVoiceIndex(idx);
+                                  // Save preference
+                                  localStorage.setItem('hsk_voice_uri', voice.voiceURI);
                                   setVoiceDropdownOpen(false);
                                 }}
                               >
@@ -443,33 +584,51 @@ const App = () => {
               </div>
             </div>
 
-            {Object.keys(categorizedVocab).sort().map(cat => (
-              <div key={cat} className="space-y-4">
-                <div className="flex items-center gap-3 px-2">
-                  <div style={{ height: '1.5rem', width: '0.375rem', backgroundColor: '#dc2626', borderRadius: '9999px' }}></div>
-                  <h2 className="text-lg font-black tracking-tight text-slate-800 uppercase">{cat}</h2>
-                  <span className="text-xs font-bold text-slate-400 bg-white border border-slate-200 px-2 py-0.5 rounded-full">{categorizedVocab[cat].length}</span>
+            {(!currentUser && hskLevel > 1) ? (
+              <div className="flex flex-col items-center justify-center py-20 animate-in fade-in slide-in-from-bottom-4 text-center px-4">
+                <div className="bg-red-50 p-6 rounded-full mb-6">
+                  <Lock size={48} className="text-red-600" />
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-                  {categorizedVocab[cat].map((item, idx) => (
-                    <button key={idx} onClick={() => speak(item.char)} className="group bg-white p-6 rounded-[32px] border border-slate-200 transition-all text-center relative overflow-hidden flex flex-col items-center justify-center min-h-[220px]"
-                      style={{ cursor: 'pointer' }}
-                      onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#f87171'; e.currentTarget.style.boxShadow = '0 25px 50px -12px rgba(239, 68, 68, 0.1)'; }}
-                      onMouseLeave={(e) => { e.currentTarget.style.borderColor = '#e2e8f0'; e.currentTarget.style.boxShadow = 'none'; }}>
-                      <div className="absolute top-4 right-4 text-slate-200">
-                        <Volume2 size={16} />
-                      </div>
-                      <span className="text-5xl mb-4 transition-transform duration-300" style={{ display: 'block' }}>{item.icon}</span>
-                      <h3 className="text-3xl font-black text-slate-800 leading-tight">{item.char}</h3>
-                      <p className="text-slate-400 font-bold text-xs italic mt-1">{item.pinyin}</p>
-                      <div className="mt-4 pt-3 border-t border-slate-100 w-full">
-                        <p className="text-slate-600 font-bold text-sm line-clamp-2">{item[targetLang]}</p>
-                      </div>
-                    </button>
-                  ))}
-                </div>
+                <h2 className="text-3xl font-black text-slate-800 mb-4">HSK {hskLevel} {appT.lockedSuffix}</h2>
+                <p className="text-slate-500 max-w-md mb-8 text-lg font-medium">
+                  {appT.lockedText}
+                </p>
+                <button
+                  onClick={() => setIsLoginModalOpen(true)}
+                  className="flex items-center gap-3 bg-red-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-xl hover:bg-red-700 transition-all hover:scale-105"
+                >
+                  <LogIn size={20} />
+                  Jetzt anmelden
+                </button>
               </div>
-            ))}
+            ) : (
+              Object.keys(categorizedVocab).sort().map(cat => (
+                <div key={cat} className="space-y-4">
+                  <div className="flex items-center gap-3 px-2">
+                    <div style={{ height: '1.5rem', width: '0.375rem', backgroundColor: '#dc2626', borderRadius: '9999px' }}></div>
+                    <h2 className="text-lg font-black tracking-tight text-slate-800 uppercase">{cat}</h2>
+                    <span className="text-xs font-bold text-slate-400 bg-white border border-slate-200 px-2 py-0.5 rounded-full">{categorizedVocab[cat].length}</span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                    {categorizedVocab[cat].map((item, idx) => (
+                      <button key={idx} onClick={() => { markAsClicked(hskLevel, item.char); speak(item.char); }} className="group bg-white p-6 rounded-[32px] border border-slate-200 transition-all text-center relative overflow-hidden flex flex-col items-center justify-center min-h-[220px]"
+                        style={{ cursor: 'pointer' }}
+                        onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#f87171'; e.currentTarget.style.boxShadow = '0 25px 50px -12px rgba(239, 68, 68, 0.1)'; }}
+                        onMouseLeave={(e) => { e.currentTarget.style.borderColor = '#e2e8f0'; e.currentTarget.style.boxShadow = 'none'; }}>
+                        <div className="absolute top-4 right-4 text-slate-200">
+                          <Volume2 size={16} />
+                        </div>
+                        <span className="text-5xl mb-4 transition-transform duration-300" style={{ display: 'block' }}>{item.icon}</span>
+                        <h3 className="text-3xl font-black text-slate-800 leading-tight">{item.char}</h3>
+                        <p className="text-slate-400 font-bold text-xs italic mt-1">{item.pinyin}</p>
+                        <div className="mt-4 pt-3 border-t border-slate-100 w-full">
+                          <p className="text-slate-600 font-bold text-sm line-clamp-2">{item[targetLang]}</p>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )))}
           </section>
         </div>
 
@@ -526,10 +685,36 @@ const App = () => {
         </div>
 
         <div className={activeTab === 'quiz' ? 'block' : 'hidden'}>
-          <Quiz vocabData={currentVocab} hskLevel={hskLevel} setHskLevel={setHskLevel} targetLang={targetLang} speak={speak} isActive={activeTab === 'quiz'} />
+          <Quiz
+            vocabData={currentVocab}
+            hskLevel={hskLevel}
+            setHskLevel={setHskLevel}
+            targetLang={targetLang}
+            speak={speak}
+            isActive={activeTab === 'quiz'}
+            onLoginClick={() => setIsLoginModalOpen(true)}
+          />
         </div>
+
+        {activeTab === 'impressum' && (
+          <Impressum onBack={() => setActiveTab('vocabulary')} targetLang={targetLang} />
+        )}
+
+        {activeTab === 'terms' && (
+          <TermsOfUse onBack={() => setActiveTab('vocabulary')} targetLang={targetLang} />
+        )}
       </main>
-    </div>
+
+      {/* Only show Footer if not in nested legal pages, or show everywhere? 
+          Usually legal pages are terminal, but users might want to switch between them.
+          Let's show it everywhere, but the content above changes. 
+          Actually, the footer is navigation to these pages. */}
+      {activeTab !== 'impressum' && activeTab !== 'terms' && (
+        <Footer onNavigate={setActiveTab} targetLang={targetLang} />
+      )}
+
+      <LoginModal isOpen={isLoginModalOpen} onClose={() => setIsLoginModalOpen(false)} targetLang={targetLang} />
+    </div >
   );
 };
 
